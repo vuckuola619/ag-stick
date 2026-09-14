@@ -1,0 +1,11 @@
+{
+  "project_id": "EP01_WEWORK",
+  "topic": "The WeWork $47B Collapse",
+  "one_sentence_story_promise": "This is the story of how an office subleasing company convinced Wall Street and the world's most aggressive tech investor it was an ethereal software platform, reached a $47 billion valuation, and then ran out of money in 33 days after being forced to file its real accounting paperwork with the SEC.",
+  "central_question": "How did sophisticated banks, sovereign wealth funds, and Silicon Valley's biggest checkbook mistake commercial office rent for a software revolution?",
+  "viewer_payoff": "By the end, the viewer will understand the exact financial alchemy—specifically the asset-liability duration mismatch, invented accounting metrics like 'Community Adjusted EBITDA', and SoftBank's blitzscaling incentives—that allowed WeWork to disguise an ancient, low-margin real estate landlord business as an infinite-multiple tech monopoly.",
+  "target_runtime_sec": 1020,
+  "target_word_count": 2480,
+  "pacing_wpm": 150,
+  "editorial_tone": "Dry, forensic, comedic investigative documentary. The smart friend who actually read the 200-page S-1 filing so you don't have to."
+}

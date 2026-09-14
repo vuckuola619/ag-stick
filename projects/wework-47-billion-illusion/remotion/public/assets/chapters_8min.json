@@ -1,0 +1,50 @@
+[
+  {
+    "title": "BABAK 1: BATU MERAH DARAH & OBSESI PURBA",
+    "sentence_idx": 0,
+    "start_sec": 0.1,
+    "start_frame": 3
+  },
+  {
+    "title": "BABAK 2: TRAGEDI API UNGGUN & LAHIRNYA PERAK HIDUP",
+    "sentence_idx": 13,
+    "start_sec": 93.88,
+    "start_frame": 2816
+  },
+  {
+    "title": "BABAK 3: FISIKA ANEH AIR RAKSA: LOGAM YANG MELAWAN LOGIKA",
+    "sentence_idx": 32,
+    "start_sec": 194.48,
+    "start_frame": 5834
+  },
+  {
+    "title": "BABAK 4: AMBISI KEABADIAN KAISAR QIN SHI HUANG",
+    "sentence_idx": 51,
+    "start_sec": 304.02,
+    "start_frame": 9120
+  },
+  {
+    "title": "BABAK 5: MISTERI ALKIMIA BARAT & BATU BERTUAH",
+    "sentence_idx": 64,
+    "start_sec": 400.73,
+    "start_frame": 12021
+  },
+  {
+    "title": "BABAK 6: REVOLUSI INDUSTRI: MENIMBANG ANGIN & MENGUKUR SUHU",
+    "sentence_idx": 75,
+    "start_sec": 484.32,
+    "start_frame": 14529
+  },
+  {
+    "title": "BABAK 7: KUTUKAN RACUN TAK KASAT MATA: MAD HATTER & MINAMATA",
+    "sentence_idx": 88,
+    "start_sec": 578.34,
+    "start_frame": 17350
+  },
+  {
+    "title": "BABAK 8: ERA ANTARIKSA & MASA DEPAN MERKURI",
+    "sentence_idx": 104,
+    "start_sec": 684.84,
+    "start_frame": 20545
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "voice": "Kokoro-82M (am_adam)",
+  "total_sec": 338.75,
+  "total_frames": 10162,
+  "scenes": [
+    {
+      "id": 1,
+      "title": "THE PREHISTORIC DISCOVERY",
+      "tag": "\u00c7ATALH\u00d6Y\u00dcK, 7000 BCE",
+      "stat": "COEVAL WITH DAWN OF CIVILIZATION",
+      "text": "Nine thousand years ago, deep inside the dark limestone caverns of ancient Anatolia, primitive hunters discovered something extraordinary. Embedded in the cold rock walls were veins of a brilliant, blood-red crystal that seemed to glow in the flickering torchlight.",
+      "start_sec": 0.0,
+      "duration_sec": 15.89,
+      "start_frame": 0,
+      "duration_frames": 500
+    },
+    {
+      "id": 2,
+      "title": "THE SACRED CINNABAR",
+      "tag": "MINERAL: \u03b1-HgS",
+      "stat": "MOHS HARDNESS: 2.0 \u2013 2.5",
+      "text": "This mysterious crimson rock was cinnabar, natural mercury sulfide. To stone-age humans, red was the sacred color of life, blood, and fire. They believed this strange stone held supernatural power bestowed directly by the gods.",
+      "start_sec": 16.69,
+      "duration_sec": 14.55,
+      "start_frame": 500,
+      "duration_frames": 460
+    },
+    {
+      "id": 3,
+      "title": "THE RITUAL POWDER",
+      "tag": "VERMILION PIGMENT",
+      "stat": "FUNERARY SKULL BURIALS",
+      "text": "They ground the crimson crystals into an ultra-fine powder called vermilion. Ancient shamans painted running beasts and sacred handprints onto cave walls, and coated the bones of their ancestors to grant them immortality in the afterlife.",
+      "start_sec": 32.04,
+      "duration_sec": 13.55,
+      "start_frame": 961,
+      "duration_frames": 430
+    },
+    {
+      "id": 4,
+      "title": "THE CAMPFIRE ACCIDENT",
+      "tag": "PRIMITIVE SMELTING",
+      "stat": "COAL TEMP: > 500\u00b0C",
+      "text": "Then came the accident that changed chemistry forever. One night, around a roaring campfire exceeding five hundred degrees Celsius, a curious caveman tossed a fist-sized lump of red cinnabar directly into the burning coals to see what would happen.",
+      "start_sec": 46.39,
+      "duration_sec": 14.25,
+      "start_frame": 1391,
+      "duration_frames": 451
+    },
+    {
+      "id": 5,
+      "title": "THERMAL DISSOCIATION",
+      "tag": "2HgS + 3O\u2082 \u2192 2Hg + 2SO\u2082\u2191",
+      "stat": "BOILING POINT: 356.7\u00b0C",
+      "text": "Within moments, choking fumes of sulfur dioxide filled the air, stinging their eyes. The intense heat broke the chemical bonds of the mineral, releasing pure metallic mercury vapor that drifted upward toward the cool stones above.",
+      "start_sec": 61.44,
+      "duration_sec": 13.87,
+      "start_frame": 1843,
+      "duration_frames": 440
+    },
+    {
+      "id": 6,
+      "title": "THE LIVING SILVER",
+      "tag": "HYDRARGYRUM",
+      "stat": "MELTING POINT: -38.8\u00b0C",
+      "text": "As the hot metallic vapor touched the cold cave rocks, it condensed instantly. The burning red rock appeared to bleed bright droplets of liquid silver. When the hunter touched it, it did not wet his skin at all, rolling across the stone like living chrome.",
+      "start_sec": 76.11,
+      "duration_sec": 14.93,
+      "start_frame": 2283,
+      "duration_frames": 472
+    },
+    {
+      "id": 7,
+      "title": "ANOMALOUS DENSITY",
+      "tag": "DENSITY: 13.53 g/cm\u00b3",
+      "stat": "13.5x HEAVIER THAN WATER",
+      "text": "Mercury is the only stable metal on Earth that is liquid at room temperature. But its most shocking property is its sheer density: thirteen point five grams per cubic centimeter. A single gallon weighs over one hundred and ten pounds.",
+      "start_sec": 91.84,
+      "duration_sec": 13.93,
+      "start_frame": 2755,
+      "duration_frames": 441
+    },
+    {
+      "id": 8,
+      "title": "IRON FLOATS EFFORTLESSLY",
+      "tag": "HYDROSTATIC BUOYANCY",
+      "stat": "41.8% VOLUME ABOVE SURFACE",
+      "text": "Because mercury is so dense, a solid heavy cast-iron cannonball dropped into a pool of quicksilver will not sink. It bobs and floats on the silvery surface like a plastic toy in a swimming pool, defying everyday human intuition.",
+      "start_sec": 106.57,
+      "duration_sec": 14.29,
+      "start_frame": 3197,
+      "duration_frames": 452
+    },
+    {
+      "id": 9,
+      "title": "THE CONVEX MENISCUS",
+      "tag": "SURFACE TENSION: 486.5 mN/m",
+      "stat": "CONTACT ANGLE: \u03b8 = 140\u00b0",
+      "text": "Its surface tension is nearly seven times stronger than water. Inside a glass tube, mercury pushes upward into a proud convex dome, fiercely repelling the glass walls. And when it touches solid gold, it greedily dissolves the gold into a silvery amalgam.",
+      "start_sec": 121.66,
+      "duration_sec": 15.85,
+      "start_frame": 3649,
+      "duration_frames": 499
+    },
+    {
+      "id": 10,
+      "title": "EMPEROR QIN SHI HUANG",
+      "tag": "CHINA, 210 BCE",
+      "stat": "THE QUEST FOR IMMORTALITY",
+      "text": "This bizarre metal drove ancient emperors mad with obsession. In the third century BCE, the first Emperor of unified China, Qin Shi Huang, became terrified of death. Taoist alchemists convinced him that drinking mercury would make him physically immortal.",
+      "start_sec": 138.31,
+      "duration_sec": 15.77,
+      "start_frame": 4149,
+      "duration_frames": 496
+    },
+    {
+      "id": 11,
+      "title": "100 MERCURY RIVERS",
+      "tag": "MAUSOLEUM AT LINTONG",
+      "stat": "SOIL ANOMALY: 100x CONCENTRATION",
+      "text": "Inside his gargantuan subterranean tomb, guarded by thousands of terracotta warriors, engineers constructed a vast miniature map of the empire, with one hundred mechanical rivers of pure flowing liquid mercury. Modern soil surveys confirm mercury levels one hundred times above normal.",
+      "start_sec": 154.88,
+      "duration_sec": 17.92,
+      "start_frame": 4646,
+      "duration_frames": 561
+    },
+    {
+      "id": 12,
+      "title": "THE FATAL ELIXIR",
+      "tag": "ACUTE MERCURY POISONING",
+      "stat": "DIED AGE 49 AT SHAQIU",
+      "text": "Ironically, his quest for eternity became his death sentence. After months of consuming mercury pills, Emperor Qin suffered severe neurological damage, organ failure, and paranoid hallucinations, dying in agony at age forty-nine.",
+      "start_sec": 173.6,
+      "duration_sec": 14.53,
+      "start_frame": 5208,
+      "duration_frames": 459
+    },
+    {
+      "id": 13,
+      "title": "WESTERN ALCHEMY",
+      "tag": "PARACELSUS TRIA PRIMA",
+      "stat": "SULFUR \u2022 MERCURY \u2022 SALT",
+      "text": "In medieval Europe, alchemists believed mercury was the key to the Philosopher's Stone. The physician Paracelsus declared mercury the spiritual fluid that bound all matter, spending lifetimes attempting to transmute base lead into gold through endless distillations.",
+      "start_sec": 188.93,
+      "duration_sec": 15.87,
+      "start_frame": 5667,
+      "duration_frames": 500
+    },
+    {
+      "id": 14,
+      "title": "NEWTON'S SECRET LAB",
+      "tag": "CAMBRIDGE, 1693",
+      "stat": "HAIR FORENSICS: 197 ppm Hg",
+      "text": "Even Sir Isaac Newton secretly spent decades boiling mercury in a dark laboratory. Modern forensic tests on Newton's preserved hair revealed mercury levels nearly forty times above normal, explaining his infamous nervous breakdown and severe paranoia in 1693.",
+      "start_sec": 205.6,
+      "duration_sec": 17.98,
+      "start_frame": 6168,
+      "duration_frames": 563
+    },
+    {
+      "id": 15,
+      "title": "TORRICELLI'S BAROMETER",
+      "tag": "FLORENCE, 1643",
+      "stat": "760 mmHg = 101,325 Pa",
+      "text": "In 1643, Galileo's disciple Evangelista Torricelli inverted a meter-long glass tube of mercury into a dish. The column settled at exactly seventy-six centimeters, creating the first artificial vacuum in history and proving that atmospheric air has measurable weight.",
+      "start_sec": 224.38,
+      "duration_sec": 18.3,
+      "start_frame": 6731,
+      "duration_frames": 573
+    },
+    {
+      "id": 16,
+      "title": "THE INDUSTRIAL DAWN",
+      "tag": "FAHRENHEIT, 1714",
+      "stat": "PRECISION EXPANSION",
+      "text": "In 1714, Daniel Gabriel Fahrenheit created the first modern precision thermometer using mercury's perfectly linear thermal expansion. Suddenly, medicine could diagnose fever, steam engines could be regulated, and the Industrial Revolution gained precise measurement.",
+      "start_sec": 243.49,
+      "duration_sec": 17.69,
+      "start_frame": 7304,
+      "duration_frames": 554
+    },
+    {
+      "id": 17,
+      "title": "THE MAD HATTER",
+      "tag": "19TH CENTURY FACTORIES",
+      "stat": "ERETHISM MERCURIALIS",
+      "text": "Yet mercury remained a silent predator. In nineteenth-century felt hat factories, workers cured beaver fur with steaming mercuric nitrate. The invisible toxic vapors destroyed their central nervous systems, causing trembling hands, delusions, and insanity: the real-life Mad Hatter.",
+      "start_sec": 261.97,
+      "duration_sec": 17.56,
+      "start_frame": 7859,
+      "duration_frames": 550
+    },
+    {
+      "id": 18,
+      "title": "MINAMATA BAY DISASTER",
+      "tag": "JAPAN, 1956",
+      "stat": "BIOACCUMULATION: 10,000x",
+      "text": "The worst tragedy occurred in Minamata Bay, Japan, where industrial chemical waste released methylmercury into coastal waters. Biomagnifying ten thousand times through the marine food chain into fish, it caused severe brain damage and gave birth to the global UN Minamata Convention.",
+      "start_sec": 280.33,
+      "duration_sec": 17.79,
+      "start_frame": 8409,
+      "duration_frames": 557
+    },
+    {
+      "id": 19,
+      "title": "QUANTUM SUPERCONDUCTIVITY",
+      "tag": "LEIDEN, 1911",
+      "stat": "4.2 KELVIN (-269\u00b0C)",
+      "text": "Yet mercury also opened the door to modern quantum physics. In 1911, physicist Heike Kamerlingh Onnes cooled liquid mercury with liquid helium to four point two Kelvin. Instantly, its electrical resistance dropped to absolute zero, discovering superconductivity.",
+      "start_sec": 298.92,
+      "duration_sec": 17.41,
+      "start_frame": 8967,
+      "duration_frames": 546
+    },
+    {
+      "id": 20,
+      "title": "THE SPACE AGE & BEYOND",
+      "tag": "NASA SERT-1, 1964",
+      "stat": "EXHAUST VELOCITY: 30 km/s",
+      "text": "In 1964, NASA launched SERT-One, humanity's first successful electrostatic ion rocket engine in space, propelled by ionized mercury vapor traveling at thirty kilometers per second. From an accidental campfire nine thousand years ago to deep space propulsion, mercury remains the most paradoxical element in human history.",
+      "start_sec": 317.13,
+      "duration_sec": 20.82,
+      "start_frame": 9513,
+      "duration_frames": 648
+    }
+  ]
+}

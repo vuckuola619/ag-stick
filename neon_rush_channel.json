@@ -1,0 +1,2743 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "browse_id",
+            "value": "UCjBthdXo1val4GcPKDdnUIw"
+          },
+          {
+            "key": "browse_id_prefix",
+            "value": ""
+          },
+          {
+            "key": "route",
+            "value": "channel.videos"
+          },
+          {
+            "key": "is_owner",
+            "value": "false"
+          },
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "Cgs5cmxzekRZQ3Vtcyink5nVBjIKCgJJRBIEGgAgFGLfAgrcAjIxLllUPUdfcTVQT0RGVnFMbjVaTE9VZlFJQW5ITHdWb29zaEt4bGdQSDA3cXN4UnlZUWxnd01uUzAyOEpTNXBXLVVVdWxNMGk0azh0YzR0M1dDTmNNTWFmX1ZHM25Ja1RYX1VtVTdkYXg3b09oMGVYRlNVU0VId2ZkSFNhOFYxSXdZVHkyV2FrTHdFN3pPaGdzNm9wdmZtZFJiVDdaOTZyNzhxMnRxTWlKT0pJRDM1SlJfVHdEWm1BUjl5NktHZEs2aWNQVVh0YTh5aHR4X1N2X3BiNHIyMHo1Nlg2MzhpVjJ5X3g5S2g5bTBURGZDdk9iRF9zUDg1ZGpCdXpOaFdJWGxiWGxHM2hnYnp4UmZOVFpPcEhRWE12N1pVSmFTdjltUnc2ak41R3JiUmg5X0RNU1ZNLVRtQVZZSWZIOE1jSWxrd1VkUy1sZVA3NF9XS25YaEFfSjc3ZFo2dw%3D%3D"
+          }
+        ]
+      },
+      {
+        "service": "GOOGLE_HELP",
+        "params": [
+          {
+            "key": "browse_id",
+            "value": "UCjBthdXo1val4GcPKDdnUIw"
+          },
+          {
+            "key": "browse_id_prefix",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20260911.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetChannelPage_rid",
+            "value": "0x99589c7439cbd0b2"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20260911"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 300,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "k5_fmPxhoXZRrNuTIxKL5F3gmZrLMMNnJGcorIBzl4XQ-eqUz3kAz1wInwRMkusEmIBwOcCw59TLtslLKPQGSS"
+    },
+    "responseId": "IhMI2Yr_yv3qlgMV4elzAR218Apz",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "pageHeaderRenderer",
+          "pageHeaderViewModel",
+          "imageBannerViewModel",
+          "dynamicTextViewModel",
+          "decoratedAvatarViewModel",
+          "avatarViewModel",
+          "contentMetadataViewModel",
+          "flexibleActionsViewModel",
+          "buttonViewModel",
+          "modalWithTitleAndButtonRenderer",
+          "buttonRenderer",
+          "descriptionPreviewViewModel",
+          "engagementPanelSectionListRenderer",
+          "engagementPanelTitleHeaderRenderer",
+          "sectionListRenderer",
+          "itemSectionRenderer",
+          "continuationItemRenderer",
+          "channelMetadataRenderer",
+          "twoColumnBrowseResultsRenderer",
+          "tabRenderer",
+          "richGridRenderer",
+          "richItemRenderer",
+          "lockupViewModel",
+          "thumbnailViewModel",
+          "thumbnailBottomOverlayViewModel",
+          "thumbnailBadgeViewModel",
+          "thumbnailHoverOverlayToggleActionsViewModel",
+          "toggleButtonViewModel",
+          "lockupMetadataViewModel",
+          "sheetViewModel",
+          "listViewModel",
+          "listItemViewModel",
+          "unifiedSharePanelRenderer",
+          "expandableTabRenderer",
+          "desktopTopbarRenderer",
+          "topbarLogoRenderer",
+          "fusionSearchboxRenderer",
+          "dialogViewModel",
+          "dialogHeaderViewModel",
+          "panelFooterViewModel",
+          "basicContentViewModel",
+          "topbarMenuButtonRenderer",
+          "multiPageMenuRenderer",
+          "hotkeyDialogRenderer",
+          "hotkeyDialogSectionRenderer",
+          "hotkeyDialogSectionOptionRenderer",
+          "voiceSearchDialogRenderer",
+          "microformatDataRenderer"
+        ]
+      },
+      "ytConfigData": {
+        "visitorData": "Cgs5cmxzekRZQ3Vtcyink5nVBjIKCgJJRBIEGgAgFGLfAgrcAjIxLllUPUdfcTVQT0RGVnFMbjVaTE9VZlFJQW5ITHdWb29zaEt4bGdQSDA3cXN4UnlZUWxnd01uUzAyOEpTNXBXLVVVdWxNMGk0azh0YzR0M1dDTmNNTWFmX1ZHM25Ja1RYX1VtVTdkYXg3b09oMGVYRlNVU0VId2ZkSFNhOFYxSXdZVHkyV2FrTHdFN3pPaGdzNm9wdmZtZFJiVDdaOTZyNzhxMnRxTWlKT0pJRDM1SlJfVHdEWm1BUjl5NktHZEs2aWNQVVh0YTh5aHR4X1N2X3BiNHIyMHo1Nlg2MzhpVjJ5X3g5S2g5bTBURGZDdk9iRF9zUDg1ZGpCdXpOaFdJWGxiWGxHM2hnYnp4UmZOVFpPcEhRWE12N1pVSmFTdjltUnc2ak41R3JiUmg5X0RNU1ZNLVRtQVZZSWZIOE1jSWxrd1VkUy1sZVA3NF9XS25YaEFfSjc3ZFo2dw%3D%3D",
+        "rootVisualElementType": 3611
+      },
+      "hasDecorated": true
+    }
+  },
+  "contents": {
+    "twoColumnBrowseResultsRenderer": {
+      "tabs": [
+        {
+          "tabRenderer": {
+            "endpoint": {
+              "clickTrackingParams": "CB4Q8JMBGAYiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "/@NeonRush-f3s/videos",
+                  "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                  "rootVe": 3611,
+                  "apiUrl": "/youtubei/v1/browse"
+                }
+              },
+              "browseEndpoint": {
+                "browseId": "UCjBthdXo1val4GcPKDdnUIw",
+                "params": "EgZ2aWRlb3PyBgQKAjoA",
+                "canonicalBaseUrl": "/@NeonRush-f3s"
+              }
+            },
+            "title": "Video",
+            "selected": true,
+            "content": {
+              "richGridRenderer": {
+                "contents": [
+                  {
+                    "richItemRenderer": {
+                      "content": {
+                        "lockupViewModel": {
+                          "contentImage": {
+                            "thumbnailViewModel": {
+                              "image": {
+                                "sources": [
+                                  {
+                                    "url": "https://i.ytimg.com/vi/91l58hB_e8Q/hq720.jpg?sqp=-oaymwE9COgCEMoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AfYGgALQBYoCDAgAEAEYZSBaKFEwDw==&rs=AOn4CLAefLUiAnPLLP1jju9mdMqnsVoSmA",
+                                    "width": 360,
+                                    "height": 202
+                                  },
+                                  {
+                                    "url": "https://i.ytimg.com/vi/91l58hB_e8Q/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4AfYGgALQBYoCDAgAEAEYZSBaKFEwDw==&rs=AOn4CLA1TnNfUuiToPAVZYl7IhH0tcO-PQ",
+                                    "width": 720,
+                                    "height": 404
+                                  }
+                                ]
+                              },
+                              "overlays": [
+                                {
+                                  "thumbnailBottomOverlayViewModel": {
+                                    "badges": [
+                                      {
+                                        "thumbnailBadgeViewModel": {
+                                          "text": "0.36",
+                                          "badgeStyle": "THUMBNAIL_OVERLAY_BADGE_STYLE_DEFAULT",
+                                          "animationActivationTargetId": "91l58hB_e8Q",
+                                          "animationActivationEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+                                          "lottieData": {
+                                            "url": "https://www.gstatic.com/youtube/img/lottie/audio_indicator/audio_indicator_v2.json",
+                                            "settings": {
+                                              "loop": true,
+                                              "autoplay": true
+                                            }
+                                          },
+                                          "animatedText": "Sedang diputar",
+                                          "animationActivationEntitySelectorType": "THUMBNAIL_BADGE_ANIMATION_ENTITY_SELECTOR_TYPE_PLAYER_STATE",
+                                          "rendererContext": {
+                                            "accessibilityContext": {
+                                              "label": "36 detik"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "thumbnailHoverOverlayToggleActionsViewModel": {
+                                    "buttons": [
+                                      {
+                                        "toggleButtonViewModel": {
+                                          "defaultButtonViewModel": {
+                                            "buttonViewModel": {
+                                              "iconName": "WATCH_LATER",
+                                              "onTap": {
+                                                "innertubeCommand": {
+                                                  "clickTrackingParams": "CCkQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                  "commandMetadata": {
+                                                    "webCommandMetadata": {
+                                                      "sendPost": true,
+                                                      "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                    }
+                                                  },
+                                                  "playlistEditEndpoint": {
+                                                    "playlistId": "WL",
+                                                    "actions": [
+                                                      {
+                                                        "addedVideoId": "91l58hB_e8Q",
+                                                        "action": "ACTION_ADD_VIDEO"
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              "accessibilityText": "Tonton nanti",
+                                              "style": "BUTTON_VIEW_MODEL_STYLE_OVERLAY_DARK",
+                                              "trackingParams": "CCkQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                              "type": "BUTTON_VIEW_MODEL_TYPE_TONAL",
+                                              "buttonSize": "BUTTON_VIEW_MODEL_SIZE_COMPACT",
+                                              "state": "BUTTON_VIEW_MODEL_STATE_ACTIVE"
+                                            }
+                                          },
+                                          "toggledButtonViewModel": {
+                                            "buttonViewModel": {
+                                              "iconName": "CHECK",
+                                              "onTap": {
+                                                "innertubeCommand": {
+                                                  "clickTrackingParams": "CCgQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                  "commandMetadata": {
+                                                    "webCommandMetadata": {
+                                                      "sendPost": true,
+                                                      "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                    }
+                                                  },
+                                                  "playlistEditEndpoint": {
+                                                    "playlistId": "WL",
+                                                    "actions": [
+                                                      {
+                                                        "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                                                        "removedVideoId": "91l58hB_e8Q"
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              "accessibilityText": "Ditambahkan",
+                                              "style": "BUTTON_VIEW_MODEL_STYLE_OVERLAY_DARK",
+                                              "trackingParams": "CCgQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                              "type": "BUTTON_VIEW_MODEL_TYPE_TONAL",
+                                              "buttonSize": "BUTTON_VIEW_MODEL_SIZE_COMPACT",
+                                              "state": "BUTTON_VIEW_MODEL_STATE_ACTIVE"
+                                            }
+                                          },
+                                          "isToggled": false,
+                                          "trackingParams": "CCEQ1MQMIhMI2Yr_yv3qlgMV4elzAR218Apz"
+                                        }
+                                      },
+                                      {
+                                        "toggleButtonViewModel": {
+                                          "defaultButtonViewModel": {
+                                            "buttonViewModel": {
+                                              "iconName": "ADD_TO_QUEUE_TAIL",
+                                              "onTap": {
+                                                "innertubeCommand": {
+                                                  "clickTrackingParams": "CCcQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                  "commandMetadata": {
+                                                    "webCommandMetadata": {
+                                                      "sendPost": true
+                                                    }
+                                                  },
+                                                  "signalServiceEndpoint": {
+                                                    "signal": "CLIENT_SIGNAL",
+                                                    "actions": [
+                                                      {
+                                                        "clickTrackingParams": "CCcQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                        "addToPlaylistCommand": {
+                                                          "openMiniplayer": true,
+                                                          "videoId": "91l58hB_e8Q",
+                                                          "listType": "PLAYLIST_EDIT_LIST_TYPE_QUEUE",
+                                                          "onCreateListCommand": {
+                                                            "clickTrackingParams": "CCcQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                            "commandMetadata": {
+                                                              "webCommandMetadata": {
+                                                                "sendPost": true,
+                                                                "apiUrl": "/youtubei/v1/playlist/create"
+                                                              }
+                                                            },
+                                                            "createPlaylistServiceEndpoint": {
+                                                              "videoIds": [
+                                                                "91l58hB_e8Q"
+                                                              ],
+                                                              "params": "CAQ%3D"
+                                                            }
+                                                          },
+                                                          "videoIds": [
+                                                            "91l58hB_e8Q"
+                                                          ],
+                                                          "videoCommand": {
+                                                            "clickTrackingParams": "CCcQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                            "commandMetadata": {
+                                                              "webCommandMetadata": {
+                                                                "url": "/watch?v=91l58hB_e8Q",
+                                                                "webPageType": "WEB_PAGE_TYPE_WATCH",
+                                                                "rootVe": 3832
+                                                              }
+                                                            },
+                                                            "watchEndpoint": {
+                                                              "videoId": "91l58hB_e8Q",
+                                                              "watchEndpointSupportedOnesieConfig": {
+                                                                "html5PlaybackOnesieConfig": {
+                                                                  "commonConfig": {
+                                                                    "url": "https://rr1---sn-2uuxa3vh-jb3es.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&olis=1&msp=1&odepv=1&id=f75979f2107f7bc4&ip=2001%3A448a%3A20a2%3A5c2a%3A2173%3Acf3a%3Aec1b%3Ae965&initcwndbps=1117500&mt=1789282126&oweuc="
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              },
+                                              "accessibilityText": "Tambahkan ke antrean",
+                                              "style": "BUTTON_VIEW_MODEL_STYLE_OVERLAY_DARK",
+                                              "trackingParams": "CCcQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                              "type": "BUTTON_VIEW_MODEL_TYPE_TONAL",
+                                              "buttonSize": "BUTTON_VIEW_MODEL_SIZE_COMPACT",
+                                              "state": "BUTTON_VIEW_MODEL_STATE_ACTIVE"
+                                            }
+                                          },
+                                          "toggledButtonViewModel": {
+                                            "buttonViewModel": {
+                                              "iconName": "CHECK",
+                                              "accessibilityText": "Ditambahkan",
+                                              "style": "BUTTON_VIEW_MODEL_STYLE_OVERLAY_DARK",
+                                              "trackingParams": "CCYQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                              "type": "BUTTON_VIEW_MODEL_TYPE_TONAL",
+                                              "buttonSize": "BUTTON_VIEW_MODEL_SIZE_COMPACT",
+                                              "state": "BUTTON_VIEW_MODEL_STATE_ACTIVE"
+                                            }
+                                          },
+                                          "isToggled": false,
+                                          "trackingParams": "CCEQ1MQMIhMI2Yr_yv3qlgMV4elzAR218Apz"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "metadata": {
+                            "lockupMetadataViewModel": {
+                              "title": {
+                                "content": "Neon Rush | Insane GTA 6 Car Chase | Cinematic Action"
+                              },
+                              "metadata": {
+                                "contentMetadataViewModel": {
+                                  "metadataRows": [
+                                    {
+                                      "metadataParts": [
+                                        {
+                                          "text": {
+                                            "content": "13"
+                                          },
+                                          "accessibilityLabel": "13 x ditonton",
+                                          "leadingIcon": {
+                                            "name": "PLAY_ARROW_OUTLINED",
+                                            "height": 12,
+                                            "width": 12
+                                          }
+                                        },
+                                        {
+                                          "text": {
+                                            "content": "3 mgg lalu"
+                                          },
+                                          "accessibilityLabel": "3 minggu yang lalu"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "delimiter": " "
+                                }
+                              },
+                              "menuButton": {
+                                "buttonViewModel": {
+                                  "iconName": "MORE_VERT",
+                                  "onTap": {
+                                    "innertubeCommand": {
+                                      "clickTrackingParams": "CCIQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                      "showSheetCommand": {
+                                        "panelLoadingStrategy": {
+                                          "inlineContent": {
+                                            "sheetViewModel": {
+                                              "content": {
+                                                "listViewModel": {
+                                                  "listItems": [
+                                                    {
+                                                      "listItemViewModel": {
+                                                        "title": {
+                                                          "content": "Tambahkan ke antrean"
+                                                        },
+                                                        "leadingImage": {
+                                                          "sources": [
+                                                            {
+                                                              "clientResource": {
+                                                                "imageName": "ADD_TO_QUEUE_TAIL"
+                                                              }
+                                                            }
+                                                          ]
+                                                        },
+                                                        "rendererContext": {
+                                                          "loggingContext": {
+                                                            "loggingDirectives": {
+                                                              "trackingParams": "CCUQ_pgEGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                                              "visibility": {
+                                                                "types": "12"
+                                                              }
+                                                            }
+                                                          },
+                                                          "commandContext": {
+                                                            "onTap": {
+                                                              "innertubeCommand": {
+                                                                "clickTrackingParams": "CCUQ_pgEGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                "commandMetadata": {
+                                                                  "webCommandMetadata": {
+                                                                    "sendPost": true
+                                                                  }
+                                                                },
+                                                                "signalServiceEndpoint": {
+                                                                  "signal": "CLIENT_SIGNAL",
+                                                                  "actions": [
+                                                                    {
+                                                                      "clickTrackingParams": "CCUQ_pgEGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                      "addToPlaylistCommand": {
+                                                                        "openMiniplayer": true,
+                                                                        "videoId": "91l58hB_e8Q",
+                                                                        "listType": "PLAYLIST_EDIT_LIST_TYPE_QUEUE",
+                                                                        "onCreateListCommand": {
+                                                                          "clickTrackingParams": "CCUQ_pgEGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                          "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                              "sendPost": true,
+                                                                              "apiUrl": "/youtubei/v1/playlist/create"
+                                                                            }
+                                                                          },
+                                                                          "createPlaylistServiceEndpoint": {
+                                                                            "videoIds": [
+                                                                              "91l58hB_e8Q"
+                                                                            ],
+                                                                            "params": "CAQ%3D"
+                                                                          }
+                                                                        },
+                                                                        "videoIds": [
+                                                                          "91l58hB_e8Q"
+                                                                        ],
+                                                                        "videoCommand": {
+                                                                          "clickTrackingParams": "CCUQ_pgEGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                          "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                              "url": "/watch?v=91l58hB_e8Q",
+                                                                              "webPageType": "WEB_PAGE_TYPE_WATCH",
+                                                                              "rootVe": 3832
+                                                                            }
+                                                                          },
+                                                                          "watchEndpoint": {
+                                                                            "videoId": "91l58hB_e8Q",
+                                                                            "watchEndpointSupportedOnesieConfig": {
+                                                                              "html5PlaybackOnesieConfig": {
+                                                                                "commonConfig": {
+                                                                                  "url": "https://rr1---sn-2uuxa3vh-jb3es.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&olis=1&msp=1&odepv=1&id=f75979f2107f7bc4&ip=2001%3A448a%3A20a2%3A5c2a%3A2173%3Acf3a%3Aec1b%3Ae965&initcwndbps=1117500&mt=1789282126&oweuc="
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "listItemViewModel": {
+                                                        "title": {
+                                                          "content": "Simpan ke playlist"
+                                                        },
+                                                        "leadingImage": {
+                                                          "sources": [
+                                                            {
+                                                              "clientResource": {
+                                                                "imageName": "BOOKMARK_BORDER"
+                                                              }
+                                                            }
+                                                          ]
+                                                        },
+                                                        "rendererContext": {
+                                                          "loggingContext": {
+                                                            "loggingDirectives": {
+                                                              "trackingParams": "CCQQlKwJGAEiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                                              "visibility": {
+                                                                "types": "12"
+                                                              }
+                                                            }
+                                                          },
+                                                          "commandContext": {
+                                                            "onTap": {
+                                                              "innertubeCommand": {
+                                                                "clickTrackingParams": "CCQQlKwJGAEiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                "commandMetadata": {
+                                                                  "webCommandMetadata": {
+                                                                    "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Did&hl=id",
+                                                                    "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                                                    "rootVe": 83769
+                                                                  }
+                                                                },
+                                                                "signInEndpoint": {
+                                                                  "nextEndpoint": {
+                                                                    "clickTrackingParams": "CCQQlKwJGAEiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                    "showSheetCommand": {
+                                                                      "panelLoadingStrategy": {
+                                                                        "requestTemplate": {
+                                                                          "panelId": "PAadd_to_playlist",
+                                                                          "params": "-gYNCgs5MWw1OGhCX2U4UQ%3D%3D"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "listItemViewModel": {
+                                                        "title": {
+                                                          "content": "Bagikan"
+                                                        },
+                                                        "leadingImage": {
+                                                          "sources": [
+                                                            {
+                                                              "clientResource": {
+                                                                "imageName": "SHARE"
+                                                              }
+                                                            }
+                                                          ]
+                                                        },
+                                                        "rendererContext": {
+                                                          "commandContext": {
+                                                            "onTap": {
+                                                              "innertubeCommand": {
+                                                                "clickTrackingParams": "CCIQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                "commandMetadata": {
+                                                                  "webCommandMetadata": {
+                                                                    "sendPost": true,
+                                                                    "apiUrl": "/youtubei/v1/share/get_share_panel"
+                                                                  }
+                                                                },
+                                                                "shareEntityServiceEndpoint": {
+                                                                  "serializedShareEntity": "Cgs5MWw1OGhCX2U4UQ%3D%3D",
+                                                                  "commands": [
+                                                                    {
+                                                                      "clickTrackingParams": "CCIQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                                                      "openPopupAction": {
+                                                                        "popup": {
+                                                                          "unifiedSharePanelRenderer": {
+                                                                            "trackingParams": "CCMQjmIiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                                                            "showLoadingSpinner": true
+                                                                          }
+                                                                        },
+                                                                        "popupType": "DIALOG",
+                                                                        "beReused": true
+                                                                      }
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "accessibilityText": "Tindakan lainnya",
+                                  "style": "BUTTON_VIEW_MODEL_STYLE_MONO",
+                                  "trackingParams": "CCIQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                  "type": "BUTTON_VIEW_MODEL_TYPE_TEXT",
+                                  "buttonSize": "BUTTON_VIEW_MODEL_SIZE_DEFAULT",
+                                  "state": "BUTTON_VIEW_MODEL_STATE_ACTIVE"
+                                }
+                              }
+                            }
+                          },
+                          "contentId": "91l58hB_e8Q",
+                          "contentType": "LOCKUP_CONTENT_TYPE_VIDEO",
+                          "themedPalette": {
+                            "lightThemePalette": {
+                              "baseBackground": 4294964976,
+                              "raisedBackground": 4294964976,
+                              "additiveBackground": 566853445,
+                              "textPrimary": 4281736458,
+                              "textSecondary": 4285419834,
+                              "outline": 860564758,
+                              "keyLight": 4292723116,
+                              "collectionStack": 4290814603,
+                              "invertedBackground": 4287581465,
+                              "textPrimaryInverse": 4294964976,
+                              "textDisabled": 2135633174,
+                              "dropShadow": 432635717,
+                              "cardOutline": 180977477,
+                              "overlayBackground": 3426098442,
+                              "overlayTextPrimary": 4294964976,
+                              "solidWash": 4281736458,
+                              "solidRim": 4280028674,
+                              "tonalWash": 2583688944,
+                              "tonalRim": 650158731,
+                              "outlineRim": 4290814603,
+                              "solidWashInverse": 4294106058,
+                              "solidRimInverse": 2147151072,
+                              "tonalWashInverse": 654309104,
+                              "tonalRimInverse": 653978848,
+                              "outlineRimInverse": 654309104,
+                              "solidBackground": 4283116822,
+                              "solidBackgroundInverse": 4290814603,
+                              "tonalBackground": 868262539,
+                              "tonalBackgroundInverse": 435346378,
+                              "outlineInverse": 872082656,
+                              "directionalLightStopPrimary": 4294634720,
+                              "directionalLightStopSecondary": 4294964976
+                            },
+                            "darkThemePalette": {
+                              "baseBackground": 4280028674,
+                              "raisedBackground": 4281736458,
+                              "additiveBackground": 734625605,
+                              "textPrimary": 4294634720,
+                              "textSecondary": 4292723116,
+                              "outline": 1072880586,
+                              "keyLight": 4284301096,
+                              "collectionStack": 4285419834,
+                              "invertedBackground": 4293110140,
+                              "textPrimaryInverse": 4280028674,
+                              "textDisabled": 2146622410,
+                              "dropShadow": 432635717,
+                              "cardOutline": 180977477,
+                              "overlayBackground": 3426098442,
+                              "overlayTextPrimary": 4294964976,
+                              "solidWash": 4294634720,
+                              "solidRim": 2147481328,
+                              "tonalWash": 1716202774,
+                              "tonalRim": 643645224,
+                              "outlineRim": 4285419834,
+                              "solidWashInverse": 4285419834,
+                              "solidRimInverse": 871553994,
+                              "tonalWashInverse": 872412912,
+                              "tonalRimInverse": 870171052,
+                              "outlineRimInverse": 1291843312,
+                              "solidBackground": 4290814603,
+                              "solidBackgroundInverse": 4283116822,
+                              "tonalBackground": 435346378,
+                              "tonalBackgroundInverse": 868262539,
+                              "outlineInverse": 860564758,
+                              "directionalLightStopPrimary": 4281736458,
+                              "directionalLightStopSecondary": 4280028674
+                            }
+                          },
+                          "rendererContext": {
+                            "loggingContext": {
+                              "loggingDirectives": {
+                                "trackingParams": "CCEQ1MQMIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                                "visibility": {
+                                  "types": "12"
+                                }
+                              }
+                            },
+                            "accessibilityContext": {
+                              "label": "Neon Rush | Insane GTA 6 Car Chase | Cinematic Action 36 detik"
+                            },
+                            "commandContext": {
+                              "onTap": {
+                                "innertubeCommand": {
+                                  "clickTrackingParams": "CCEQ1MQMIhMI2Yr_yv3qlgMV4elzAR218ApzWhhVQ2pCdGhkWG8xdmFsNEdjUEtEZG5VSXeaAQMQ8jjKAQSbkG--",
+                                  "commandMetadata": {
+                                    "webCommandMetadata": {
+                                      "url": "/watch?v=91l58hB_e8Q",
+                                      "webPageType": "WEB_PAGE_TYPE_WATCH",
+                                      "rootVe": 3832
+                                    }
+                                  },
+                                  "watchEndpoint": {
+                                    "videoId": "91l58hB_e8Q",
+                                    "watchEndpointSupportedOnesieConfig": {
+                                      "html5PlaybackOnesieConfig": {
+                                        "commonConfig": {
+                                          "url": "https://rr1---sn-2uuxa3vh-jb3es.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&olis=1&msp=1&odepv=1&id=f75979f2107f7bc4&ip=2001%3A448a%3A20a2%3A5c2a%3A2173%3Acf3a%3Aec1b%3Ae965&initcwndbps=1117500&mt=1789282126&oweuc="
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "trackingParams": "CCAQmY0FGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnM="
+                    }
+                  }
+                ],
+                "trackingParams": "CB8Q8eIEIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                "targetId": "6f657d7d-0000-20b5-be8c-240588789888",
+                "style": "RICH_GRID_STYLE_SLIM"
+              }
+            },
+            "trackingParams": "CB4Q8JMBGAYiEwjZiv_K_eqWAxXh6XMBHbXwCnM="
+          }
+        },
+        {
+          "tabRenderer": {
+            "endpoint": {
+              "clickTrackingParams": "CB0Q8JMBGAciEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "/@NeonRush-f3s/shorts",
+                  "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                  "rootVe": 3611,
+                  "apiUrl": "/youtubei/v1/browse"
+                }
+              },
+              "browseEndpoint": {
+                "browseId": "UCjBthdXo1val4GcPKDdnUIw",
+                "params": "EgZzaG9ydHPyBgUKA5oBAA%3D%3D",
+                "canonicalBaseUrl": "/@NeonRush-f3s"
+              }
+            },
+            "title": "Shorts",
+            "trackingParams": "CB0Q8JMBGAciEwjZiv_K_eqWAxXh6XMBHbXwCnM="
+          }
+        },
+        {
+          "expandableTabRenderer": {
+            "endpoint": {
+              "clickTrackingParams": "CAAQhGciEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "/@NeonRush-f3s/search",
+                  "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                  "rootVe": 3611,
+                  "apiUrl": "/youtubei/v1/browse"
+                }
+              },
+              "browseEndpoint": {
+                "browseId": "UCjBthdXo1val4GcPKDdnUIw",
+                "params": "EgZzZWFyY2jyBgQKAloA",
+                "canonicalBaseUrl": "/@NeonRush-f3s"
+              }
+            },
+            "title": "Penelusuran",
+            "selected": false
+          }
+        }
+      ]
+    }
+  },
+  "header": {
+    "pageHeaderRenderer": {
+      "pageTitle": "Neon Rush",
+      "content": {
+        "pageHeaderViewModel": {
+          "title": {
+            "dynamicTextViewModel": {
+              "text": {
+                "content": "Neon Rush"
+              },
+              "maxLines": 2,
+              "rendererContext": {
+                "loggingContext": {
+                  "loggingDirectives": {
+                    "trackingParams": "CBwQj-QKIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                    "visibility": {
+                      "types": "12"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "image": {
+            "decoratedAvatarViewModel": {
+              "avatar": {
+                "avatarViewModel": {
+                  "image": {
+                    "sources": [
+                      {
+                        "url": "https://yt3.googleusercontent.com/HYYw6uYspgcPFbqVa1h73WmbS-h0r1mTl9xTInSOAaqzIOKzomOuOO7sM1Eh38R0137Z2s6nKA=s72-c-k-c0x00ffffff-no-rj",
+                        "width": 72,
+                        "height": 72
+                      },
+                      {
+                        "url": "https://yt3.googleusercontent.com/HYYw6uYspgcPFbqVa1h73WmbS-h0r1mTl9xTInSOAaqzIOKzomOuOO7sM1Eh38R0137Z2s6nKA=s120-c-k-c0x00ffffff-no-rj",
+                        "width": 120,
+                        "height": 120
+                      },
+                      {
+                        "url": "https://yt3.googleusercontent.com/HYYw6uYspgcPFbqVa1h73WmbS-h0r1mTl9xTInSOAaqzIOKzomOuOO7sM1Eh38R0137Z2s6nKA=s160-c-k-c0x00ffffff-no-rj",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ],
+                    "processor": {
+                      "borderImageProcessor": {
+                        "circular": true
+                      }
+                    }
+                  },
+                  "avatarImageSize": "AVATAR_SIZE_XL",
+                  "loggingDirectives": {
+                    "trackingParams": "CBsQ6OENIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                    "visibility": {
+                      "types": "12"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "contentMetadataViewModel": {
+              "metadataRows": [
+                {
+                  "metadataParts": [
+                    {
+                      "text": {
+                        "content": "@NeonRush-f3s",
+                        "styleRuns": [
+                          {
+                            "weightLabel": "FONT_WEIGHT_MEDIUM",
+                            "styleRunExtensions": {
+                              "styleRunColorMapExtension": {
+                                "colorMap": [
+                                  {
+                                    "key": "USER_INTERFACE_THEME_DARK",
+                                    "value": 4294967295
+                                  },
+                                  {
+                                    "key": "USER_INTERFACE_THEME_LIGHT",
+                                    "value": 4279440147
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "enableTruncation": true
+                    }
+                  ]
+                },
+                {
+                  "metadataParts": [
+                    {
+                      "text": {
+                        "content": "4 subscriber"
+                      },
+                      "accessibilityLabel": "4 subscriber"
+                    },
+                    {
+                      "text": {
+                        "content": "10 video",
+                        "styleRuns": [
+                          {
+                            "startIndex": 0,
+                            "length": 8
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "delimiter": "\u2022",
+              "rendererContext": {
+                "loggingContext": {
+                  "loggingDirectives": {
+                    "trackingParams": "CBoQ9eQKIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                    "visibility": {
+                      "types": "12"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "actions": {
+            "flexibleActionsViewModel": {
+              "actionsRows": [
+                {
+                  "actions": [
+                    {
+                      "buttonViewModel": {
+                        "title": "Subscribe",
+                        "onTap": {
+                          "innertubeCommand": {
+                            "clickTrackingParams": "CBIQot8KIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "ignoreNavigation": true
+                              }
+                            },
+                            "modalEndpoint": {
+                              "modal": {
+                                "modalWithTitleAndButtonRenderer": {
+                                  "title": {
+                                    "simpleText": "Ingin subscribe ke channel ini?"
+                                  },
+                                  "content": {
+                                    "simpleText": "Login untuk subscribe ke channel ini."
+                                  },
+                                  "button": {
+                                    "buttonRenderer": {
+                                      "style": "STYLE_MONO_FILLED",
+                                      "size": "SIZE_DEFAULT",
+                                      "isDisabled": false,
+                                      "text": {
+                                        "simpleText": "Login"
+                                      },
+                                      "navigationEndpoint": {
+                                        "clickTrackingParams": "CBkQ_YYEIhMI2Yr_yv3qlgMV4elzAR218ApzMglzdWJzY3JpYmXKAQSbkG--",
+                                        "commandMetadata": {
+                                          "webCommandMetadata": {
+                                            "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Did%26next%3D%252F%2540NeonRush-f3s%252Fvideos%26continue_action%3DQUM4Zm9rUUZubllzalZyMGJhaldHbTREMmZpVHxBTl9pYzRjMG5qSXZLU1Mzc24tUjN1MndTLVU1elRtazdxZVdmR3cwRnlsLTVmZl9LRGRoTTl2bUVJOTJvT2VjY05oS2RlZ1JyLUY3YXo0OXNaNmZOYWZxRUNvcmJyZ0JOQkV6anpEcnZaNEplVW1fOXpSeDRXTnQxOXJqeVpnWXhGeXpqTTBtYlgxRHgwME9Sb1FqUFVNUk9MSjVIMlZuSG9oZURTUHIxSTBIOG5xUFIwTE01UjRXaC04&hl=id&ec=66429",
+                                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                                            "rootVe": 83769
+                                          }
+                                        },
+                                        "signInEndpoint": {
+                                          "nextEndpoint": {
+                                            "clickTrackingParams": "CBkQ_YYEIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+                                            "commandMetadata": {
+                                              "webCommandMetadata": {
+                                                "url": "/@NeonRush-f3s/videos",
+                                                "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                                "rootVe": 3611,
+                                                "apiUrl": "/youtubei/v1/browse"
+                                              }
+                                            },
+                                            "browseEndpoint": {
+                                              "browseId": "UCjBthdXo1val4GcPKDdnUIw",
+                                              "params": "EgZ2aWRlb3M%3D",
+                                              "canonicalBaseUrl": "/@NeonRush-f3s"
+                                            }
+                                          },
+                                          "continueAction": "QUM4Zm9rUUZubllzalZyMGJhaldHbTREMmZpVHxBTl9pYzRjMG5qSXZLU1Mzc24tUjN1MndTLVU1elRtazdxZVdmR3cwRnlsLTVmZl9LRGRoTTl2bUVJOTJvT2VjY05oS2RlZ1JyLUY3YXo0OXNaNmZOYWZxRUNvcmJyZ0JOQkV6anpEcnZaNEplVW1fOXpSeDRXTnQxOXJqeVpnWXhGeXpqTTBtYlgxRHgwME9Sb1FqUFVNUk9MSjVIMlZuSG9oZURTUHIxSTBIOG5xUFIwTE01UjRXaC04",
+                                          "idamTag": "66429"
+                                        }
+                                      },
+                                      "trackingParams": "CBkQ_YYEIhMI2Yr_yv3qlgMV4elzAR218Apz"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "accessibilityText": "Subscribe",
+                        "style": "BUTTON_VIEW_MODEL_STYLE_MONO",
+                        "trackingParams": "CBIQot8KIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                        "isFullWidth": false,
+                        "type": "BUTTON_VIEW_MODEL_TYPE_FILLED",
+                        "buttonSize": "BUTTON_VIEW_MODEL_SIZE_DEFAULT",
+                        "state": "BUTTON_VIEW_MODEL_STATE_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "justifyContent": "FLEXIBLE_ACTIONS_JUSTIFY_CONTENT_START",
+              "minimumRowHeight": 44,
+              "rendererContext": {
+                "loggingContext": {
+                  "loggingDirectives": {
+                    "trackingParams": "CBIQot8KIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                    "visibility": {
+                      "types": "12"
+                    },
+                    "clientVeSpec": {
+                      "uiType": 184974,
+                      "veCounter": 397898788
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "description": {
+            "descriptionPreviewViewModel": {
+              "description": {
+                "content": "Welcome to Neon Rush! \u26a1 "
+              },
+              "maxLines": 2,
+              "truncationText": {
+                "content": "...selengkapnya",
+                "styleRuns": [
+                  {
+                    "startIndex": 0,
+                    "length": 15,
+                    "weight": 500
+                  }
+                ]
+              },
+              "alwaysShowTruncationText": true,
+              "rendererContext": {
+                "loggingContext": {
+                  "loggingDirectives": {
+                    "trackingParams": "CBQQr_4KIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                    "visibility": {
+                      "types": "12"
+                    }
+                  }
+                },
+                "accessibilityContext": {
+                  "label": "Deskripsi. Welcome to Neon Rush! \u26a1...ketuk untuk melihat selengkapnya."
+                },
+                "commandContext": {
+                  "onTap": {
+                    "innertubeCommand": {
+                      "clickTrackingParams": "CBQQr_4KIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+                      "showEngagementPanelEndpoint": {
+                        "engagementPanel": {
+                          "engagementPanelSectionListRenderer": {
+                            "header": {
+                              "engagementPanelTitleHeaderRenderer": {
+                                "title": {
+                                  "simpleText": "Neon Rush"
+                                },
+                                "visibilityButton": {
+                                  "buttonRenderer": {
+                                    "style": "STYLE_DEFAULT",
+                                    "size": "SIZE_DEFAULT",
+                                    "isDisabled": false,
+                                    "icon": {
+                                      "iconType": "CLOSE"
+                                    },
+                                    "accessibility": {
+                                      "label": "Tutup"
+                                    },
+                                    "trackingParams": "CBgQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                    "accessibilityData": {
+                                      "accessibilityData": {
+                                        "label": "Tutup"
+                                      }
+                                    },
+                                    "command": {
+                                      "clickTrackingParams": "CBgQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                                      "changeEngagementPanelVisibilityAction": {
+                                        "targetId": "6f657d36-0000-20b5-be8c-240588789888",
+                                        "visibility": "ENGAGEMENT_PANEL_VISIBILITY_HIDDEN"
+                                      }
+                                    }
+                                  }
+                                },
+                                "trackingParams": "CBUQ040EIhMI2Yr_yv3qlgMV4elzAR218Apz"
+                              }
+                            },
+                            "content": {
+                              "sectionListRenderer": {
+                                "contents": [
+                                  {
+                                    "itemSectionRenderer": {
+                                      "contents": [
+                                        {
+                                          "continuationItemRenderer": {
+                                            "trigger": "CONTINUATION_TRIGGER_ON_ITEM_SHOWN",
+                                            "continuationEndpoint": {
+                                              "clickTrackingParams": "CBcQuy8YACITCNmK_8r96pYDFeHpcwEdtfAKc8oBBJuQb74=",
+                                              "commandMetadata": {
+                                                "webCommandMetadata": {
+                                                  "sendPost": true,
+                                                  "apiUrl": "/youtubei/v1/browse"
+                                                }
+                                              },
+                                              "continuationCommand": {
+                                                "token": "4qmFsgJgEhhVQ2pCdGhkWG8xdmFsNEdjUEtEZG5VSXcaRDhnWXJHaW1hQVNZS0pEWm1OalUzWkRNM0xUQXdNREF0TWpCaU5TMWlaVGhqTFRJME1EVTRPRGM0T1RnNE9BJTNEJTNE",
+                                                "request": "CONTINUATION_REQUEST_TYPE_BROWSE"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "trackingParams": "CBcQuy8YACITCNmK_8r96pYDFeHpcwEdtfAKcw==",
+                                      "sectionIdentifier": "6f657d37-0000-20b5-be8c-240588789888",
+                                      "targetId": "6f657d37-0000-20b5-be8c-240588789888"
+                                    }
+                                  }
+                                ],
+                                "trackingParams": "CBYQui8iEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                                "scrollPaneStyle": {
+                                  "scrollable": true
+                                }
+                              }
+                            },
+                            "targetId": "6f657d36-0000-20b5-be8c-240588789888",
+                            "identifier": {
+                              "surface": "ENGAGEMENT_PANEL_SURFACE_BROWSE",
+                              "tag": "6f657d36-0000-20b5-be8c-240588789888"
+                            }
+                          }
+                        },
+                        "identifier": {
+                          "surface": "ENGAGEMENT_PANEL_SURFACE_BROWSE",
+                          "tag": "6f657d36-0000-20b5-be8c-240588789888"
+                        },
+                        "engagementPanelPresentationConfigs": {
+                          "engagementPanelPopupPresentationConfig": {
+                            "popupType": "PANEL_POPUP_TYPE_DIALOG"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "banner": {
+            "imageBannerViewModel": {
+              "image": {
+                "sources": [
+                  {
+                    "url": "https://yt3.googleusercontent.com/Dib5KEGNFZDv1HTJ4zDr2BqiF6axRcgJt9MLp5I5g8vwi2xF9D0yHSprA3lHUaG0JEgd33FP0A=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                    "width": 1060,
+                    "height": 175
+                  },
+                  {
+                    "url": "https://yt3.googleusercontent.com/Dib5KEGNFZDv1HTJ4zDr2BqiF6axRcgJt9MLp5I5g8vwi2xF9D0yHSprA3lHUaG0JEgd33FP0A=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                    "width": 1138,
+                    "height": 188
+                  },
+                  {
+                    "url": "https://yt3.googleusercontent.com/Dib5KEGNFZDv1HTJ4zDr2BqiF6axRcgJt9MLp5I5g8vwi2xF9D0yHSprA3lHUaG0JEgd33FP0A=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                    "width": 1707,
+                    "height": 283
+                  },
+                  {
+                    "url": "https://yt3.googleusercontent.com/Dib5KEGNFZDv1HTJ4zDr2BqiF6axRcgJt9MLp5I5g8vwi2xF9D0yHSprA3lHUaG0JEgd33FP0A=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                    "width": 2120,
+                    "height": 351
+                  },
+                  {
+                    "url": "https://yt3.googleusercontent.com/Dib5KEGNFZDv1HTJ4zDr2BqiF6axRcgJt9MLp5I5g8vwi2xF9D0yHSprA3lHUaG0JEgd33FP0A=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                    "width": 2276,
+                    "height": 377
+                  },
+                  {
+                    "url": "https://yt3.googleusercontent.com/Dib5KEGNFZDv1HTJ4zDr2BqiF6axRcgJt9MLp5I5g8vwi2xF9D0yHSprA3lHUaG0JEgd33FP0A=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+                    "width": 2560,
+                    "height": 424
+                  }
+                ]
+              },
+              "style": "IMAGE_BANNER_STYLE_INSET",
+              "rendererContext": {
+                "loggingContext": {
+                  "loggingDirectives": {
+                    "trackingParams": "CBMQnfILIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                    "visibility": {
+                      "types": "12"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "rendererContext": {
+            "loggingContext": {
+              "loggingDirectives": {
+                "trackingParams": "CBIQot8KIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                "visibility": {
+                  "types": "12"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "metadata": {
+    "channelMetadataRenderer": {
+      "title": "Neon Rush",
+      "description": "Welcome to Neon Rush! \u26a1\nYour destination for the best GTA 6 gameplay, epic moments, funny clips, and gaming Shorts. Subscribe for daily content!\n#GTA6 #Gaming #Shorts #NeonRush #RockstarGames",
+      "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjBthdXo1val4GcPKDdnUIw",
+      "externalId": "UCjBthdXo1val4GcPKDdnUIw",
+      "keywords": "\"`GTA 6 inspired`\" \"`Neon Rush`\" \"`Vice City`\" \"`Supercar edits`\" \"`Police chase`\" `Drift` \"`Night city`\" \"`Cinematic GTA`\" \"`UK GTA`\"",
+      "ownerUrls": [
+        "http://www.youtube.com/@NeonRush-f3s"
+      ],
+      "avatar": {
+        "thumbnails": [
+          {
+            "url": "https://yt3.googleusercontent.com/HYYw6uYspgcPFbqVa1h73WmbS-h0r1mTl9xTInSOAaqzIOKzomOuOO7sM1Eh38R0137Z2s6nKA=s900-c-k-c0x00ffffff-no-rj",
+            "width": 900,
+            "height": 900
+          }
+        ]
+      },
+      "channelUrl": "https://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+      "isFamilySafe": true,
+      "availableCountryCodes": [
+        "SZ",
+        "LK",
+        "TO",
+        "IT",
+        "AO",
+        "PE",
+        "WF",
+        "PW",
+        "QA",
+        "CL",
+        "RU",
+        "GE",
+        "LB",
+        "LR",
+        "BV",
+        "CX",
+        "UM",
+        "AF",
+        "AL",
+        "DO",
+        "PG",
+        "AR",
+        "FR",
+        "JE",
+        "KE",
+        "SL",
+        "BZ",
+        "EC",
+        "ZW",
+        "MP",
+        "GB",
+        "EG",
+        "LC",
+        "HN",
+        "TD",
+        "IM",
+        "UG",
+        "GY",
+        "SA",
+        "TH",
+        "CI",
+        "ST",
+        "KR",
+        "BD",
+        "LT",
+        "BT",
+        "KN",
+        "GD",
+        "AI",
+        "AT",
+        "US",
+        "SN",
+        "VA",
+        "BY",
+        "NI",
+        "KI",
+        "JP",
+        "MM",
+        "CU",
+        "CV",
+        "MS",
+        "BO",
+        "MY",
+        "IQ",
+        "RE",
+        "ME",
+        "PH",
+        "RW",
+        "TK",
+        "TM",
+        "ET",
+        "NZ",
+        "CW",
+        "MQ",
+        "PN",
+        "SX",
+        "BM",
+        "ZA",
+        "GM",
+        "TG",
+        "LU",
+        "AU",
+        "UA",
+        "GP",
+        "FJ",
+        "MH",
+        "IO",
+        "WS",
+        "MU",
+        "CM",
+        "DM",
+        "FI",
+        "PL",
+        "SY",
+        "BQ",
+        "SK",
+        "SO",
+        "VN",
+        "MT",
+        "PA",
+        "TR",
+        "SV",
+        "LI",
+        "MK",
+        "OM",
+        "AQ",
+        "BF",
+        "MX",
+        "ZM",
+        "NG",
+        "TT",
+        "VC",
+        "CD",
+        "BW",
+        "PM",
+        "GF",
+        "GH",
+        "HK",
+        "IS",
+        "MZ",
+        "GN",
+        "KH",
+        "NR",
+        "NE",
+        "NU",
+        "GR",
+        "CH",
+        "LV",
+        "AZ",
+        "JM",
+        "RS",
+        "GL",
+        "TJ",
+        "IN",
+        "GW",
+        "MD",
+        "MF",
+        "UZ",
+        "GT",
+        "PK",
+        "ES",
+        "JO",
+        "IL",
+        "MG",
+        "TL",
+        "EH",
+        "NA",
+        "GG",
+        "ER",
+        "BR",
+        "FM",
+        "GI",
+        "GS",
+        "KY",
+        "DK",
+        "UY",
+        "HT",
+        "KP",
+        "EE",
+        "MN",
+        "CK",
+        "SS",
+        "MC",
+        "YE",
+        "CA",
+        "LS",
+        "GU",
+        "NP",
+        "SG",
+        "CO",
+        "CY",
+        "NF",
+        "IR",
+        "NL",
+        "SE",
+        "TN",
+        "FK",
+        "BL",
+        "LY",
+        "TW",
+        "AW",
+        "SC",
+        "CR",
+        "TC",
+        "KZ",
+        "PY",
+        "CN",
+        "SB",
+        "AM",
+        "LA",
+        "SI",
+        "SR",
+        "PR",
+        "SH",
+        "CC",
+        "FO",
+        "GQ",
+        "SJ",
+        "ML",
+        "DE",
+        "RO",
+        "VE",
+        "DZ",
+        "AE",
+        "PF",
+        "HU",
+        "BI",
+        "BN",
+        "CF",
+        "CZ",
+        "ID",
+        "BE",
+        "MV",
+        "AX",
+        "AG",
+        "MR",
+        "HM",
+        "VI",
+        "KW",
+        "VU",
+        "GA",
+        "PS",
+        "DJ",
+        "TF",
+        "KG",
+        "TZ",
+        "HR",
+        "MW",
+        "AS",
+        "PT",
+        "YT",
+        "CG",
+        "IE",
+        "AD",
+        "BB",
+        "BA",
+        "MA",
+        "BS",
+        "NO",
+        "BJ",
+        "SD",
+        "MO",
+        "SM",
+        "TV",
+        "VG",
+        "BH",
+        "KM",
+        "BG",
+        "NC"
+      ],
+      "androidDeepLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+      "androidAppindexingLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+      "iosAppindexingLink": "ios-app://544007664/vnd.youtube/www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+      "vanityChannelUrl": "http://www.youtube.com/@NeonRush-f3s"
+    }
+  },
+  "trackingParams": "CAAQhGciEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+  "topbar": {
+    "desktopTopbarRenderer": {
+      "logo": {
+        "topbarLogoRenderer": {
+          "iconImage": {
+            "iconType": "YOUTUBE_LOGO"
+          },
+          "tooltipText": {
+            "runs": [
+              {
+                "text": "Beranda YouTube"
+              }
+            ]
+          },
+          "endpoint": {
+            "clickTrackingParams": "CBEQsV4iEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/",
+                "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                "rootVe": 3854,
+                "apiUrl": "/youtubei/v1/browse"
+              }
+            },
+            "browseEndpoint": {
+              "browseId": "FEwhat_to_watch"
+            }
+          },
+          "trackingParams": "CBEQsV4iEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+          "overrideEntityKey": "EgZ0b3BiYXIg9QEoAQ%3D%3D"
+        }
+      },
+      "searchbox": {
+        "fusionSearchboxRenderer": {
+          "icon": {
+            "iconType": "SEARCH"
+          },
+          "placeholderText": {
+            "runs": [
+              {
+                "text": "Telusuri"
+              }
+            ]
+          },
+          "config": {
+            "webSearchboxConfig": {
+              "requestLanguage": "id",
+              "requestDomain": "id",
+              "hasOnscreenKeyboard": false,
+              "focusSearchbox": true
+            }
+          },
+          "trackingParams": "CA0Q7VAiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+          "searchEndpoint": {
+            "clickTrackingParams": "CA0Q7VAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/results?search_query=",
+                "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                "rootVe": 4724
+              }
+            },
+            "searchEndpoint": {
+              "query": ""
+            }
+          },
+          "clearButton": {
+            "buttonRenderer": {
+              "style": "STYLE_DEFAULT",
+              "size": "SIZE_DEFAULT",
+              "isDisabled": false,
+              "icon": {
+                "iconType": "CLOSE"
+              },
+              "trackingParams": "CBAQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+              "accessibilityData": {
+                "accessibilityData": {
+                  "label": "Hapus kueri penelusuran"
+                }
+              }
+            }
+          },
+          "showImageSourceDialog": {
+            "clickTrackingParams": "CA0Q7VAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+            "showDialogCommand": {
+              "panelLoadingStrategy": {
+                "inlineContent": {
+                  "dialogViewModel": {
+                    "header": {
+                      "dialogHeaderViewModel": {
+                        "headline": {
+                          "content": "Sumber gambar"
+                        }
+                      }
+                    },
+                    "footer": {
+                      "panelFooterViewModel": {
+                        "primaryButton": {
+                          "buttonViewModel": {
+                            "title": "Kunjungi sumber",
+                            "style": "BUTTON_VIEW_MODEL_STYLE_MONO",
+                            "trackingParams": "CA8Q8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                            "isFullWidth": true,
+                            "type": "BUTTON_VIEW_MODEL_TYPE_FILLED"
+                          }
+                        },
+                        "secondaryButton": {
+                          "buttonViewModel": {
+                            "title": "Batal",
+                            "style": "BUTTON_VIEW_MODEL_STYLE_MONO",
+                            "trackingParams": "CA4Q8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+                            "isFullWidth": true,
+                            "type": "BUTTON_VIEW_MODEL_TYPE_TONAL"
+                          }
+                        },
+                        "shouldHideDivider": true
+                      }
+                    },
+                    "content": {
+                      "basicContentViewModel": {
+                        "paragraphs": [
+                          {
+                            "text": {
+                              "content": "Buka situs sumber gambar?"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "disableAiAppearance": true
+        }
+      },
+      "trackingParams": "CAEQq6wBIhMI2Yr_yv3qlgMV4elzAR218Apz",
+      "countryCode": "ID",
+      "topbarButtons": [
+        {
+          "topbarMenuButtonRenderer": {
+            "icon": {
+              "iconType": "MORE_VERT"
+            },
+            "menuRequest": {
+              "clickTrackingParams": "CAsQ_qsBGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "sendPost": true,
+                  "apiUrl": "/youtubei/v1/account/account_menu"
+                }
+              },
+              "signalServiceEndpoint": {
+                "signal": "GET_ACCOUNT_MENU",
+                "actions": [
+                  {
+                    "clickTrackingParams": "CAsQ_qsBGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                    "openPopupAction": {
+                      "popup": {
+                        "multiPageMenuRenderer": {
+                          "trackingParams": "CAwQ_6sBIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                          "style": "MULTI_PAGE_MENU_STYLE_TYPE_SYSTEM",
+                          "showLoadingSpinner": true
+                        }
+                      },
+                      "popupType": "DROPDOWN",
+                      "beReused": true
+                    }
+                  }
+                ]
+              }
+            },
+            "trackingParams": "CAsQ_qsBGAAiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+            "accessibility": {
+              "accessibilityData": {
+                "label": "Setelan"
+              }
+            },
+            "tooltip": "Setelan",
+            "style": "STYLE_DEFAULT"
+          }
+        },
+        {
+          "buttonRenderer": {
+            "style": "STYLE_SUGGESTIVE",
+            "size": "SIZE_SMALL",
+            "text": {
+              "runs": [
+                {
+                  "text": "Login"
+                }
+              ]
+            },
+            "icon": {
+              "iconType": "AVATAR_LOGGED_OUT"
+            },
+            "navigationEndpoint": {
+              "clickTrackingParams": "CAoQ1IAEGAEiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Did%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540NeonRush-f3s%252Fvideos&hl=id&ec=65620",
+                  "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                  "rootVe": 83769
+                }
+              },
+              "signInEndpoint": {
+                "idamTag": "65620"
+              }
+            },
+            "trackingParams": "CAoQ1IAEGAEiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+            "targetId": "topbar-signin"
+          }
+        }
+      ],
+      "hotkeyDialog": {
+        "hotkeyDialogRenderer": {
+          "title": {
+            "runs": [
+              {
+                "text": "Pintasan keyboard"
+              }
+            ]
+          },
+          "sections": [
+            {
+              "hotkeyDialogSectionRenderer": {
+                "title": {
+                  "runs": [
+                    {
+                      "text": "Pemutaran"
+                    }
+                  ]
+                },
+                "options": [
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Putar/jeda"
+                          }
+                        ]
+                      },
+                      "hotkey": "k"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Mundur 10 detik"
+                          }
+                        ]
+                      },
+                      "hotkey": "j"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Maju cepat 10 detik"
+                          }
+                        ]
+                      },
+                      "hotkey": "l"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Video sebelumnya"
+                          }
+                        ]
+                      },
+                      "hotkey": "P (SHIFT+p)"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Video berikutnya"
+                          }
+                        ]
+                      },
+                      "hotkey": "N (SHIFT+n)"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Frame sebelumnya (saat dijeda)"
+                          }
+                        ]
+                      },
+                      "hotkey": ",",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Koma"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Frame berikutnya (saat dijeda)"
+                          }
+                        ]
+                      },
+                      "hotkey": ".",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Periode"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Turunkan laju pemutaran"
+                          }
+                        ]
+                      },
+                      "hotkey": "< (SHIFT+,)",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Kurang dari atau SHIFT + koma"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Tingkatkan laju pemutaran"
+                          }
+                        ]
+                      },
+                      "hotkey": "> (SHIFT+.)",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Lebih besar atau SHIFT + titik"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Cari ke bagian tertentu dalam video (misalnya, tekan 7 untuk maju hingga 70% dari durasi total)"
+                          }
+                        ]
+                      },
+                      "hotkey": "0..9"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Mencari segmen sebelumnya"
+                          }
+                        ]
+                      },
+                      "hotkey": "CONTROL + \u2190"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Mencari segmen berikutnya"
+                          }
+                        ]
+                      },
+                      "hotkey": "CONTROL + \u2192"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "hotkeyDialogSectionRenderer": {
+                "title": {
+                  "runs": [
+                    {
+                      "text": "Umum"
+                    }
+                  ]
+                },
+                "options": [
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Beralih ke layar penuh"
+                          }
+                        ]
+                      },
+                      "hotkey": "f"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Beralih ke mode bioskop"
+                          }
+                        ]
+                      },
+                      "hotkey": "t"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Aktifkan/Nonaktifkan miniplayer"
+                          }
+                        ]
+                      },
+                      "hotkey": "i"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Tutup pemutar video mini atau dialog saat ini"
+                          }
+                        ]
+                      },
+                      "hotkey": "ESCAPE"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Aktifkan/nonaktifkan suara"
+                          }
+                        ]
+                      },
+                      "hotkey": "m"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "hotkeyDialogSectionRenderer": {
+                "title": {
+                  "runs": [
+                    {
+                      "text": "Subtitel dan CC"
+                    }
+                  ]
+                },
+                "options": [
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Jika video mendukung subtitel, AKTIFKAN/NONAKTIFKAN subtitel"
+                          }
+                        ]
+                      },
+                      "hotkey": "c"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Tingkatkan ukuran font"
+                          }
+                        ]
+                      },
+                      "hotkey": "+"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Kurangi ukuran font"
+                          }
+                        ]
+                      },
+                      "hotkey": "-",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Minus"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "hotkeyDialogSectionRenderer": {
+                "title": {
+                  "runs": [
+                    {
+                      "text": "Video Bundar"
+                    }
+                  ]
+                },
+                "options": [
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Geser ke atas"
+                          }
+                        ]
+                      },
+                      "hotkey": "w"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Geser ke kiri"
+                          }
+                        ]
+                      },
+                      "hotkey": "a"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Geser ke bawah"
+                          }
+                        ]
+                      },
+                      "hotkey": "s"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Geser ke kanan"
+                          }
+                        ]
+                      },
+                      "hotkey": "d"
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Perbesar"
+                          }
+                        ]
+                      },
+                      "hotkey": "+ di numpad atau ]",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Plus pada tombol angka atau kurung siku kanan"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "hotkeyDialogSectionOptionRenderer": {
+                      "label": {
+                        "runs": [
+                          {
+                            "text": "Perkecil"
+                          }
+                        ]
+                      },
+                      "hotkey": "- di numpad atau [",
+                      "hotkeyAccessibilityLabel": {
+                        "accessibilityData": {
+                          "label": "Minus pada tombol angka atau kurung siku kiri"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "dismissButton": {
+            "buttonRenderer": {
+              "style": "STYLE_BLUE_TEXT",
+              "size": "SIZE_DEFAULT",
+              "isDisabled": false,
+              "text": {
+                "runs": [
+                  {
+                    "text": "Tutup"
+                  }
+                ]
+              },
+              "trackingParams": "CAkQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM="
+            }
+          },
+          "trackingParams": "CAgQteYDIhMI2Yr_yv3qlgMV4elzAR218Apz"
+        }
+      },
+      "backButton": {
+        "buttonRenderer": {
+          "trackingParams": "CAcQvIYDIhMI2Yr_yv3qlgMV4elzAR218Apz",
+          "command": {
+            "clickTrackingParams": "CAcQvIYDIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "sendPost": true
+              }
+            },
+            "signalServiceEndpoint": {
+              "signal": "CLIENT_SIGNAL",
+              "actions": [
+                {
+                  "clickTrackingParams": "CAcQvIYDIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+                  "signalAction": {
+                    "signal": "HISTORY_BACK"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "forwardButton": {
+        "buttonRenderer": {
+          "trackingParams": "CAYQvYYDIhMI2Yr_yv3qlgMV4elzAR218Apz",
+          "command": {
+            "clickTrackingParams": "CAYQvYYDIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "sendPost": true
+              }
+            },
+            "signalServiceEndpoint": {
+              "signal": "CLIENT_SIGNAL",
+              "actions": [
+                {
+                  "clickTrackingParams": "CAYQvYYDIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+                  "signalAction": {
+                    "signal": "HISTORY_FORWARD"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "a11ySkipNavigationButton": {
+        "buttonRenderer": {
+          "style": "STYLE_DEFAULT",
+          "size": "SIZE_DEFAULT",
+          "isDisabled": false,
+          "text": {
+            "runs": [
+              {
+                "text": "Abaikan navigasi"
+              }
+            ]
+          },
+          "trackingParams": "CAUQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnM=",
+          "command": {
+            "clickTrackingParams": "CAUQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "sendPost": true
+              }
+            },
+            "signalServiceEndpoint": {
+              "signal": "CLIENT_SIGNAL",
+              "actions": [
+                {
+                  "clickTrackingParams": "CAUQ8FsiEwjZiv_K_eqWAxXh6XMBHbXwCnPKAQSbkG--",
+                  "signalAction": {
+                    "signal": "SKIP_NAVIGATION"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "voiceSearchButton": {
+        "buttonRenderer": {
+          "style": "STYLE_DEFAULT",
+          "size": "SIZE_DEFAULT",
+          "isDisabled": false,
+          "serviceEndpoint": {
+            "clickTrackingParams": "CAIQ7a8FIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "sendPost": true
+              }
+            },
+            "signalServiceEndpoint": {
+              "signal": "CLIENT_SIGNAL",
+              "actions": [
+                {
+                  "clickTrackingParams": "CAIQ7a8FIhMI2Yr_yv3qlgMV4elzAR218ApzygEEm5Bvvg==",
+                  "openPopupAction": {
+                    "popup": {
+                      "voiceSearchDialogRenderer": {
+                        "placeholderHeader": {
+                          "runs": [
+                            {
+                              "text": "Mendengarkan\u2026"
+                            }
+                          ]
+                        },
+                        "promptHeader": {
+                          "runs": [
+                            {
+                              "text": "Tidak terdengar. Coba lagi."
+                            }
+                          ]
+                        },
+                        "exampleQuery1": {
+                          "runs": [
+                            {
+                              "text": "\"Putar Dua Lipa\""
+                            }
+                          ]
+                        },
+                        "exampleQuery2": {
+                          "runs": [
+                            {
+                              "text": "\"Tampilkan subscription saya\""
+                            }
+                          ]
+                        },
+                        "promptMicrophoneLabel": {
+                          "runs": [
+                            {
+                              "text": "Ketuk mikrofon untuk mencoba lagi"
+                            }
+                          ]
+                        },
+                        "loadingHeader": {
+                          "runs": [
+                            {
+                              "text": "Memproses..."
+                            }
+                          ]
+                        },
+                        "connectionErrorHeader": {
+                          "runs": [
+                            {
+                              "text": "Tidak ada koneksi internet"
+                            }
+                          ]
+                        },
+                        "connectionErrorMicrophoneLabel": {
+                          "runs": [
+                            {
+                              "text": "Periksa koneksi Anda dan coba lagi"
+                            }
+                          ]
+                        },
+                        "permissionsHeader": {
+                          "runs": [
+                            {
+                              "text": "Menunggu izin"
+                            }
+                          ]
+                        },
+                        "permissionsSubtext": {
+                          "runs": [
+                            {
+                              "text": "Izinkan akses mikrofon untuk menelusuri dengan suara"
+                            }
+                          ]
+                        },
+                        "disabledHeader": {
+                          "runs": [
+                            {
+                              "text": "Telusuri dengan suara"
+                            }
+                          ]
+                        },
+                        "disabledSubtext": {
+                          "runs": [
+                            {
+                              "text": "Untuk menelusuri dengan suara, buka setelan browser Anda dan izinkan akses ke mikrofon"
+                            }
+                          ]
+                        },
+                        "microphoneButtonAriaLabel": {
+                          "runs": [
+                            {
+                              "text": "Batal"
+                            }
+                          ]
+                        },
+                        "exitButton": {
+                          "buttonRenderer": {
+                            "style": "STYLE_DEFAULT",
+                            "size": "SIZE_DEFAULT",
+                            "isDisabled": false,
+                            "icon": {
+                              "iconType": "CLOSE"
+                            },
+                            "trackingParams": "CAQQ0LEFIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                            "accessibilityData": {
+                              "accessibilityData": {
+                                "label": "Batal"
+                              }
+                            }
+                          }
+                        },
+                        "trackingParams": "CAMQ7q8FIhMI2Yr_yv3qlgMV4elzAR218Apz",
+                        "microphoneOffPromptHeader": {
+                          "runs": [
+                            {
+                              "text": "Mikrofon mati. Coba lagi."
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "popupType": "TOP_ALIGNED_DIALOG"
+                  }
+                }
+              ]
+            }
+          },
+          "icon": {
+            "iconType": "MICROPHONE_ON"
+          },
+          "tooltip": "Telusuri dengan suara",
+          "trackingParams": "CAIQ7a8FIhMI2Yr_yv3qlgMV4elzAR218Apz",
+          "accessibilityData": {
+            "accessibilityData": {
+              "label": "Telusuri dengan suara"
+            }
+          }
+        }
+      }
+    }
+  },
+  "microformat": {
+    "microformatDataRenderer": {
+      "urlCanonical": "https://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+      "title": "Neon Rush",
+      "description": "Welcome to Neon Rush! \u26a1 Your destination for the best GTA 6 gameplay, epic moments, funny clips, and gaming Shorts. Subscribe for daily content! #GTA6 #Gamin...",
+      "thumbnail": {
+        "thumbnails": [
+          {
+            "url": "https://yt3.googleusercontent.com/HYYw6uYspgcPFbqVa1h73WmbS-h0r1mTl9xTInSOAaqzIOKzomOuOO7sM1Eh38R0137Z2s6nKA=s200-c-k-c0x00ffffff-no-rj?days_since_epoch=20709",
+            "width": 200,
+            "height": 200
+          }
+        ]
+      },
+      "siteName": "YouTube",
+      "appName": "YouTube",
+      "androidPackage": "com.google.android.youtube",
+      "iosAppStoreId": "544007664",
+      "iosAppArguments": "https://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+      "ogType": "yt-fb-app:channel",
+      "urlApplinksWeb": "https://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw?feature=applinks",
+      "urlApplinksIos": "vnd.youtube://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw?feature=applinks",
+      "urlApplinksAndroid": "vnd.youtube://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw?feature=applinks",
+      "urlTwitterIos": "vnd.youtube://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw?feature=twitter-deep-link",
+      "urlTwitterAndroid": "vnd.youtube://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw?feature=twitter-deep-link",
+      "twitterCardType": "summary",
+      "twitterSiteHandle": "@YouTube",
+      "schemaDotOrgType": "http://schema.org/http://schema.org/YoutubeChannelV2",
+      "noindex": false,
+      "unlisted": false,
+      "familySafe": true,
+      "tags": [
+        "`GTA 6 inspired`",
+        "`Neon Rush`",
+        "`Vice City`",
+        "`Supercar edits`",
+        "`Police chase`",
+        "`Drift`",
+        "`Night city`",
+        "`Cinematic GTA`",
+        "`UK GTA`"
+      ],
+      "availableCountries": [
+        "SZ",
+        "LK",
+        "TO",
+        "IT",
+        "AO",
+        "PE",
+        "WF",
+        "PW",
+        "QA",
+        "CL",
+        "RU",
+        "GE",
+        "LB",
+        "LR",
+        "BV",
+        "CX",
+        "UM",
+        "AF",
+        "AL",
+        "DO",
+        "PG",
+        "AR",
+        "FR",
+        "JE",
+        "KE",
+        "SL",
+        "BZ",
+        "EC",
+        "ZW",
+        "MP",
+        "GB",
+        "EG",
+        "LC",
+        "HN",
+        "TD",
+        "IM",
+        "UG",
+        "GY",
+        "SA",
+        "TH",
+        "CI",
+        "ST",
+        "KR",
+        "BD",
+        "LT",
+        "BT",
+        "KN",
+        "GD",
+        "AI",
+        "AT",
+        "US",
+        "SN",
+        "VA",
+        "BY",
+        "NI",
+        "KI",
+        "JP",
+        "MM",
+        "CU",
+        "CV",
+        "MS",
+        "BO",
+        "MY",
+        "IQ",
+        "RE",
+        "ME",
+        "PH",
+        "RW",
+        "TK",
+        "TM",
+        "ET",
+        "NZ",
+        "CW",
+        "MQ",
+        "PN",
+        "SX",
+        "BM",
+        "ZA",
+        "GM",
+        "TG",
+        "LU",
+        "AU",
+        "UA",
+        "GP",
+        "FJ",
+        "MH",
+        "IO",
+        "WS",
+        "MU",
+        "CM",
+        "DM",
+        "FI",
+        "PL",
+        "SY",
+        "BQ",
+        "SK",
+        "SO",
+        "VN",
+        "MT",
+        "PA",
+        "TR",
+        "SV",
+        "LI",
+        "MK",
+        "OM",
+        "AQ",
+        "BF",
+        "MX",
+        "ZM",
+        "NG",
+        "TT",
+        "VC",
+        "CD",
+        "BW",
+        "PM",
+        "GF",
+        "GH",
+        "HK",
+        "IS",
+        "MZ",
+        "GN",
+        "KH",
+        "NR",
+        "NE",
+        "NU",
+        "GR",
+        "CH",
+        "LV",
+        "AZ",
+        "JM",
+        "RS",
+        "GL",
+        "TJ",
+        "IN",
+        "GW",
+        "MD",
+        "MF",
+        "UZ",
+        "GT",
+        "PK",
+        "ES",
+        "JO",
+        "IL",
+        "MG",
+        "TL",
+        "EH",
+        "NA",
+        "GG",
+        "ER",
+        "BR",
+        "FM",
+        "GI",
+        "GS",
+        "KY",
+        "DK",
+        "UY",
+        "HT",
+        "KP",
+        "EE",
+        "MN",
+        "CK",
+        "SS",
+        "MC",
+        "YE",
+        "CA",
+        "LS",
+        "GU",
+        "NP",
+        "SG",
+        "CO",
+        "CY",
+        "NF",
+        "IR",
+        "NL",
+        "SE",
+        "TN",
+        "FK",
+        "BL",
+        "LY",
+        "TW",
+        "AW",
+        "SC",
+        "CR",
+        "TC",
+        "KZ",
+        "PY",
+        "CN",
+        "SB",
+        "AM",
+        "LA",
+        "SI",
+        "SR",
+        "PR",
+        "SH",
+        "CC",
+        "FO",
+        "GQ",
+        "SJ",
+        "ML",
+        "DE",
+        "RO",
+        "VE",
+        "DZ",
+        "AE",
+        "PF",
+        "HU",
+        "BI",
+        "BN",
+        "CF",
+        "CZ",
+        "ID",
+        "BE",
+        "MV",
+        "AX",
+        "AG",
+        "MR",
+        "HM",
+        "VI",
+        "KW",
+        "VU",
+        "GA",
+        "PS",
+        "DJ",
+        "TF",
+        "KG",
+        "TZ",
+        "HR",
+        "MW",
+        "AS",
+        "PT",
+        "YT",
+        "CG",
+        "IE",
+        "AD",
+        "BB",
+        "BA",
+        "MA",
+        "BS",
+        "NO",
+        "BJ",
+        "SD",
+        "MO",
+        "SM",
+        "TV",
+        "VG",
+        "BH",
+        "KM",
+        "BG",
+        "NC"
+      ],
+      "linkAlternates": [
+        {
+          "hrefUrl": "https://m.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw"
+        },
+        {
+          "hrefUrl": "android-app://com.google.android.youtube/http/youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw"
+        },
+        {
+          "hrefUrl": "ios-app://544007664/http/youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw"
+        }
+      ],
+      "channelProfileMicroformatDetails": {
+        "profilePage": {
+          "context": "https://schema.org",
+          "type": "ProfilePage",
+          "url": "https://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+          "name": "Neon Rush - YouTube",
+          "description": "Welcome to Neon Rush! \u26a1\nYour destination for the best GTA 6 gameplay, epic moments, funny clips, and gaming Shorts. Subscribe for daily content!\n#GTA6 #Gaming #Shorts #NeonRush #RockstarGames",
+          "mainEntity": {
+            "type": "Person",
+            "name": "Neon Rush",
+            "url": "https://www.youtube.com/channel/UCjBthdXo1val4GcPKDdnUIw",
+            "alternateName": "@NeonRush-f3s",
+            "image": "https://yt3.googleusercontent.com/HYYw6uYspgcPFbqVa1h73WmbS-h0r1mTl9xTInSOAaqzIOKzomOuOO7sM1Eh38R0137Z2s6nKA=s88-c-k-c0x00ffffff-no-rj",
+            "description": "Welcome to Neon Rush! \u26a1\nYour destination for the best GTA 6 gameplay, epic moments, funny clips, and gaming Shorts. Subscribe for daily content!\n#GTA6 #Gaming #Shorts #NeonRush #RockstarGames",
+            "interactionStatistic": [
+              {
+                "type": "InteractionCounter",
+                "interactionType": {
+                  "type": "FollowAction"
+                },
+                "userInteractionCount": "4"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

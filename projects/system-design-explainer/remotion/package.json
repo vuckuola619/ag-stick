@@ -1,0 +1,17 @@
+{
+  "name": "system-design-explainer",
+  "version": "1.0.0",
+  "description": "ByteByteGo & System Design Primer Vector Explainer Engine",
+  "scripts": {
+    "preview": "remotion preview src/index.ts",
+    "render": "remotion render src/index.ts SystemDesignMaster ../export/scaling_10m_master.mp4",
+    "still": "remotion still src/index.ts SystemDesignMaster ../export/preview_act1.png --frame=150"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  }
+}

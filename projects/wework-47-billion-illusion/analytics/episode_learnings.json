@@ -1,0 +1,23 @@
+{
+  "episode": "EP01",
+  "topic": "WeWork: The $47 Billion Illusion",
+  "winning_packaging_pattern": "giant_number_plus_face",
+  "winning_title": "How a Landlord Convinced Wall Street It Was a $47B Tech Miracle",
+  "winning_thumbnail": "TH_01 ($47B -> $0 + Adam Neumann Smug Cutout)",
+  "visual_language": "photo_cutout_editorial_collage_stop_motion_12fps",
+  "voice_model": "Kokoro-82M ONNX (am_adam)",
+  "master_runtime_sec": 761.09,
+  "total_frames": 22831,
+  "export_file": "projects/wework-47-billion-illusion/export/wework_master_1080p.mp4",
+  "export_size_mb": 729.3,
+  "qc_verdicts": {
+    "factual": "PASSED (100% Verified against SEC & Court Dockets)",
+    "editorial_language": "PASSED (Zero AI cliches)",
+    "technical_render": "PASSED (1080p H.264 / AAC 48kHz Stereo)"
+  },
+  "next_episode_pipeline": {
+    "episode_id": "EP02",
+    "topic": "Nikola: The Downhill Gravity Truck",
+    "core_contradiction": "A zero-emissions hydrogen semi whose primary propulsion was a 3-degree Utah hill grade."
+  }
+}

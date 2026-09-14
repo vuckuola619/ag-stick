@@ -1,0 +1,129 @@
+{
+  "project_id": "EP01_WEWORK",
+  "topic": "The WeWork $47B Implosion and Corporate Governance Failure",
+  "assembled_at": "2026-09-10T11:35:00Z",
+  "verification_standard": "YTF Master Production System v2.0 - Section 6",
+  "sources": [
+    {
+      "source_id": "SRC_SEC_001",
+      "tier": "Tier A",
+      "institution": "U.S. Securities and Exchange Commission (SEC)",
+      "document_type": "Form S-1 Registration Statement",
+      "entity": "The We Company",
+      "cik": "0001533523",
+      "filing_date": "2019-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533523/000119312519220586/d781982ds1.htm",
+      "key_evidence": [
+        "Dedication: 'We dedicate this to the energy of we - greater than any one of us but inside each of us.'",
+        "Financials 2016-2018: 2016 revenue $436M, net loss $429.7M; 2017 revenue $886M, net loss $890M; 2018 revenue $1.82B, net loss $1.93B.",
+        "Six months ended June 30, 2019: Revenue $1.54B, Net loss attributable to WeWork $904.7M.",
+        "Future undiscounted lease commitments: $47.2 billion owed to landlords, against committed member backlog of roughly $4.0 billion.",
+        "Community Adjusted EBITDA: Custom non-GAAP metric that eliminated building-level operating expenses (including lease/rent costs), depreciation, amortization, and stock-based compensation.",
+        "Voting Control: Class B and Class C common stock carried 20 votes per share, giving Adam Neumann total majority voting control.",
+        "Successor Committee: Disclosed that Rebekah Neumann (along with Bruce Dunlevie and Steven Langman) would pick successor CEO if Adam died or became permanently disabled within 10 years, bypassing board majority vote."
+      ]
+    },
+    {
+      "source_id": "SRC_SEC_002",
+      "tier": "Tier A",
+      "institution": "U.S. Securities and Exchange Commission (SEC)",
+      "document_type": "Form S-1/A (Amendment No. 1 to Registration Statement)",
+      "entity": "The We Company",
+      "filing_date": "2019-09-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1533523/000119312519244673/d781982ds1a.htm",
+      "key_evidence": [
+        "Amendment following market backlash: Reduced Adam Neumann's high-vote shares from 20 votes per share to 10 votes per share.",
+        "Removed Rebekah Neumann from the CEO succession selection committee.",
+        "Disclosed that the $5.9M paid to WE Holdings LLC for the 'We' trademark had been returned/unwound, with the trademark assigned back to the company for zero consideration."
+      ]
+    },
+    {
+      "source_id": "SRC_COURT_001",
+      "tier": "Tier A",
+      "institution": "Delaware Court of Chancery",
+      "document_type": "Verified Complaint & Settlement Agreement",
+      "docket": "Civil Action No. 2020-0258-AGB (Consolidated)",
+      "case_name": "In re WeWork Litigation / Adam Neumann v. SoftBank Group Corp.",
+      "filing_date": "2020-04-20 (Complaint) / 2021-02-25 (Settlement)",
+      "key_evidence": [
+        "Disclosed terms of SoftBank's abandoned $3 billion tender offer (October 2019 Master Transaction Agreement).",
+        "Terms of the February 2021 settlement: SoftBank agreed to pay $1.6 billion total tender; Adam Neumann cashed out roughly $480 million in stock, received a $50 million legal fee allowance, a $50 million non-compete payout, and a five-year extension on a $430 million SoftBank loan."
+      ]
+    },
+    {
+      "source_id": "SRC_BANKRUPT_001",
+      "tier": "Tier A",
+      "institution": "U.S. Bankruptcy Court for the District of New Jersey",
+      "document_type": "Voluntary Petition for Non-Individuals Filing for Bankruptcy (Chapter 11)",
+      "case_number": "Case No. 23-19865",
+      "filing_date": "2023-11-06",
+      "key_evidence": [
+        "Listed estimated liabilities between $10 billion and $50 billion against estimated assets between $10 billion and $50 billion.",
+        "Disclosed ongoing annual rent burden of approximately $2.7 billion (nearly 80% of total revenue).",
+        "Pre-petition common equity wiped out; emergence plan approved in May 2024 eliminating $4 billion in debt and transferring ownership to senior lenders (Cupcake Acquisition LLC / Yardi Systems and creditors)."
+      ]
+    },
+    {
+      "source_id": "SRC_WSJ_001",
+      "tier": "Tier B",
+      "institution": "The Wall Street Journal",
+      "headline": "‘This Is Not the Way Everybody Behaves’: How Adam Neumann’s Over-the-Top Style Built WeWork",
+      "authors": ["Eliot Brown", "Maureen Farrell"],
+      "publication_date": "2019-09-18",
+      "key_evidence": [
+        "Documented corporate culture: Tequila Don Julio 1942 toasts, mandatory summer camp festivals, barefoot office strolls.",
+        "Purchase of a Gulfstream G650 for $60 million by WeWork for executive and family travel.",
+        "Details on Adam Neumann selling and borrowing against WeWork stock to the tune of more than $700 million prior to the IPO."
+      ]
+    },
+    {
+      "source_id": "SRC_BLOOMBERG_001",
+      "tier": "Tier B",
+      "institution": "Bloomberg News",
+      "headline": "SoftBank Reaches $9.5 Billion Deal to Take Over WeWork",
+      "authors": ["Gillian Tan", "Michelle F. Davis"],
+      "publication_date": "2019-10-22",
+      "key_evidence": [
+        "SoftBank agreed to provide $5 billion in new debt, accelerate a $1.5 billion warrant commitment, and tender for up to $3 billion in shares.",
+        "WeWork was projected to run out of cash by mid-November 2019 without emergency funding.",
+        "Valuation cratered from $47 billion in January 2019 to less than $8 billion in the rescue recapitalization."
+      ]
+    },
+    {
+      "source_id": "SRC_FORBES_001",
+      "tier": "Tier B",
+      "institution": "Forbes",
+      "headline": "Inside The SoftBank-WeWork Deal: How Masayoshi Son's Crazy Bet Crushed SoftBank",
+      "authors": ["Alex Konrad"],
+      "publication_date": "2019-10-23",
+      "key_evidence": [
+        "Documented the December 2016 12-minute tour in New York City with Masayoshi Son.",
+        "Verified quote: 'In a fight, who wins—the smart guy or the crazy guy? ... Crazy guy. ... You are not crazy enough.'",
+        "Son instructed Neumann to make WeWork ten times bigger than originally planned."
+      ]
+    },
+    {
+      "source_id": "SRC_BI_001",
+      "tier": "Tier B",
+      "institution": "Business Insider",
+      "headline": "WeWork had a $6 billion debt deal contingent on raising $3 billion in an IPO — and now that whole package is in jeopardy",
+      "authors": ["Troy Wolverton"],
+      "publication_date": "2019-09-17",
+      "key_evidence": [
+        "Details of the JPMorgan Chase and Goldman Sachs credit facility: $6B in total loans and letters of credit, expressly conditioned on WeWork raising at least $3 billion in its equity IPO.",
+        "When the IPO was pulled, the $6 billion line vanished instantly, triggering the acute cash crisis."
+      ]
+    },
+    {
+      "source_id": "SRC_GALLOWAY_001",
+      "tier": "Tier C",
+      "institution": "No Mercy / No Malice (Prof. Scott Galloway)",
+      "headline": "WeWTF",
+      "publication_date": "2019-08-23",
+      "key_evidence": [
+        "Calculated that WeWork was incinerating $219,000 every hour of every day for an entire year ($5.2M per day).",
+        "Compared valuation multiples: IWG (Regus) had 3,300 locations, 400,000 members, $3.4B revenue, and was profitable with a $4B market cap; WeWork had 425 locations, 527,000 members, $1.8B revenue, lost $1.9B, yet was seeking a $47B valuation."
+      ]
+    }
+  ]
+}

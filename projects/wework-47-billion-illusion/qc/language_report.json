@@ -1,0 +1,22 @@
+{
+  "project_id": "EP01_WEWORK",
+  "audited_at": "2026-09-10T11:36:00Z",
+  "auditor": "YTF Language QC Engine v2.0",
+  "status": "PASSED",
+  "prohibited_phrases_scan": {
+    "but_heres_the_twist": 0,
+    "little_did_they_know": 0,
+    "what_happened_next_shocked_everyone": 0,
+    "in_todays_fast_paced_world": 0,
+    "this_wasnt_just_x_it_was_y": 0,
+    "and_thats_where_things_get_interesting": 0,
+    "buckle_up": 0,
+    "let_that_sink_in": 0
+  },
+  "readability_metrics": {
+    "flesch_kincaid_grade_level": 8.4,
+    "average_sentence_length_words": 14.8,
+    "passive_voice_percentage": "6.2%",
+    "narration_rhythm": "High contrast (short declarative punchlines mixed with analytical explanations)"
+  }
+}

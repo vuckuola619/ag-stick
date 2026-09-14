@@ -1,0 +1,203 @@
+{
+  "project_id": "EP01_WEWORK",
+  "target_runtime_sec": 1020,
+  "acts": [
+    {
+      "act_id": "ACT_00",
+      "name": "COLD_OPEN",
+      "timestamp_range": "00:00 - 00:40",
+      "duration_sec": 40,
+      "hook_objective": "Drop viewer into September 2019: a $47 billion company that can't pay its rent in 30 days.",
+      "retention_beats": [
+        {
+          "time_sec": 12,
+          "beat_type": "CONTRADICTION",
+          "event": "Display $47,000,000,000 valuation alongside internal bank statement showing company running out of cash by November."
+        },
+        {
+          "time_sec": 32,
+          "beat_type": "NUMBER_REVEAL",
+          "event": "WeWork was losing $219,000 every single hour, 24 hours a day, 365 days a year."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_00_PROMISE",
+      "name": "THE_PROMISE",
+      "timestamp_range": "00:40 - 01:15",
+      "duration_sec": 35,
+      "hook_objective": "Frame the central mystery: why did the smartest money in finance believe an office sublease landlord was Google?",
+      "retention_beats": [
+        {
+          "time_sec": 55,
+          "beat_type": "QUESTION",
+          "event": "How did a barefoot entrepreneur selling partitioned drywall convince Wall Street he had discovered a new state of human consciousness?"
+        },
+        {
+          "time_sec": 70,
+          "beat_type": "VISUAL_RESET",
+          "event": "Paper tear transition from glossy tech keynote to dusty landlord rent ledger."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_01",
+      "name": "THE_DREAM",
+      "timestamp_range": "01:15 - 04:15",
+      "duration_sec": 180,
+      "hook_objective": "Establish Adam Neumann's hypnotic charisma, post-2008 freelance boom, and the founding of WeWork.",
+      "retention_beats": [
+        {
+          "time_sec": 110,
+          "beat_type": "CHARACTER_INTRO",
+          "event": "Adam Neumann puppet in SoHo: from baby knee pads (Krawlers) to GreenDesk."
+        },
+        {
+          "time_sec": 150,
+          "beat_type": "CULTURE_REVEAL",
+          "event": "Free beer on tap, neon quotes ('Hustle Harder'), fruit water, and communal desks."
+        },
+        {
+          "time_sec": 200,
+          "beat_type": "TECH_DISGUISE",
+          "event": "Pitching real estate as a 'physical social network' to capture tech valuation multiples (20x revenue instead of 1x EBITDA)."
+        },
+        {
+          "time_sec": 240,
+          "beat_type": "REVELATION",
+          "event": "The arrival of Benchmark Capital and early venture capital validations."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_02",
+      "name": "THE_MACHINE",
+      "timestamp_range": "04:15 - 08:00",
+      "duration_sec": 225,
+      "hook_objective": "Explain the mechanics: The 12-minute meeting with Masayoshi Son, SoftBank's billions, and the asset-liability death trap.",
+      "retention_beats": [
+        {
+          "time_sec": 280,
+          "beat_type": "ANECDOTE",
+          "event": "Masa Son's 12-minute tour: 'Who wins, the smart guy or the crazy guy? You are not crazy enough.'"
+        },
+        {
+          "time_sec": 330,
+          "beat_type": "CHART_REVEAL",
+          "event": "The $4.4B SoftBank firehose: WeWork opening a new floor every single day worldwide."
+        },
+        {
+          "time_sec": 385,
+          "beat_type": "FINANCIAL_EXPLANATION",
+          "event": "Visual analogy: Asset-Liability Mismatch. Signing 15-year fixed leases while renting out month-to-month hot desks."
+        },
+        {
+          "time_sec": 440,
+          "beat_type": "DOCUMENT_REVEAL",
+          "event": "The invention of 'Community Adjusted EBITDA'—stripping out the rent from a business that only pays rent."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_03",
+      "name": "THE_CRACK",
+      "timestamp_range": "08:00 - 11:30",
+      "duration_sec": 210,
+      "hook_objective": "August 14, 2019: The Form S-1 is filed. The curtain falls. The absurd self-dealing receipts.",
+      "retention_beats": [
+        {
+          "time_sec": 510,
+          "beat_type": "DOCUMENT_REVEAL",
+          "event": "The S-1 dedication page: 'To the energy of we'. Analysts open the document and burst out laughing."
+        },
+        {
+          "time_sec": 560,
+          "beat_type": "FORENSIC_RECEIPT",
+          "event": "The $5.9 million 'We' trademark payment: Adam sells a two-letter word to his own company."
+        },
+        {
+          "time_sec": 615,
+          "beat_type": "CONFLICT",
+          "event": "Landlord kickbacks: Adam personally buys buildings and leases them back to WeWork."
+        },
+        {
+          "time_sec": 665,
+          "beat_type": "ABSURDITY",
+          "event": "The $60M Gulfstream G650 jet, wave pool investments (Wavegarden), and Rebekah's succession veto."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_04",
+      "name": "THE_COLLISION",
+      "timestamp_range": "11:30 - 14:30",
+      "duration_sec": 180,
+      "hook_objective": "The 33-day death spiral: Valuation plummets from $47B to $10B, debt vanishes, board mutiny.",
+      "retention_beats": [
+        {
+          "time_sec": 715,
+          "beat_type": "VELOCITY_ACCELERATION",
+          "event": "Scott Galloway's 'WeWTF' analysis goes viral. Wall Street institutional buyers flee the roadshow."
+        },
+        {
+          "time_sec": 765,
+          "beat_type": "MECHANISM_FAIL",
+          "event": "The $6 billion JPMorgan trap: If the IPO fails to raise $3B, the credit line evaporates to $0."
+        },
+        {
+          "time_sec": 815,
+          "beat_type": "CLOCK_TICKING",
+          "event": "September 17: IPO postponed. Cash calculation shows bankruptcy in 30 days."
+        },
+        {
+          "time_sec": 855,
+          "beat_type": "CLIMAX",
+          "event": "September 24: Board votes Adam out. Masa Son pulls the plug."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_05",
+      "name": "THE_AFTERMATH",
+      "timestamp_range": "14:30 - 16:30",
+      "duration_sec": 120,
+      "hook_objective": "The rescue, the litigation, the pandemic, and the final Chapter 11 bankruptcy.",
+      "retention_beats": [
+        {
+          "time_sec": 895,
+          "beat_type": "IRONIC_REVERSAL",
+          "event": "SoftBank bails out WeWork at an $8B valuation, and Neumann walks away with hundreds of millions."
+        },
+        {
+          "time_sec": 940,
+          "beat_type": "LITIGATION_SETTLEMENT",
+          "event": "Delaware Chancery Court battle: Neumann walks with $480M cash out in 2021 settlement."
+        },
+        {
+          "time_sec": 975,
+          "beat_type": "BANKRUPTCY_EVENT",
+          "event": "November 2023: Chapter 11 filing in New Jersey. Original shareholders completely wiped out."
+        }
+      ]
+    },
+    {
+      "act_id": "ACT_06_PAYOFF",
+      "name": "THE_PAYOFF",
+      "timestamp_range": "16:30 - 17:00",
+      "duration_sec": 30,
+      "hook_objective": "Deliver the definitive, unforgettable insight on venture capital madness and bridge to the next episode.",
+      "retention_beats": [
+        {
+          "time_sec": 1005,
+          "beat_type": "CORE_INSIGHT",
+          "event": "A desk is not a software algorithm. You cannot scale a concrete building at zero marginal cost."
+        },
+        {
+          "time_sec": 1018,
+          "beat_type": "END_SCREEN_BRIDGE",
+          "event": "WeWork wasn't alone in turning physical commodities into tech mirages. Next: The electric truck powered by gravity."
+        }
+      ]
+    }
+  ]
+}

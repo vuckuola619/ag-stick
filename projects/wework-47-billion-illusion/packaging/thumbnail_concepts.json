@@ -1,0 +1,71 @@
+{
+  "project_id": "EP01_WEWORK",
+  "concepts": [
+    {
+      "thumbnail_id": "TH_01",
+      "hypothesis_type": "A_HUMAN_DRAMA",
+      "name": "The Smug Prophet & The Disappearing Billions",
+      "story_question": "How did this charismatic man convince the world's richest investors to give him billions?",
+      "primary_subject": "Cutout photo of Adam Neumann with long messy hair, smiling barefoot in a navy suit",
+      "secondary_object": "SoftBank CEO Masayoshi Son puppet looking stunned through thick glasses holding a burnt check",
+      "text": "$47B → $0",
+      "emotion": "Smug audacity vs utter disbelief",
+      "composition": "Neumann cut-out large on right side (35% frame width), giant distressed textured stamp '$47B → $0' in bold yellow/white on dark navy corkboard left, subtle red string linking to SoftBank logo",
+      "complexity": 2,
+      "mobile_readability_score": 9.5
+    },
+    {
+      "thumbnail_id": "TH_02",
+      "hypothesis_type": "B_IMPOSSIBLE_NUMBER",
+      "name": "The 33-Day Death Spiral",
+      "story_question": "How does a company lose 90% of its value in one month?",
+      "primary_subject": "Giant bold typography: '$47 BILLION' with a massive red line crashing off the bottom of the canvas",
+      "secondary_object": "Real SEC S-1 filing page with yellow highlighted text: 'NET LOSS: -$1,900,000,000'",
+      "text": "33 DAYS",
+      "emotion": "Shock and financial vertigo",
+      "composition": "Giant torn document center, massive red arrow slashing down, Adam Neumann puppet head peeking from behind the torn paper looking stressed, '33 DAYS' stamped in red courier stamp",
+      "complexity": 2,
+      "mobile_readability_score": 9.2
+    },
+    {
+      "thumbnail_id": "TH_03",
+      "hypothesis_type": "C_MECHANISM",
+      "name": "The Fake Metric Receipt",
+      "story_question": "What was the trick hidden inside their accounting?",
+      "primary_subject": "Forensic paper document with torn edges titled 'COMMUNITY ADJUSTED EBITDA'",
+      "secondary_object": "Yellow marker line crossing out '-$1.9 BILLION' and handwritten red pen note: '+ PROFITABLE*'",
+      "text": "THE TRICK",
+      "emotion": "Investigative curiosity / exposure",
+      "composition": "Close-up angled document top-down with paper clips and pushpins, high-contrast yellow highlighter on the fake metric, Adam Neumann miniature puppet running away with bags of cash in bottom corner",
+      "complexity": 3,
+      "mobile_readability_score": 8.8
+    },
+    {
+      "thumbnail_id": "TH_04",
+      "hypothesis_type": "A_VARIATION_CONSEQUENCE",
+      "name": "The $700M Golden Parachute",
+      "story_question": "The company collapsed, but how did the founder get richer?",
+      "primary_subject": "Adam Neumann cutout leaning back relaxed sipping Don Julio 1942 tequila",
+      "secondary_object": "Gulfstream private jet blueprint and burning office chair",
+      "text": "HE TOOK $700M",
+      "emotion": "Indignation / dark comedy",
+      "composition": "Neumann center-right, glowing bold text top left on dark charcoal paper texture, paper money confetti falling with posterized stop-motion edges",
+      "complexity": 2,
+      "mobile_readability_score": 9.4
+    },
+    {
+      "thumbnail_id": "TH_05",
+      "hypothesis_type": "B_VARIATION_CONTRADICTION",
+      "name": "Renting Desks at Tech Multiples",
+      "story_question": "Why was a real estate company priced like Apple and Google?",
+      "primary_subject": "A simple cheap office desk with a coffee mug and sticky note",
+      "secondary_object": "Giant glowing price tag pinned to desk: '$47,000,000,000'",
+      "text": "JUST RENT?",
+      "emotion": "Pure absurdity",
+      "composition": "Desk illuminated under single vintage examination lamp in center, massive bold red question text 'JUST RENT?' above it, photocopier halftone texture",
+      "complexity": 1,
+      "mobile_readability_score": 9.6
+    }
+  ],
+  "recommended_winner": "TH_01"
+}

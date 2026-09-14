@@ -1,0 +1,292 @@
+{
+  "project_id": "EP01_WEWORK",
+  "voice_model": "Kokoro-82M ONNX",
+  "voice_name": "am_adam",
+  "total_scenes": 28,
+  "total_duration_sec": 757.56,
+  "sample_rate": 24000,
+  "qc_status": "PASSED",
+  "clipping_detected": false,
+  "scene_audio": [
+    {
+      "scene_id": "S001",
+      "file": "audio/voice/S001.wav",
+      "duration_sec": 8.491,
+      "words": 22,
+      "sample_rate": 24000,
+      "rms_db": -18.66,
+      "peak_db": -1.18,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S002",
+      "file": "audio/voice/S002.wav",
+      "duration_sec": 6.784,
+      "words": 23,
+      "sample_rate": 24000,
+      "rms_db": -18.63,
+      "peak_db": -1.26,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S003",
+      "file": "audio/voice/S003.wav",
+      "duration_sec": 12.139,
+      "words": 31,
+      "sample_rate": 24000,
+      "rms_db": -18.88,
+      "peak_db": -1.51,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S004",
+      "file": "audio/voice/S004.wav",
+      "duration_sec": 19.115,
+      "words": 58,
+      "sample_rate": 24000,
+      "rms_db": -18.94,
+      "peak_db": -1.08,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S005",
+      "file": "audio/voice/S005.wav",
+      "duration_sec": 12.843,
+      "words": 32,
+      "sample_rate": 24000,
+      "rms_db": -18.6,
+      "peak_db": -1.84,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S006",
+      "file": "audio/voice/S006.wav",
+      "duration_sec": 19.584,
+      "words": 52,
+      "sample_rate": 24000,
+      "rms_db": -18.69,
+      "peak_db": -1.52,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S007",
+      "file": "audio/voice/S007.wav",
+      "duration_sec": 12.565,
+      "words": 33,
+      "sample_rate": 24000,
+      "rms_db": -18.76,
+      "peak_db": -1.77,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S008",
+      "file": "audio/voice/S008.wav",
+      "duration_sec": 36.523,
+      "words": 93,
+      "sample_rate": 24000,
+      "rms_db": -18.9,
+      "peak_db": -0.88,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S009",
+      "file": "audio/voice/S009.wav",
+      "duration_sec": 31.723,
+      "words": 83,
+      "sample_rate": 24000,
+      "rms_db": -18.73,
+      "peak_db": -0.91,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S010",
+      "file": "audio/voice/S010.wav",
+      "duration_sec": 26.325,
+      "words": 69,
+      "sample_rate": 24000,
+      "rms_db": -18.8,
+      "peak_db": -1.11,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S011",
+      "file": "audio/voice/S011.wav",
+      "duration_sec": 33.707,
+      "words": 94,
+      "sample_rate": 24000,
+      "rms_db": -18.65,
+      "peak_db": -1.27,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S012",
+      "file": "audio/voice/S012.wav",
+      "duration_sec": 40.064,
+      "words": 115,
+      "sample_rate": 24000,
+      "rms_db": -18.76,
+      "peak_db": -1.14,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S013",
+      "file": "audio/voice/S013.wav",
+      "duration_sec": 33.515,
+      "words": 81,
+      "sample_rate": 24000,
+      "rms_db": -18.74,
+      "peak_db": -1.1,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S014",
+      "file": "audio/voice/S014.wav",
+      "duration_sec": 28.459,
+      "words": 73,
+      "sample_rate": 24000,
+      "rms_db": -18.9,
+      "peak_db": -0.88,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S015",
+      "file": "audio/voice/S015.wav",
+      "duration_sec": 36.8,
+      "words": 115,
+      "sample_rate": 24000,
+      "rms_db": -18.82,
+      "peak_db": -1.56,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S016",
+      "file": "audio/voice/S016.wav",
+      "duration_sec": 35.648,
+      "words": 101,
+      "sample_rate": 24000,
+      "rms_db": -18.82,
+      "peak_db": -1.19,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S017",
+      "file": "audio/voice/S017.wav",
+      "duration_sec": 47.424,
+      "words": 113,
+      "sample_rate": 24000,
+      "rms_db": -18.93,
+      "peak_db": -1.13,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S018",
+      "file": "audio/voice/S018.wav",
+      "duration_sec": 37.013,
+      "words": 107,
+      "sample_rate": 24000,
+      "rms_db": -18.71,
+      "peak_db": -1.05,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S019",
+      "file": "audio/voice/S019.wav",
+      "duration_sec": 27.264,
+      "words": 78,
+      "sample_rate": 24000,
+      "rms_db": -18.9,
+      "peak_db": -1.32,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S020",
+      "file": "audio/voice/S020.wav",
+      "duration_sec": 32.085,
+      "words": 87,
+      "sample_rate": 24000,
+      "rms_db": -18.81,
+      "peak_db": -1.68,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S021",
+      "file": "audio/voice/S021.wav",
+      "duration_sec": 31.061,
+      "words": 77,
+      "sample_rate": 24000,
+      "rms_db": -18.69,
+      "peak_db": -1.35,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S022",
+      "file": "audio/voice/S022.wav",
+      "duration_sec": 33.835,
+      "words": 92,
+      "sample_rate": 24000,
+      "rms_db": -18.62,
+      "peak_db": -1.14,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S023",
+      "file": "audio/voice/S023.wav",
+      "duration_sec": 26.923,
+      "words": 75,
+      "sample_rate": 24000,
+      "rms_db": -18.77,
+      "peak_db": -1.22,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S024",
+      "file": "audio/voice/S024.wav",
+      "duration_sec": 21.205,
+      "words": 50,
+      "sample_rate": 24000,
+      "rms_db": -18.81,
+      "peak_db": -2.05,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S025",
+      "file": "audio/voice/S025.wav",
+      "duration_sec": 26.987,
+      "words": 62,
+      "sample_rate": 24000,
+      "rms_db": -18.87,
+      "peak_db": -0.7,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S026",
+      "file": "audio/voice/S026.wav",
+      "duration_sec": 32.405,
+      "words": 80,
+      "sample_rate": 24000,
+      "rms_db": -18.78,
+      "peak_db": -1.17,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S027",
+      "file": "audio/voice/S027.wav",
+      "duration_sec": 26.347,
+      "words": 75,
+      "sample_rate": 24000,
+      "rms_db": -18.64,
+      "peak_db": -1.58,
+      "status": "OK"
+    },
+    {
+      "scene_id": "S028",
+      "file": "audio/voice/S028.wav",
+      "duration_sec": 13.547,
+      "words": 40,
+      "sample_rate": 24000,
+      "rms_db": -18.84,
+      "peak_db": -1.78,
+      "status": "OK"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "project_id": "EP01_WEWORK",
+  "generated_at": "2026-09-10T11:35:00Z",
+  "titles": [
+    {
+      "rank": 1,
+      "title": "How a Landlord Convinced Wall Street It Was a $47B Tech Miracle",
+      "frame": "Contradiction / Deception",
+      "character_count": 62,
+      "word_count": 11,
+      "hook_strength": "Very High",
+      "pairing_thumbnail": "TH_01"
+    },
+    {
+      "rank": 2,
+      "title": "The 33-Day Collapse of a $47 Billion Illusion",
+      "frame": "Collapse / Speed",
+      "character_count": 45,
+      "word_count": 8,
+      "hook_strength": "Very High",
+      "pairing_thumbnail": "TH_02"
+    },
+    {
+      "rank": 3,
+      "title": "The Fake Accounting Metric Behind a $47,000,000,000 Empire",
+      "frame": "Mechanism / Forensic Curiosity",
+      "character_count": 57,
+      "word_count": 8,
+      "hook_strength": "High",
+      "pairing_thumbnail": "TH_03"
+    },
+    {
+      "rank": 4,
+      "title": "How WeWork Turned $47 Billion Into a Bankruptcy Filing",
+      "frame": "Reversal / Irony",
+      "character_count": 54,
+      "word_count": 9,
+      "hook_strength": "High",
+      "pairing_thumbnail": "TH_02"
+    },
+    {
+      "rank": 5,
+      "title": "The Man Who Convinced SoftBank to Burn $10 Billion",
+      "frame": "Human Conflict / Antagonist",
+      "character_count": 49,
+      "word_count": 9,
+      "hook_strength": "High",
+      "pairing_thumbnail": "TH_01"
+    },
+    {
+      "rank": 6,
+      "title": "The Filing That Destroyed a $47 Billion Company in 30 Days",
+      "frame": "Document / Consequence",
+      "character_count": 58,
+      "word_count": 10,
+      "hook_strength": "High",
+      "pairing_thumbnail": "TH_03"
+    },
+    {
+      "rank": 7,
+      "title": "How Renting Desks Became a $47B Ponzi of Optimism",
+      "frame": "Provocative / Mechanism",
+      "character_count": 49,
+      "word_count": 9,
+      "hook_strength": "Medium-High",
+      "pairing_thumbnail": "TH_02"
+    },
+    {
+      "rank": 8,
+      "title": "Why Wall Street Let Adam Neumann Take $700,000,000",
+      "frame": "Audacity / Outrage",
+      "character_count": 49,
+      "word_count": 8,
+      "hook_strength": "Medium-High",
+      "pairing_thumbnail": "TH_01"
+    },
+    {
+      "rank": 9,
+      "title": "The Real Estate Sublease That Posed as Silicon Valley",
+      "frame": "Curiosity / Exposure",
+      "character_count": 53,
+      "word_count": 8,
+      "hook_strength": "Medium",
+      "pairing_thumbnail": "TH_04"
+    },
+    {
+      "rank": 10,
+      "title": "The $47,000,000,000 Mistake That Broke the Tech Boom",
+      "frame": "Macro Consequence",
+      "character_count": 52,
+      "word_count": 8,
+      "hook_strength": "Medium",
+      "pairing_thumbnail": "TH_05"
+    }
+  ],
+  "recommended_winner": "How a Landlord Convinced Wall Street It Was a $47B Tech Miracle"
+}

@@ -1,0 +1,127 @@
+{
+  "project_id": "EP01_WEWORK",
+  "verification_standard": "YTF Master Production System v2.0 - Section 6",
+  "audited_at": "2026-09-10T11:35:00Z",
+  "claims": [
+    {
+      "claim_id": "CLM_001",
+      "category": "Valuation",
+      "claim": "In January 2019, SoftBank invested in WeWork at an implied valuation of $47 billion.",
+      "source_ids": ["SRC_SEC_001", "SRC_FORBES_001", "SRC_BLOOMBERG_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_002",
+      "category": "Financials",
+      "claim": "In 2018, WeWork generated $1.82 billion in revenue and suffered a net loss of $1.93 billion ($1.61B operating loss), effectively losing over a dollar for every dollar earned.",
+      "source_ids": ["SRC_SEC_001", "SRC_GALLOWAY_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_003",
+      "category": "Financials",
+      "claim": "In the first six months of 2019, WeWork reported an operating loss of $1.37 billion and a net loss attributable to WeWork of $904.7 million on revenue of $1.54 billion.",
+      "source_ids": ["SRC_SEC_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_004",
+      "category": "Accounting",
+      "claim": "WeWork introduced an invented non-GAAP metric called 'Community Adjusted EBITDA' which stripped out normal operating expenses including building lease payments (rent).",
+      "source_ids": ["SRC_SEC_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_005",
+      "category": "Liabilities",
+      "claim": "As of June 30, 2019, WeWork had committed to $47.2 billion in future lease payments to commercial landlords, while its customer commitments totaled only approximately $4 billion.",
+      "source_ids": ["SRC_SEC_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_006",
+      "category": "Self-Dealing",
+      "claim": "In 2019, The We Company paid $5.9 million in stock to WE Holdings LLC (controlled by Adam Neumann and founders) to acquire the trademark for the word 'We'.",
+      "source_ids": ["SRC_SEC_001", "SRC_SEC_002"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_007",
+      "category": "Self-Dealing",
+      "claim": "Adam Neumann owned stakes in several commercial properties that were leased back to WeWork, earning him millions in rental income from his own company.",
+      "source_ids": ["SRC_SEC_001", "SRC_WSJ_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_008",
+      "category": "Governance",
+      "claim": "The initial S-1 gave Adam Neumann Class B and C shares with 20 votes per share, and named his wife Rebekah Neumann to a 3-person committee with sole power to name a successor CEO upon his death or disability.",
+      "source_ids": ["SRC_SEC_001", "SRC_SEC_002"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_009",
+      "category": "Corporate Culture",
+      "claim": "WeWork purchased a luxury Gulfstream G650 private jet for approximately $60 million in 2018 for corporate travel.",
+      "source_ids": ["SRC_WSJ_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_010",
+      "category": "Financing & Debt",
+      "claim": "WeWork arranged a $6 billion debt facility with JPMorgan and Goldman Sachs that was explicitly contingent on raising at least $3 billion in the equity IPO.",
+      "source_ids": ["SRC_BI_001", "SRC_BLOOMBERG_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_011",
+      "category": "Collapse",
+      "claim": "Following severe institutional investor backlash to the S-1, WeWork withdrew its IPO on September 17, 2019, and Adam Neumann resigned as CEO on September 24, 2019.",
+      "source_ids": ["SRC_SEC_002", "SRC_BLOOMBERG_001", "SRC_WSJ_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_012",
+      "category": "Rescue & Bailout",
+      "claim": "Facing a projected cash exhaustion date by November 2019, WeWork accepted a SoftBank takeover valuing the equity at roughly $8 billion, while Neumann secured a multi-hundred-million-dollar exit package.",
+      "source_ids": ["SRC_BLOOMBERG_001", "SRC_COURT_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_013",
+      "category": "Litigation",
+      "claim": "In February 2021, SoftBank settled litigation in the Delaware Court of Chancery with Neumann and WeWork, resulting in Neumann cashing out approximately $480 million in stock.",
+      "source_ids": ["SRC_COURT_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_014",
+      "category": "Bankruptcy",
+      "claim": "On November 6, 2023, WeWork filed for Chapter 11 bankruptcy in New Jersey with over $18 billion in debt, completely wiping out original shareholders before emerging in May 2024.",
+      "source_ids": ["SRC_BANKRUPT_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "CLM_015",
+      "category": "Masa Son Anecdote",
+      "claim": "In 2017, SoftBank founder Masayoshi Son took a 12-minute tour of WeWork and asked Adam Neumann whether the smart guy or crazy guy wins in a fight, telling him he was 'not crazy enough'.",
+      "source_ids": ["SRC_FORBES_001", "SRC_WSJ_001"],
+      "confidence": "HIGH",
+      "status": "VERIFIED"
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "project": {
+    "title": "How a Landlord Convinced Wall Street It Was a $47B Tech Miracle",
+    "working_title": "The WeWork $47 Billion Illusion",
+    "topic": "WeWork Rise and Fall / Corporate Governance / Blitzscaling",
+    "market": "US",
+    "language": "en-US",
+    "target_duration_sec": 1020,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "visual_style": "photo_cutout_editorial_collage"
+  },
+  "packaging": {
+    "promise": "This is the story of how an office subleasing company convinced Wall Street and the world's most aggressive tech investor it was an ethereal software platform, reached a $47 billion valuation, and then ran out of money in 33 days after being forced to file its real accounting paperwork with the SEC.",
+    "central_question": "How did sophisticated banks, sovereign wealth funds, and Silicon Valley's biggest checkbook mistake commercial office rent for a software revolution?",
+    "winning_title": "How a Landlord Convinced Wall Street It Was a $47B Tech Miracle",
+    "winning_thumbnail": "TH_01"
+  },
+  "acts": [
+    { "act_id": "ACT_00", "name": "COLD_OPEN", "range_sec": [0, 40] },
+    { "act_id": "ACT_00_PROMISE", "name": "THE_PROMISE", "range_sec": [40, 75] },
+    { "act_id": "ACT_01", "name": "THE_DREAM", "range_sec": [75, 255] },
+    { "act_id": "ACT_02", "name": "THE_MACHINE", "range_sec": [255, 480] },
+    { "act_id": "ACT_03", "name": "THE_CRACK", "range_sec": [480, 690] },
+    { "act_id": "ACT_04", "name": "THE_COLLISION", "range_sec": [690, 870] },
+    { "act_id": "ACT_05", "name": "THE_AFTERMATH", "range_sec": [870, 990] },
+    { "act_id": "ACT_06_PAYOFF", "name": "THE_PAYOFF", "range_sec": [990, 1020] }
+  ],
+  "scenes": [
+    {
+      "scene_id": "S001",
+      "act": "COLD_OPEN",
+      "beat_type": "REVELATION",
+      "time_range_sec": [0, 8],
+      "narration": "On January 8th, 2019, an office rental company in New York closed an investment round that valued it at forty-seven billion dollars.",
+      "claim_ids": ["CLM_001"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "controlled_tension",
+        "speed": 1.0,
+        "pause_after_ms": 200
+      },
+      "visual": {
+        "layout": "corkboard_push",
+        "background_asset": "BG_CORKBOARD_DARK",
+        "character_assets": [],
+        "prop_assets": ["PROP_VALUATION_CERT_47B"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "$47,000,000,000",
+        "camera": "slow_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.45, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_CLOCK_TICK"],
+      "bgm": { "track": "BGM_SUSPENSE_PULSE", "intensity": 0.25 }
+    },
+    {
+      "scene_id": "S002",
+      "act": "COLD_OPEN",
+      "beat_type": "COMPARISON",
+      "time_range_sec": [8, 16],
+      "narration": "To put that number into perspective, that made it worth more than FedEx. It made it worth more than Ford, Marriott, and eBay.",
+      "claim_ids": ["CLM_001"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "dry_irony",
+        "speed": 1.02,
+        "pause_after_ms": 220
+      },
+      "visual": {
+        "layout": "split_pedestal",
+        "background_asset": "BG_TEXTURED_PAPER_GRAY",
+        "character_assets": [],
+        "prop_assets": ["PROP_LOGO_FEDEX", "PROP_LOGO_FORD", "PROP_LOGO_MARRIOTT"],
+        "document_assets": [],
+        "chart": "CHART_VALUATION_COMPARISON",
+        "overlay_text": "WORTH MORE THAN FEDEX & FORD",
+        "camera": "static",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_PAPER_SLIDE", "SFX_STAMP"],
+      "bgm": { "track": "BGM_SUSPENSE_PULSE", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S003",
+      "act": "COLD_OPEN",
+      "beat_type": "TENSION",
+      "time_range_sec": [16, 26],
+      "narration": "Thirty-three days later, the company’s bankers realized something quietly terrifying. If they didn't raise three billion dollars in emergency cash immediately, the entire business was going to hit zero by November.",
+      "claim_ids": ["CLM_010", "CLM_012"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "intense_whisper",
+        "speed": 1.0,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "corkboard_push",
+        "background_asset": "BG_CORKBOARD_DARK",
+        "character_assets": ["CHAR_BANKER_PANIC"],
+        "prop_assets": ["PROP_COUNTDOWN_CLOCK_33"],
+        "document_assets": ["DOC_BANK_DEFICIT_MEMO"],
+        "chart": null,
+        "overlay_text": "33 DAYS TO ZERO",
+        "camera": "fast_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.65, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_HEAVY_STAMP_RED", "SFX_ALARM_SUBTLE"],
+      "bgm": { "track": "BGM_SUSPENSE_PULSE", "intensity": 0.35 }
+    },
+    {
+      "scene_id": "S004",
+      "act": "COLD_OPEN",
+      "beat_type": "NUMBER_REVEAL",
+      "time_range_sec": [26, 40],
+      "narration": "Not because the stock market crashed. Not because a competitor invented a better desk. Because in 2018 alone, WeWork was losing two hundred and nineteen thousand dollars every single hour. Every hour of the day. Every day of the year. And the only thing keeping the lights on was the fact that nobody had actually read their paperwork.",
+      "claim_ids": ["CLM_002"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "punchline",
+        "speed": 1.04,
+        "pause_after_ms": 400
+      },
+      "visual": {
+        "layout": "character_hero_desk",
+        "background_asset": "BG_DARK_OFFICE_COLLAGE",
+        "character_assets": ["CHAR_ADAM_BAREFOOT_TEQUILA"],
+        "prop_assets": ["PROP_BURNING_MONEY_PILE"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "$219,000 / HOUR",
+        "camera": "slow_pull_back",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.7, "puppet_wiggle": true, "posterize_fps": 10 },
+      "sfx": ["SFX_PAPER_TEAR", "SFX_CASH_BURN"],
+      "bgm": { "track": "BGM_SUSPENSE_BEAT_DROP", "intensity": 0.4 }
+    },
+    {
+      "scene_id": "S005",
+      "act": "THE_PROMISE",
+      "beat_type": "DOCUMENT_REVEAL",
+      "time_range_sec": [40, 54],
+      "narration": "Until August 14th, 2019. That was the morning WeWork filed its official prospectus with the Securities and Exchange Commission. It was supposed to be the triumphant coronation of Silicon Valley's newest titan.",
+      "claim_ids": ["CLM_001"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "curiosity",
+        "speed": 1.0,
+        "pause_after_ms": 200
+      },
+      "visual": {
+        "layout": "evidence_table_topdown",
+        "background_asset": "BG_TEXTURED_DESK_WOOD",
+        "character_assets": [],
+        "prop_assets": ["PROP_LEGAL_FILE_FOLDER"],
+        "document_assets": ["DOC_SEC_S1_COVER"],
+        "chart": null,
+        "overlay_text": "AUGUST 14, 2019 // SEC FORM S-1",
+        "camera": "topdown_zoom",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.4, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_HEAVY_FILE_DROP"],
+      "bgm": { "track": "BGM_INVESTIGATION_GROOVE", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S006",
+      "act": "THE_PROMISE",
+      "beat_type": "COLLAPSE_PREVIEW",
+      "time_range_sec": [54, 65],
+      "narration": "Instead, it triggered the most spectacular corporate collapse since Enron. Within six weeks, the valuation had dropped by forty billion dollars. The CEO was forced out. The IPO was canceled. And the world's most aggressive venture capital fund was left holding a multi-billion-dollar disaster that they had paid top dollar to create.",
+      "claim_ids": ["CLM_001", "CLM_011"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "controlled_shock",
+        "speed": 1.03,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "timeline_strip",
+        "background_asset": "BG_NEWSPAPER_COLLAGE",
+        "character_assets": ["CHAR_MASA_SON_STUNNED"],
+        "prop_assets": ["PROP_FALLING_VALUATION_SIGN"],
+        "document_assets": ["DOC_WSJ_HEADLINES_STACK"],
+        "chart": null,
+        "overlay_text": "$47B → $0",
+        "camera": "lateral_paper_pan",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.6, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_CAMERA_SHUTTER", "SFX_PAPER_RUSTLE"],
+      "bgm": { "track": "BGM_INVESTIGATION_GROOVE", "intensity": 0.35 }
+    },
+    {
+      "scene_id": "S007",
+      "act": "THE_PROMISE",
+      "beat_type": "CENTRAL_QUESTION",
+      "time_range_sec": [65, 75],
+      "narration": "The question isn't how WeWork failed. Real estate companies fail all the time. The question is how an entrepreneur convinced the smartest financiers on Earth that renting drywall was an immortal technology monopoly.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "philosophical_inquiry",
+        "speed": 0.98,
+        "pause_after_ms": 350
+      },
+      "visual": {
+        "layout": "corkboard_push",
+        "background_asset": "BG_CORKBOARD_DARK",
+        "character_assets": ["CHAR_ADAM_NEUMANN_PROPHET"],
+        "prop_assets": ["PROP_DRYWALL_SLAB", "PROP_RED_STRING_CLUSTER"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "DRYWALL VS. SOFTWARE",
+        "camera": "slow_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.35, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_CORKBOARD_PIN"],
+      "bgm": { "track": "BGM_INVESTIGATION_GROOVE", "intensity": 0.25 }
+    },
+    {
+      "scene_id": "S008",
+      "act": "THE_DREAM",
+      "beat_type": "ORIGIN_STORY",
+      "time_range_sec": [75, 105],
+      "narration": "To understand how forty-seven billion dollars vanishes, you have to meet Adam Neumann. Adam was six-foot-five, possessed shoulder-length rock-star hair, walked around Manhattan meetings completely barefoot, and had an uncanny ability to stare directly into your eyes and convince you that whatever he was selling was destined to change human civilization. His early business ventures, however, were not changing civilization. His first idea was baby clothing with built-in knee pads to make crawling more comfortable, marketed under the brand 'Krawlers.' It failed. His second idea was collapsible high-heeled women's shoes. That also failed.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "comedic_biography",
+        "speed": 1.02,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "character_spotlight",
+        "background_asset": "BG_VINTAGE_MANHATTAN_PAPER",
+        "character_assets": ["CHAR_ADAM_PUPPET_EARLY"],
+        "prop_assets": ["PROP_KRAWLERS_ROMPER", "PROP_COLLAPSIBLE_HEEL"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "EXHIBIT A: BABY KNEEPADS",
+        "camera": "documentary_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_BUZZER_FAIL", "SFX_PAPER_FLIP"],
+      "bgm": { "track": "BGM_UPBEAT_AMBITION", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S009",
+      "act": "THE_DREAM",
+      "beat_type": "MECHANISM_EXPLANATION",
+      "time_range_sec": [105, 140],
+      "narration": "Then, in 2008, right as the global financial crisis was crushing New York real estate, Adam and an architectural designer named Miguel McKelvey noticed something in Brooklyn. Landlords were sitting on empty warehouse space they couldn't fill. Meanwhile, thousands of newly laid-off bankers, designers, and programmers were trying to work from crowded apartments. Adam and Miguel took a single floor in Greenpoint, Brooklyn, threw up some inexpensive glass and plywood partitions, put down a couch, bought an espresso machine, and called it GreenDesk.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "informative_clarity",
+        "speed": 1.01,
+        "pause_after_ms": 220
+      },
+      "visual": {
+        "layout": "blueprint_table",
+        "background_asset": "BG_BLUEPRINT_PAPER",
+        "character_assets": ["CHAR_ADAM_YOUNG", "CHAR_MIGUEL_MCKELVEY"],
+        "prop_assets": ["PROP_GREENDESK_SIGN", "PROP_ESPRESSO_MACHINE"],
+        "document_assets": ["DOC_GREENDESK_LEASE"],
+        "chart": null,
+        "overlay_text": "GREENDESK // BROOKLYN 2008",
+        "camera": "lateral_paper_pan",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.45, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_ESPRESSO_HISS", "SFX_PENCIL_SKETCH"],
+      "bgm": { "track": "BGM_UPBEAT_AMBITION", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S010",
+      "act": "THE_DREAM",
+      "beat_type": "UNIT_ECONOMICS",
+      "time_range_sec": [140, 175],
+      "narration": "The business model was deceptively simple: lease empty office space from landlords wholesale at a cheap rate, cut it up into tiny glass boxes, and sublease individual desks retail to freelancers at a premium markup. It worked immediately. It was profitable, reliable, and straightforward. In fact, it was so straightforward that Adam and Miguel sold their share of GreenDesk for a few million dollars and founded WeWork in 2010.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "practical_explainer",
+        "speed": 1.0,
+        "pause_after_ms": 200
+      },
+      "visual": {
+        "layout": "diagram_floorplan",
+        "background_asset": "BG_TEXTURED_PAPER_GRAY",
+        "character_assets": [],
+        "prop_assets": ["PROP_SCISSORS_DOTTED_LINE"],
+        "document_assets": [],
+        "chart": "CHART_ARBITRAGE_SPREAD",
+        "overlay_text": "BUY WHOLESALE: $30/SQ FT → SELL RETAIL: $75/SQ FT",
+        "camera": "topdown_document_inspection",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.4, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_SCISSORS_SNIP", "SFX_CASH_REGISTER_DING"],
+      "bgm": { "track": "BGM_UPBEAT_AMBITION", "intensity": 0.32 }
+    },
+    {
+      "scene_id": "S011",
+      "act": "THE_DREAM",
+      "beat_type": "CULTURE_DISGUISE",
+      "time_range_sec": [175, 215],
+      "narration": "Their first location opened on Grand Street in SoHo. And this is where Adam made his first crucial insight. If you walk into a traditional commercial real estate office in Midtown Manhattan, it feels like an insurance firm. Beige carpet, fluorescent lighting, acoustic ceiling tiles, and quiet despair. Adam turned the office into an adult playground. He added exposed brick, Edison light bulbs, polished concrete, infused fruit water, and free draft beer on tap. You weren't a tenant renting seventy square feet of cubicle space; you were a 'member' of a revolutionary global tribe.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "vivid_contrast",
+        "speed": 1.02,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "split_contrast_office",
+        "background_asset": "BG_SPLIT_BEIGE_VS_BRICK",
+        "character_assets": ["CHAR_BORING_ACCOUNTANT", "CHAR_HIPSTER_DEV"],
+        "prop_assets": ["PROP_BEER_KEGERATOR", "PROP_NEON_SIGN_HUSTLE"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "TENANT → 'MEMBER OF A GLOBAL TRIBE'",
+        "camera": "lateral_paper_pan",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.55, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_BEER_POUR", "SFX_NEON_HUM"],
+      "bgm": { "track": "BGM_UPBEAT_AMBITION", "intensity": 0.35 }
+    },
+    {
+      "scene_id": "S012",
+      "act": "THE_DREAM",
+      "beat_type": "FINANCIAL_VALUATION_TRICK",
+      "time_range_sec": [215, 255],
+      "narration": "In the stock market, if you are a commercial landlord, investors value your company based on net rental yields. You might trade at twelve to fifteen times earnings, or roughly one to two times revenue. But if you are a technology company—if you are Facebook or Salesforce—investors value you at twenty or thirty times revenue, because software can be copied to a billion users overnight at practically zero cost. So Adam simply stopped using real estate words. He didn't lease offices. He provided 'Space-as-a-Service.' WeWork wasn't a collection of desks; it was a 'physical social network.' And in Silicon Valley, where venture capitalists were drowning in zero-interest-rate money, that was all they needed to hear.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "satirical_truth",
+        "speed": 1.03,
+        "pause_after_ms": 300
+      },
+      "visual": {
+        "layout": "chalkboard_equation",
+        "background_asset": "BG_BLACKBOARD_CHALK",
+        "character_assets": ["CHAR_ADAM_PROPHET_POINTING"],
+        "prop_assets": ["PROP_DICTIONARY_CARD_SAAS"],
+        "document_assets": [],
+        "chart": "CHART_TECH_MULTIPLE_VS_REAL_ESTATE",
+        "overlay_text": "REAL ESTATE: 1.5x REVENUE // 'TECH SAAS': 25x REVENUE",
+        "camera": "slow_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_CHALK_WRITE", "SFX_MONEY_SWOOSH"],
+      "bgm": { "track": "BGM_AMBITION_FADE_TO_DARK", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S013",
+      "act": "THE_MACHINE",
+      "beat_type": "VALUATION_ABSURDITY",
+      "time_range_sec": [255, 290],
+      "narration": "By 2016, WeWork had raised hundreds of millions from blue-chip firms like Benchmark Capital and Fidelity. The company was valued at sixteen billion dollars. By any traditional financial standard, that was already detached from reality. Regus—an office-sublease company founded in 1989 that had four times as many locations and was actually profitable—was valued at less than three billion. WeWork was burning hundreds of millions of dollars a year, yet was worth five times more. And then, Masayoshi Son entered the building.",
+      "claim_ids": ["CLM_001"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "dramatic_foreboding",
+        "speed": 1.0,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "pedestal_comparison",
+        "background_asset": "BG_TEXTURED_PAPER_GRAY",
+        "character_assets": ["CHAR_REGUS_FOUNDER_SAD"],
+        "prop_assets": ["PROP_REGUS_BUILDINGS_STACK", "PROP_WEWORK_BALLOON_VALUATION"],
+        "document_assets": [],
+        "chart": "CHART_REGUS_VS_WEWORK_2016",
+        "overlay_text": "REGUS: PROFITABLE ($3B) vs. WEWORK: LOSING MILLIONS ($16B)",
+        "camera": "evidence_zoom",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.45, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_BALLOON_INFLATE", "SFX_CAR_DOOR_SLAM"],
+      "bgm": { "track": "BGM_MASA_ENTRANCE", "intensity": 0.35 }
+    },
+    {
+      "scene_id": "S014",
+      "act": "THE_MACHINE",
+      "beat_type": "CHARACTER_MEETING",
+      "time_range_sec": [290, 335],
+      "narration": "Masayoshi Son was the founder and chief executive of SoftBank. He had made arguably the greatest venture investment in human history when he put twenty million dollars into Alibaba in 2000, turning it into over sixty billion. In late 2016, Masa launched the Vision Fund: a staggering one-hundred-billion-dollar pool of capital backed by the sovereign wealth funds of Saudi Arabia and Abu Dhabi. Masa was looking for founders who could conquer entire industries.",
+      "claim_ids": ["CLM_015"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "grand_scale",
+        "speed": 1.01,
+        "pause_after_ms": 200
+      },
+      "visual": {
+        "layout": "corkboard_push",
+        "background_asset": "BG_TOKYO_SKYLINE_PAPER",
+        "character_assets": ["CHAR_MASAYOSHI_SON_PUPPET"],
+        "prop_assets": ["PROP_VISION_FUND_VAULT", "PROP_ALIBABA_GOLD_COIN"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "SOFTBANK VISION FUND: $100,000,000,000",
+        "camera": "documentary_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.45, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_GOLD_COIN_JINGLE", "SFX_LOW_SUB_BASS"],
+      "bgm": { "track": "BGM_MASA_ENTRANCE", "intensity": 0.38 }
+    },
+    {
+      "scene_id": "S015",
+      "act": "THE_MACHINE",
+      "beat_type": "ICONIC_ANECDOTE",
+      "time_range_sec": [335, 385],
+      "narration": "In December 2016, Masa arrived at WeWork’s headquarters in Manhattan. He was over two hours late. He walked in, looked at Adam, and announced that he only had twelve minutes. Adam gave him a lightning-fast tour through the bustling common spaces, the beer taps, the neon signs, and the communal tables. When the twelve minutes were up, Masa invited Adam to ride with him in his car. In the backseat, Masa pulled out an iPad, sketched out the outline of an investment, and asked Adam a question: 'In a fight, who wins? The smart guy, or the crazy guy?' Adam replied: 'The crazy guy.' Masa nodded. 'You are right. But you are not crazy enough.'",
+      "claim_ids": ["CLM_015"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "storyteller_drama",
+        "speed": 1.02,
+        "pause_after_ms": 300
+      },
+      "visual": {
+        "layout": "car_interior_collage",
+        "background_asset": "BG_LIMO_INTERIOR_DARK",
+        "character_assets": ["CHAR_MASA_CAR_PUPPET", "CHAR_ADAM_CAR_PUPPET"],
+        "prop_assets": ["PROP_IPAD_NAPKIN_SKETCH", "PROP_STOPWATCH_12MIN"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "'YOU ARE NOT CRAZY ENOUGH.'",
+        "camera": "slow_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": true, "posterize_fps": 10 },
+      "sfx": ["SFX_CLOCK_TICK_FAST", "SFX_PEN_SCRATCH_SCREEN"],
+      "bgm": { "track": "BGM_TENSION_RISING", "intensity": 0.4 }
+    },
+    {
+      "scene_id": "S016",
+      "act": "THE_MACHINE",
+      "beat_type": "HYPER_EXPANSION",
+      "time_range_sec": [385, 430],
+      "narration": "Masa told Adam that his current growth targets were far too small. He told him to make WeWork ten times bigger. Over the next two years, SoftBank poured more than ten billion dollars directly into WeWork. With SoftBank’s firehose behind him, Adam abandoned all financial restraint. WeWork began opening an entire floor of new office space somewhere on Earth every single day. If a landlord asked for forty dollars a square foot, WeWork offered fifty just to lock out competitors. They bought WeGrow, WeLive, and even a forty-two-million-dollar stake in a Spanish wave pool company. Why? Because Adam loved to surf.",
+      "claim_ids": ["CLM_001", "CLM_015", "CLM_016"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "accelerating_absurdity",
+        "speed": 1.05,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "global_map_pushpins",
+        "background_asset": "BG_WORLD_MAP_PAPER",
+        "character_assets": ["CHAR_ADAM_SURFING_WAVE"],
+        "prop_assets": ["PROP_WAVE_POOL_MACHINE", "PROP_WEGROW_SCHOOL_BLOCKS"],
+        "document_assets": [],
+        "chart": "CHART_FLOORS_OPENED_PER_MONTH",
+        "overlay_text": "1 NEW FLOOR EVERY SINGLE DAY",
+        "camera": "lateral_paper_pan",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.7, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_STAPLER_RAPID", "SFX_WATER_SPLASH", "SFX_CASH_FIRE"],
+      "bgm": { "track": "BGM_MANIC_GROWTH", "intensity": 0.45 }
+    },
+    {
+      "scene_id": "S017",
+      "act": "THE_MACHINE",
+      "beat_type": "FINANCIAL_MECHANISM_TRAP",
+      "time_range_sec": [430, 480],
+      "narration": "Inside the company's finance department, an entirely different reality was unfolding. Because WeWork had built its entire empire on a foundational economic flaw known as the Asset-Liability Duration Mismatch. WeWork signed legally binding, ten-to-fifteen-year leases with landlords. Rain or shine, they owed that rent. But their customers could cancel on thirty days' notice. It was the financial equivalent of taking out a thirty-year mortgage and relying on weekend Airbnb guests to pay it off. By mid-2019, WeWork owed forty-seven point two billion dollars in future lease commitments. Its committed customer revenue? Barely four billion. And to disguise this, they invented 'Community Adjusted EBITDA'—an accounting metric that removed building expenses. Which included the rent.",
+      "claim_ids": ["CLM_004", "CLM_005"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "forensic_dissection",
+        "speed": 1.02,
+        "pause_after_ms": 300
+      },
+      "visual": {
+        "layout": "anchor_mismatch_diagram",
+        "background_asset": "BG_DARK_CORKBOARD_LEDGER",
+        "character_assets": [],
+        "prop_assets": ["PROP_HEAVY_STEEL_ANCHOR_LEASE", "PROP_TINY_PAPER_UMBRELLA"],
+        "document_assets": ["DOC_COMMUNITY_ADJUSTED_EBITDA_SHEET"],
+        "chart": "CHART_47B_LEASE_VS_4B_BACKLOG",
+        "overlay_text": "$47.2B LEASE LIABILITIES vs. $4.0B COMMITTED REVENUE",
+        "camera": "slow_push_in",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.4, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_CHAIN_RATTLE", "SFX_MARKER_CROSSOUT"],
+      "bgm": { "track": "BGM_SUSPENSE_DISCOVERY", "intensity": 0.35 }
+    },
+    {
+      "scene_id": "S018",
+      "act": "THE_CRACK",
+      "beat_type": "S1_FILING_EXPLOSION",
+      "time_range_sec": [480, 525],
+      "narration": "By the summer of 2019, the music was about to stop. SoftBank's sovereign backers refused to invest another sixteen billion dollars. If WeWork wanted to keep fueling its burn rate, it had to go public. On August 14th, 2019, WeWork filed its Form S-1 with the SEC. For nine years, Adam Neumann had controlled the narrative through charisma and pitch decks. The S-1 stripped all of that away. Under federal law, you cannot charm the SEC. You have to tell the truth. And the truth opened with a dedication: 'We dedicate this to the energy of we—greater than any one of us but inside each of us.'",
+      "claim_ids": ["CLM_001"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "unsparing_wit",
+        "speed": 1.0,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "evidence_desk_spotlight",
+        "background_asset": "BG_WOODEN_EXAMINATION_DESK",
+        "character_assets": [],
+        "prop_assets": ["PROP_SEC_OFFICIAL_SEAL"],
+        "document_assets": ["DOC_S1_DEDICATION_PAGE"],
+        "chart": null,
+        "overlay_text": "'TO THE ENERGY OF WE'",
+        "camera": "topdown_document_inspection",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.3, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_GAVEL_SOFT", "SFX_PAGE_TURN"],
+      "bgm": { "track": "BGM_SUSPENSE_DISCOVERY", "intensity": 0.32 }
+    },
+    {
+      "scene_id": "S019",
+      "act": "THE_CRACK",
+      "beat_type": "DISCLOSURE_LOSSES",
+      "time_range_sec": [525, 570],
+      "narration": "When analysts turned past the spiritual poetry to page F-4, they found horror. In 2018, WeWork had generated one point eight billion dollars in revenue. Its net loss was one point nine billion dollars. The company was losing more than a dollar for every single dollar it brought through the door. Over the preceding three years, it had incinerated four billion dollars of cash. But worse than the losses was the brazen self-dealing disclosed in the fine print.",
+      "claim_ids": ["CLM_002", "CLM_003"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "analytical_shock",
+        "speed": 1.02,
+        "pause_after_ms": 220
+      },
+      "visual": {
+        "layout": "forensic_financial_breakdown",
+        "background_asset": "BG_ACCOUNTING_LEDGER_PAPER",
+        "character_assets": ["CHAR_WALL_STREET_ANALYST_GASP"],
+        "prop_assets": ["PROP_RED_INK_BOTTLE_SPILL"],
+        "document_assets": ["DOC_PAGE_F4_STATEMENT_OF_OPERATIONS"],
+        "chart": "CHART_REVENUE_VS_NET_LOSS_2016_2018",
+        "overlay_text": "REVENUE: $1.82B // NET LOSS: -$1.93B",
+        "camera": "evidence_zoom",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_CALCULATOR_CLICK", "SFX_RED_STAMP_LOSS"],
+      "bgm": { "track": "BGM_PARANOIA_TICK", "intensity": 0.36 }
+    },
+    {
+      "scene_id": "S020",
+      "act": "THE_CRACK",
+      "beat_type": "SELF_DEALING_RECEIPTS",
+      "time_range_sec": [570, 630],
+      "narration": "Buried inside the related-party transactions, investors discovered Adam Neumann had been treating WeWork as his private ATM. He personally bought stakes in commercial buildings, then leased them back to WeWork as tenant, collecting millions in personal rent. In early 2019, when WeWork rebranded, Adam’s private entity owned the trademark for the word 'We'. So WeWork paid Adam's entity five point nine million dollars in stock to buy back the word 'We'. He sold a common two-letter English pronoun back to his own company for six million dollars.",
+      "claim_ids": ["CLM_006", "CLM_007"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "incredulous_sarcasm",
+        "speed": 1.04,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "receipt_carousel",
+        "background_asset": "BG_CRUMPLED_RECEIPTS",
+        "character_assets": ["CHAR_ADAM_TWO_HANDED_CHECK"],
+        "prop_assets": ["PROP_TRADEMARK_WE_DOCUMENT", "PROP_5_9M_PRICE_TAG"],
+        "document_assets": ["DOC_RELATED_PARTY_TRANSACTIONS_PAGE"],
+        "chart": null,
+        "overlay_text": "$5,900,000 FOR THE WORD 'WE'",
+        "camera": "rack_style_focus",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.6, "puppet_wiggle": true, "posterize_fps": 10 },
+      "sfx": ["SFX_PRICE_GUN_CLICK", "SFX_LAUGHTER_SUBTLE"],
+      "bgm": { "track": "BGM_DARK_COMEDY_WALTZ", "intensity": 0.35 }
+    },
+    {
+      "scene_id": "S021",
+      "act": "THE_CRACK",
+      "beat_type": "GOVERNANCE_MONARCHY",
+      "time_range_sec": [630, 690],
+      "narration": "Then came the sixty-million-dollar Gulfstream G650 private jet. And the voting structure: Adam held twenty votes per share, giving him monarchical voting power. And if he died? The S-1 stated his successor would be chosen by a three-person committee that included his wife, Rebekah. Wall Street looked at this filing and saw an unsustainable pyramid of optimism. Professor Scott Galloway published his viral 'WeWTF' analysis. Within days, institutional investors began walking away before the roadshow even began.",
+      "claim_ids": ["CLM_008", "CLM_009"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "mounting_pressure",
+        "speed": 1.03,
+        "pause_after_ms": 300
+      },
+      "visual": {
+        "layout": "family_tree_corkboard",
+        "background_asset": "BG_CORKBOARD_DARK",
+        "character_assets": ["CHAR_REBEKAH_GAVEL", "CHAR_GULFSTREAM_JET"],
+        "prop_assets": ["PROP_SCOTT_GALLOWAY_WEWTF_BLOG"],
+        "document_assets": ["DOC_SUCCESSION_CLAUSE_S1"],
+        "chart": null,
+        "overlay_text": "20:1 SUPERVOTING & WIFE VETO",
+        "camera": "slow_pull_back",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.55, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_JET_FLYBY_MUFFLED", "SFX_KEYBOARD_CLATTER"],
+      "bgm": { "track": "BGM_PARANOIA_TICK", "intensity": 0.38 }
+    },
+    {
+      "scene_id": "S022",
+      "act": "THE_COLLISION",
+      "beat_type": "VALUATION_FREEFALL",
+      "time_range_sec": [690, 750],
+      "narration": "What followed over the next thirty-three days was one of the fastest unravelings in business history. WeWork’s bankers at JPMorgan and Goldman Sachs had originally whispered valuations of sixty-five to one hundred billion dollars. By early September, they slashed the proposed IPO price to twenty billion. Investors still balked. They slashed it to fifteen billion. Then twelve billion. Then ten billion. Adam frantically conceded: cutting his voting rights to ten votes, removing Rebekah from the succession clause, and returning the five point nine million dollars for the trademark. It was too late.",
+      "claim_ids": ["CLM_001", "CLM_008", "CLM_011"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "accelerating_crisis",
+        "speed": 1.05,
+        "pause_after_ms": 220
+      },
+      "visual": {
+        "layout": "falling_numbers_elevator",
+        "background_asset": "BG_STOCK_EXCHANGE_COLLAGE",
+        "character_assets": ["CHAR_BANKER_SWEATING"],
+        "prop_assets": ["PROP_PRICE_TAG_SLASHED_10B"],
+        "document_assets": ["DOC_S1A_AMENDMENT_PAGE"],
+        "chart": "CHART_VALUATION_CRASH_TIMELINE",
+        "overlay_text": "$100B → $47B → $20B → $10B",
+        "camera": "elevator_down_pan",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.75, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_RAPID_TYPEWRITER", "SFX_WHISTLE_FALL"],
+      "bgm": { "track": "BGM_COLLAPSE_ACCELERATION", "intensity": 0.42 }
+    },
+    {
+      "scene_id": "S023",
+      "act": "THE_COLLISION",
+      "beat_type": "THE_FATAL_TRAP",
+      "time_range_sec": [750, 810],
+      "narration": "And then came the fatal blow. To fund its operations, WeWork had arranged a six-billion-dollar credit facility with JPMorgan. But the entire facility had one strict condition: WeWork had to raise at least three billion dollars in the IPO. If the IPO didn't happen, the loan evaporated. And without that money, WeWork’s spreadsheets showed the company would run out of cash by November. They were thirty days from missing payroll and defaulting on leases worldwide.",
+      "claim_ids": ["CLM_010", "CLM_012"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "grim_inevitability",
+        "speed": 1.01,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "bank_contract_lockdown",
+        "background_asset": "BG_DARK_CORKBOARD_LEDGER",
+        "character_assets": [],
+        "prop_assets": ["PROP_HEAVY_BRASS_PADLOCK"],
+        "document_assets": ["DOC_JPMORGAN_6B_CREDIT_FACILITY"],
+        "chart": null,
+        "overlay_text": "CONTINGENCY TRIGGERED: $0 DEBT AVAILABLE",
+        "camera": "evidence_zoom",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.45, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_HEAVY_LOCK_SLAM", "SFX_FLATLINE_PULSE"],
+      "bgm": { "track": "BGM_COLLAPSE_ACCELERATION", "intensity": 0.4 }
+    },
+    {
+      "scene_id": "S024",
+      "act": "THE_COLLISION",
+      "beat_type": "FOUNDER_OUSTER",
+      "time_range_sec": [810, 870],
+      "narration": "On September 17th, WeWork postponed the IPO. Behind closed doors, SoftBank and the board recognized that the only way to avoid Chapter 11 was to remove Adam. On September 24th, 2019, Adam Neumann resigned as CEO. In thirty-three days, the founder who promised to elevate the world's consciousness was gone.",
+      "claim_ids": ["CLM_011"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "solemn_climax",
+        "speed": 0.98,
+        "pause_after_ms": 300
+      },
+      "visual": {
+        "layout": "boardroom_mutiny",
+        "background_asset": "BG_DARK_BOARDROOM_SHADOWS",
+        "character_assets": ["CHAR_ADAM_EMPTY_CHAIR", "CHAR_MASA_VOTE_OUT"],
+        "prop_assets": ["PROP_RESIGNATION_LETTER"],
+        "document_assets": ["DOC_PRESS_RELEASE_SEPT_24"],
+        "chart": null,
+        "overlay_text": "SEPTEMBER 24, 2019 // RESIGNATION",
+        "camera": "slow_pull_back",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.35, "puppet_wiggle": true, "posterize_fps": 10 },
+      "sfx": ["SFX_CHAIR_SLIDE", "SFX_HEAVY_DOOR_SHUT"],
+      "bgm": { "track": "BGM_AFTERMATH_ECHO", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S025",
+      "act": "THE_AFTERMATH",
+      "beat_type": "RESCUE_AND_LAYOFFS",
+      "time_range_sec": [870, 930],
+      "narration": "SoftBank stepped in with a nine-point-five billion dollar rescue package in October 2019, taking control at an eight-billion-dollar valuation. Thousands of employees were fired. Workers who had logged seventy-hour weeks on the promise that their stock options would make them wealthy found their shares worthless. Meanwhile, SoftBank agreed to pay Adam a one-hundred-and-eighty-five million dollar consulting fee and refinance his personal debts.",
+      "claim_ids": ["CLM_012"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "sobering_contrast",
+        "speed": 1.01,
+        "pause_after_ms": 250
+      },
+      "visual": {
+        "layout": "split_aftermath_reality",
+        "background_asset": "BG_TEXTURED_PAPER_GRAY",
+        "character_assets": ["CHAR_FIRED_EMPLOYEE_BOX", "CHAR_ADAM_LUXURY_PARACHUTE"],
+        "prop_assets": ["PROP_TRASH_CAN_STOCK_OPTIONS"],
+        "document_assets": ["DOC_OCTOBER_BAILOUT_AGREEMENT"],
+        "chart": null,
+        "overlay_text": "EMPLOYEE OPTIONS: $0 // ADAM CONSULTING: $185M",
+        "camera": "lateral_paper_pan",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_BOX_SET_DOWN", "SFX_CHAMPAGNE_POP"],
+      "bgm": { "track": "BGM_AFTERMATH_ECHO", "intensity": 0.3 }
+    },
+    {
+      "scene_id": "S026",
+      "act": "THE_AFTERMATH",
+      "beat_type": "COURT_SETTLEMENT_BANKRUPTCY",
+      "time_range_sec": [930, 990],
+      "narration": "When SoftBank attempted to walk away from purchasing his shares during COVID, Adam sued them in Delaware Chancery Court. In February 2021, they settled: Adam walked away with four hundred and eighty million dollars in stock sales and fifty million for legal fees. WeWork finally went public via a SPAC in late 2021, fell ninety-nine percent, and on November 6th, 2023, filed for Chapter 11 bankruptcy in New Jersey with eighteen billion dollars in debt. Original equity was completely erased.",
+      "claim_ids": ["CLM_013", "CLM_014"],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "final_legal_record",
+        "speed": 1.02,
+        "pause_after_ms": 300
+      },
+      "visual": {
+        "layout": "bankruptcy_court_docket",
+        "background_asset": "BG_COURT_DOCKET_PAPER",
+        "character_assets": [],
+        "prop_assets": ["PROP_WOODEN_GAVEL", "PROP_CHAPTER_11_STAMP"],
+        "document_assets": ["DOC_DELAWARE_SETTLEMENT_2021", "DOC_BANKRUPTCY_PETITION_2023"],
+        "chart": "CHART_SPAC_STOCK_COLLAPSE_99PCT",
+        "overlay_text": "NOVEMBER 6, 2023 // CHAPTER 11 BANKRUPTCY",
+        "camera": "slow_push_in",
+        "transition_out": "cut"
+      },
+      "motion": { "intensity": 0.4, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_GAVEL_STRIKE_HEAVY"],
+      "bgm": { "track": "BGM_AFTERMATH_ECHO", "intensity": 0.28 }
+    },
+    {
+      "scene_id": "S027",
+      "act": "THE_PAYOFF",
+      "beat_type": "CORE_INSIGHT",
+      "time_range_sec": [990, 1010],
+      "narration": "The lesson of WeWork was never about Adam’s charisma or free beer. It was about venture capital incentives. Silicon Valley relies on finding things that scale with software. But an office is not software. A desk is wood and metal. A building is concrete. You cannot copy-paste real estate. When you pour billions of tech money into a low-margin physical business, you don't change the laws of physics. You just create a very expensive illusion.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "philosophical_punch",
+        "speed": 0.98,
+        "pause_after_ms": 350
+      },
+      "visual": {
+        "layout": "minimal_desk_spotlight",
+        "background_asset": "BG_DARK_TEXTURED_WALL",
+        "character_assets": [],
+        "prop_assets": ["PROP_SIMPLE_WOODEN_CHAIR_LIT"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "YOU CANNOT COPY-PASTE REAL ESTATE",
+        "camera": "slow_pull_back",
+        "transition_out": "paper_tear"
+      },
+      "motion": { "intensity": 0.2, "puppet_wiggle": false, "posterize_fps": 12 },
+      "sfx": ["SFX_LIGHT_SWITCH_CLICK"],
+      "bgm": { "track": "BGM_AFTERMATH_ECHO", "intensity": 0.2 }
+    },
+    {
+      "scene_id": "S028",
+      "act": "THE_PAYOFF",
+      "beat_type": "END_SCREEN_BRIDGE",
+      "time_range_sec": [1010, 1020],
+      "narration": "And WeWork wasn't the only company that learned you cannot bluff physics. Because right as WeWork fell, another founder convinced Wall Street he had built the world's most advanced zero-emissions truck. Except for one detail. It didn't have an engine.",
+      "claim_ids": [],
+      "audio": {
+        "voice": "am_adam",
+        "emotion": "wry_curiosity",
+        "speed": 1.02,
+        "pause_after_ms": 100
+      },
+      "visual": {
+        "layout": "teaser_card_split",
+        "background_asset": "BG_TEXTURED_DESK_WOOD",
+        "character_assets": ["CHAR_TREVOR_MILTON_TEASER"],
+        "prop_assets": ["PROP_NIKOLA_TRUCK_HILL"],
+        "document_assets": [],
+        "chart": null,
+        "overlay_text": "NEXT: THE TRUCK POWERED BY GRAVITY",
+        "camera": "static",
+        "transition_out": "fade_to_black"
+      },
+      "motion": { "intensity": 0.5, "puppet_wiggle": true, "posterize_fps": 12 },
+      "sfx": ["SFX_TAPE_STOP"],
+      "bgm": { "track": "BGM_SILENCE", "intensity": 0 }
+    }
+  ]
+}

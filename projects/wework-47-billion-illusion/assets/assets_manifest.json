@@ -1,0 +1,207 @@
+{
+  "project_id": "EP01_WEWORK",
+  "generated_at": "2026-09-10T11:37:00Z",
+  "visual_style": "photo_cutout_editorial_collage",
+  "posterize_default_fps": 12,
+  "characters": [
+    {
+      "character_id": "CHAR_ADAM_NEUMANN",
+      "name": "Adam Neumann",
+      "description": "Tall, charismatic founder with shoulder-length dark hair, barefoot in navy designer suit.",
+      "head_states": [
+        { "state": "smug", "asset_id": "HEAD_ADAM_SMUG", "status": "spec_ready" },
+        { "state": "confident", "asset_id": "HEAD_ADAM_CONFIDENT", "status": "spec_ready" },
+        { "state": "nervous", "asset_id": "HEAD_ADAM_NERVOUS", "status": "spec_ready" },
+        { "state": "defeated", "asset_id": "HEAD_ADAM_DEFEATED", "status": "spec_ready" },
+        { "state": "prophet", "asset_id": "HEAD_ADAM_PROPHET", "status": "spec_ready" }
+      ],
+      "body_states": [
+        {
+          "state": "barefoot_suit_standing",
+          "asset_id": "BODY_ADAM_BAREFOOT_SUIT",
+          "prompt": "Editorial paper cut-out puppet body of charismatic startup CEO, slim dark navy designer suit jacket, white crew-neck shirt, dark trousers rolled slightly at ankles, barefoot, realistic paper fibers, slight vintage print texture, clean silhouette, intentional handmade cut edges, subtle halftone printing imperfections, isolated on transparent background, headless with clean neck connection point, front-three-quarter orientation, studio cutout lighting, documentary editorial collage aesthetic. No typography. No logos. No extra limbs.",
+          "status": "spec_ready"
+        },
+        {
+          "state": "presenting_pointing",
+          "asset_id": "BODY_ADAM_POINTING",
+          "prompt": "Editorial paper cut-out puppet body of tech founder presenting, one arm raised pointing forward enthusiastically, casual dark blazer, crisp paper textures, cut edges, headless with clean neck connection point, isolated transparent background. No typography. No extra limbs.",
+          "status": "spec_ready"
+        },
+        {
+          "state": "surfing_wave",
+          "asset_id": "BODY_ADAM_SURFING",
+          "prompt": "Editorial paper cut-out puppet body in athletic surfing stance, knees bent, arms balanced, boardshorts and open linen shirt, paper fibers, torn collage edges, headless with clean neck connection, isolated on transparent background.",
+          "status": "spec_ready"
+        },
+        {
+          "state": "seated_defeated",
+          "asset_id": "BODY_ADAM_COLLAPSED",
+          "prompt": "Editorial paper cut-out puppet body slumped back in office chair, loosened tie, rumpled navy suit, posture of exhaustion and defeat, cut paper edges, halftone texture, headless with neck point, transparent background.",
+          "status": "spec_ready"
+        }
+      ]
+    },
+    {
+      "character_id": "CHAR_MASAYOSHI_SON",
+      "name": "Masayoshi Son",
+      "description": "SoftBank CEO, visionary investor with round wire glasses, patterned gray sweater vest, expressive gestures.",
+      "head_states": [
+        { "state": "visionary_smile", "asset_id": "HEAD_MASA_SMILE", "status": "spec_ready" },
+        { "state": "intense_stare", "asset_id": "HEAD_MASA_INTENSE", "status": "spec_ready" },
+        { "state": "shocked_disbelief", "asset_id": "HEAD_MASA_SHOCKED", "status": "spec_ready" }
+      ],
+      "body_states": [
+        {
+          "state": "vest_holding_ipad",
+          "asset_id": "BODY_MASA_IPAD",
+          "prompt": "Editorial paper cut-out puppet body of Japanese executive in dark tailored trousers, crisp white dress shirt, patterned charcoal knit vest, hands gesturing holding a digital tablet, vintage paper print grain, handmade cut edges, headless with neck connection point, isolated on transparent background. Documentary collage aesthetic.",
+          "status": "spec_ready"
+        },
+        {
+          "state": "seated_limo",
+          "asset_id": "BODY_MASA_SEATED",
+          "prompt": "Editorial paper cut-out puppet body seated in luxury car seat, hands leaning forward with intense curiosity, paper textures, clean cut contour, headless with neck connection, transparent background.",
+          "status": "spec_ready"
+        }
+      ]
+    },
+    {
+      "character_id": "CHAR_REBEKAH_NEUMANN",
+      "name": "Rebekah Neumann",
+      "description": "WeGrow founder, high bohemian fashion, solemn spiritual presence.",
+      "head_states": [
+        { "state": "serene", "asset_id": "HEAD_REBEKAH_SERENE", "status": "spec_ready" },
+        { "state": "stern_gavel", "asset_id": "HEAD_REBEKAH_STERN", "status": "spec_ready" }
+      ],
+      "body_states": [
+        {
+          "state": "boho_couture_standing",
+          "asset_id": "BODY_REBEKAH_COUTURE",
+          "prompt": "Editorial paper cut-out puppet body of avant-garde executive woman, high fashion designer cream coat, tailored wide trousers, standing tall and poised, tactile paper grain, cut paper contours, headless with neck connection point, transparent background.",
+          "status": "spec_ready"
+        }
+      ]
+    }
+  ],
+  "real_documents": [
+    {
+      "document_id": "DOC_S1_COVER",
+      "title": "SEC Form S-1 Cover Page (August 14, 2019)",
+      "file_type": "PDF / Hi-Res Scan",
+      "highlight_regions": [
+        { "target": "The We Company", "color": "yellow_marker" },
+        { "target": "Registration Statement under The Securities Act of 1933", "color": "underline_red" }
+      ]
+    },
+    {
+      "document_id": "DOC_S1_DEDICATION",
+      "title": "S-1 Dedication Page",
+      "file_type": "Hi-Res Scan",
+      "highlight_regions": [
+        { "target": "We dedicate this to the energy of we - greater than any one of us but inside each of us.", "color": "yellow_marker" }
+      ]
+    },
+    {
+      "document_id": "DOC_COMMUNITY_ADJUSTED_EBITDA",
+      "title": "Non-GAAP Financial Measures - Community Adjusted EBITDA",
+      "file_type": "Hi-Res Scan",
+      "highlight_regions": [
+        { "target": "Building-level operating expenses", "color": "red_pen_crossout" },
+        { "target": "Community Adjusted EBITDA: $467 Million", "color": "yellow_marker" }
+      ]
+    },
+    {
+      "document_id": "DOC_TRADEMARK_WE_TRANSACTION",
+      "title": "Related Party Transactions - WE Trademark Assignment",
+      "file_type": "Hi-Res Scan",
+      "highlight_regions": [
+        { "target": "$5.9 million of consideration... for We trademarks", "color": "yellow_marker" }
+      ]
+    },
+    {
+      "document_id": "DOC_LEASE_COMMITMENTS_TABLE",
+      "title": "Contractual Lease Obligations Table ($47.2B)",
+      "file_type": "Hi-Res Scan",
+      "highlight_regions": [
+        { "target": "Total minimum lease obligations: $47,200,000,000", "color": "red_circle" }
+      ]
+    },
+    {
+      "document_id": "DOC_DELAWARE_SETTLEMENT_2021",
+      "title": "Delaware Chancery Court Settlement Order (Feb 2021)",
+      "file_type": "Court Record Scan",
+      "highlight_regions": [
+        { "target": "Adam Neumann stock purchase $480 million", "color": "yellow_marker" }
+      ]
+    },
+    {
+      "document_id": "DOC_BANKRUPTCY_PETITION_2023",
+      "title": "US Bankruptcy Court District of NJ Chapter 11 Voluntary Petition",
+      "file_type": "Official Form 201 Scan",
+      "highlight_regions": [
+        { "target": "Estimated Liabilities: $10,000,000,001 - $50,000,000,000", "color": "red_stamp" }
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "chart_id": "CHART_ARBITRAGE_SPREAD",
+      "type": "split_bar",
+      "title": "The Coworking Spread: Wholesale Cost vs Retail Price",
+      "data": { "wholesale_lease_cost_sqft": 30, "retail_sublease_price_sqft": 75, "unit": "USD / sq ft" }
+    },
+    {
+      "chart_id": "CHART_REGUS_VS_WEWORK_2016",
+      "type": "side_by_side_bar",
+      "title": "Valuation vs Profitability (2016)",
+      "data": {
+        "Regus": { "locations": 3000, "profit": "+$160M", "valuation": "$2.8B" },
+        "WeWork": { "locations": 110, "profit": "-$430M", "valuation": "$16.0B" }
+      }
+    },
+    {
+      "chart_id": "CHART_47B_LEASE_VS_4B_BACKLOG",
+      "type": "waterfall_liability",
+      "title": "The Asset-Liability Trap (June 30, 2019)",
+      "data": { "future_lease_commitments_owed": 47200000000, "customer_committed_revenue": 4000000000 }
+    },
+    {
+      "chart_id": "CHART_REVENUE_VS_NET_LOSS_2016_2018",
+      "type": "grouped_bar",
+      "title": "WeWork Revenue vs Net Loss (2016-2018)",
+      "data": {
+        "2016": { "revenue": 436000000, "loss": -429700000 },
+        "2017": { "revenue": 886000000, "loss": -890000000 },
+        "2018": { "revenue": 1821750000, "loss": -1927330000 }
+      }
+    },
+    {
+      "chart_id": "CHART_VALUATION_CRASH_TIMELINE",
+      "type": "step_line",
+      "title": "The 33-Day Valuation Freefall (Jan - Oct 2019)",
+      "data": [
+        { "date": "Jan 2019", "valuation": 47000000000 },
+        { "date": "Aug 2019", "valuation": 47000000000 },
+        { "date": "Sep 05 2019", "valuation": 20000000000 },
+        { "date": "Sep 13 2019", "valuation": 15000000000 },
+        { "date": "Sep 17 2019", "valuation": 10000000000 },
+        { "date": "Oct 22 2019", "valuation": 8000000000 }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "env_id": "BG_CORKBOARD_DARK",
+      "prompt": "Premium editorial corkboard texture with dark charcoal stained wooden frame, visible physical cork grain, subtle directional top lighting, paper shadows, pushpin holes, documentary evidence board aesthetic, 16:9 ratio. No text."
+    },
+    {
+      "env_id": "BG_WOODEN_EXAMINATION_DESK",
+      "prompt": "Top-down view of dark vintage walnut forensic investigation desk, paper textures, forensic lamp warm directional light from upper left, scattered brass paper clips, tactile physical depth, 16:9 ratio. No AI text."
+    },
+    {
+      "env_id": "BG_DARK_OFFICE_COLLAGE",
+      "prompt": "Editorial mixed-media paper collage depicting empty modern open-plan office space at twilight, floor-to-ceiling glass windows, exposed brick textures, layered paper fragments, muted blue and charcoal palette, practical desk lamp glow, 16:9 ratio. No text."
+    }
+  ]
+}

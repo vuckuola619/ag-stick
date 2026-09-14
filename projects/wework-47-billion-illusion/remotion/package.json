@@ -1,0 +1,17 @@
+{
+  "name": "wework-documentary-remotion",
+  "version": "2.0.0",
+  "description": "WeWork Documentary Master Composition",
+  "scripts": {
+    "preview": "remotion preview src/index.ts",
+    "render": "remotion render src/index.ts WeWorkDocumentary ../export/master_1080p.mp4 --concurrency=4",
+    "still": "remotion still src/index.ts WeWorkDocumentary ../export/preview_still.png --frame=60"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  }
+}
