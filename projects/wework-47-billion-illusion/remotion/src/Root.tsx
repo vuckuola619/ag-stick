@@ -11,6 +11,7 @@ import { MercurySceneRemakeComposition } from './mercury/MercurySceneRemakeCompo
 import { MercurySceneTikTokComposition } from './mercury/MercurySceneTikTokComposition';
 import { MercuryEnterprise8MinComposition } from './mercury/MercuryEnterprise8MinComposition';
 import { MercuryEnglish8MinComposition } from './mercury/MercuryEnglish8MinComposition';
+import { WhitePhosphorus10MinComposition } from './whitephosphorus/WhitePhosphorus10MinComposition';
 import manifestData from '../public/scene_manifest.json';
 
 export const Root: React.FC = () => {
@@ -101,6 +102,14 @@ export const Root: React.FC = () => {
         id="MercuryEnglish8Min"
         component={MercuryEnglish8MinComposition}
         durationInFrames={14833}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="WhitePhosphorus10Min"
+        component={WhitePhosphorus10MinComposition}
+        durationInFrames={18720}
         fps={30}
         width={1920}
         height={1080}
