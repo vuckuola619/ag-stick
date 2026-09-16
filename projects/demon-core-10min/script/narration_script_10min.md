@@ -1,0 +1,367 @@
+# Episode 3: The Demon Core — How a Flathead Screwdriver Almost Blew Up Los Alamos
+**Series**: Deadly Elements & Bizarre Scientific Disasters | **Channel**: NEON ATOM (`@NeonAtomDocs`)
+**Format**: 16:9 Widescreen (1920x1080 @ 30fps) | **Target Duration**: ~10:00 (18,000 frames)
+**Voice Engine**: Kokoro 82M English (`am_adam`, speed 1.05) | **Target Word Count**: ~1,592 words (~155 WPM documentary pacing)
+**Structure**: 32 Scenes across 5 Acts | **Visual Standard**: Minimalist 2D Stickman & Pure Artwork (ZERO AI Typography)
+
+---
+
+## ACT 1: THE THIRD CORE (0:00 – 2:00)
+
+### Scene 01 (0:00 - 0:20) — [14 POUNDS OF DEATH]
+**Narration (49 words)**:
+> In August 1945, inside a top-secret wooden laboratory in the remote canyons of New Mexico, scientists unpacked a heavy wooden crate. Nestled inside sat a fourteen-pound sphere of shiny, silver-gray metal. It was smaller than a bowling ball, yet contained enough destructive potential to incinerate an entire metropolis.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), simple wide cartoon eyes, thin black stick limbs with bold 8-10px stroke, wearing a 1940s white lab coat, standing centered looking down into an open heavy wooden crate holding a gleaming silver metal sphere resting on a velvet cushion, dark slate charcoal background (#12141A) with faint workshop textures, subtle amber warning rim lighting (#FFAA00), flat 2D vector cartoon, bold crisp outlines, strictly no text, no labels, no 3D CGI, no photorealism.
+```
+
+---
+
+### Scene 02 (0:20 - 0:40) — [TARGET: TOKYO]
+**Narration (50 words)**:
+> This was Rufus, the third plutonium pit engineered by the Manhattan Project. It was scheduled to be loaded into a B-29 bomber and dropped onto Kokura or Tokyo. But when Japan surrendered unconditionally on August 15th, Rufus was abruptly canceled, leaving the world's deadliest weapon stranded on a laboratory workbench.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure military general with a solid blank white circular head (#ffffff), simple focused cartoon eyes, wearing a 1940s olive-drab army uniform with a necktie, holding a stamped cancellation dossier over a large map of the Pacific theater, beside a silhouette of a heavy propeller bomber aircraft, dark slate background (#161820), muted military olive and subtle amber highlights, flat 2D vector style, bold 8-10px black ink outlines, strictly no text, no letters, no words, no 3D render.
+```
+
+---
+
+### Scene 03 (0:40 - 1:00) — [THE OMEGA SITE]
+**Narration (51 words)**:
+> Instead of being dismantled, the plutonium core was shipped to Omega Site, an isolated cluster of wooden barracks hidden deep inside Pajarito Canyon. Here, far from town and prying eyes, a handful of young physicists were tasked with testing the outer boundaries of nuclear criticality with virtually zero radiation shielding.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), simple curious cartoon eyes, wearing a white lab coat, standing centered outside a solitary wooden research cabin nestled beneath dramatic New Mexico canyon red cliffs under a dusky twilight sky, dark slate charcoal background (#141722) with desert canyon silhouette, warm amber window glow (#FFB300), flat 2D vector art, bold clean black strokes, strictly no text, no signs, no 3D CGI, no gradients.
+```
+
+---
+
+### Scene 04 (1:00 - 1:20) — [NEUTRON CROSSFIRE]
+**Narration (52 words)**:
+> Plutonium-239 is an unstable element. At any given second, spontaneous fission releases high-speed neutrons. In a bare sphere, most of these neutrons escape harmlessly into the room. But if escaping neutrons are reflected back into the core, each fission triggers two more, sparking an uncontrollable exponential cascade known as prompt criticality.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered 2D vector diagram of a metallic plutonium sphere surrounded by orbiting cartoon particles, with glowing dashed trajectory lines ricocheting between circular atomic nuclei, minimalist 2D cartoon stick figure scientist in lab coat standing at side observing with clipboard, dark slate background (#111318) with subtle blueprint grid, electric cyan (#00E5FF) neutron particle trails and bright warning yellow (#FFE600) fission bursts, clean flat 2D illustration, bold 8px outlines, strictly no text, no symbols, no equations, no 3D render.
+```
+
+---
+
+### Scene 05 (1:20 - 1:40) — [THE COWBOY ERA]
+**Narration (50 words)**:
+> The war had ended, but scientific curiosity turned recklessly casual. There were no remote mechanical arms, no lead-glass observation bunkers, and no emergency fail-safes. Brilliant young physicists moved deadly nuclear cores with their bare hands, smoking cigarettes and laughing as radiation counters clicked like agitated rattlesnakes on wooden tables.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), relaxed smiling cartoon eyes, wearing a short-sleeve 1940s collared shirt and tie, leaning casually against a wooden workbench while holding an analog Geiger counter probe near a metallic sphere, analog dial meter on table, dark charcoal workshop background (#13161F), warm amber desk lamp glow (#FFAA00) and electric cyan meter needle accent, flat 2D vector graphic, bold black strokes, strictly no text, no labels, no 3D CGI.
+```
+
+---
+
+### Scene 06 (1:40 - 2:00) — [TICKLING THE DRAGON]
+**Narration (48 words)**:
+> The legendary physicist Richard Feynman was utterly appalled by the sheer recklessness of these experiments. He issued a grim, unforgettable warning to his colleagues, saying that testing how close you could push a nuclear core to explosion was exactly like tickling the tail of a sleeping dragon.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), simple alarmed wide cartoon eyes, pointing a long thin stick feather toward the curling tail of a gigantic sleeping dragon silhouette looming in the dark shadows behind him, dark slate background (#101217), ominous deep crimson (#FF2244) ambient haze and electric cyan (#00E5FF) highlights on the stickman, clean 2D vector linework, bold 10px black strokes, strictly no text, no lettering, no 3D shading.
+```
+
+---
+
+## ACT 2: TICKLING THE DRAGON'S TAIL (2:00 – 4:00)
+
+### Scene 07 (2:00 - 2:18) — [THE NEUTRON MIRROR]
+**Narration (50 words)**:
+> The purpose of these experiments was to minimize the mass of plutonium required for future atomic weapons. By surrounding the subcritical pit with dense neutron-reflecting materials, escaping neutrons would bounce back into the core, artificially tricking the plutonium into behaving as if it were a much larger mass.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered 2D vector illustration of a central metallic core encased within a circular segmented shell barrier, glowing dashed projectile lines bouncing off the inner wall back toward the center, minimalist 2D cartoon stick figure researcher in glasses and lab coat standing beside inspecting with a magnifying glass, dark slate charcoal background (#13151D), glowing electric cyan (#00E5FF) reflector walls and flame orange (#FF6600) ricocheting particles, flat 2D cartoon, bold 8-10px outlines, strictly no text, no labels, no 3D CGI.
+```
+
+---
+
+### Scene 08 (2:18 - 2:36) — [4.4 KG BRICKS]
+**Narration (50 words)**:
+> For their first reflector material, the Los Alamos team chose tungsten carbide—an extraordinarily dense, heavy gray ceramic. Each brick weighed nine point seven pounds. By stacking these dense blocks one by one around the plutonium core, scientists could measure neutron multiplication rising closer and closer toward the lethal red line.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), simple focused cartoon eyes, wearing a white lab coat and brown trousers, holding a heavy rectangular dark gray brick with both stick hands over a growing pyramid of stacked bricks surrounding a gleaming metallic sphere, dark slate laboratory background (#151822), subtle tungsten gray highlights and warm amber bench lighting, flat 2D vector style, bold 8px black outlines, strictly no text, no numbers, no 3D CGI.
+```
+
+---
+
+### Scene 09 (2:36 - 2:54) — [THE RATE RISES]
+**Narration (49 words)**:
+> With every brick added to the stack, the physics inside the sphere intensified. The clicks from the boron trifluoride radiation counters steadily quickened from an occasional crackle into an urgent, buzzing hum. The scientists relied entirely on audio feedback and visual needle deflections to know when to stop stacking.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure technician with a solid blank white circular head (#ffffff), tense sweating cartoon eyes, wearing retro horn-rimmed glasses and a buttoned lab coat, staring intently at a vintage analog radiation meter with a bouncing indicator needle and glowing cathode ray tube display, dark charcoal room background (#12141A), vibrant warning yellow (#FFE600) meter dial glow and electric blue accents, flat 2D vector illustration, bold clean strokes, strictly no text, no scale marks, no 3D render.
+```
+
+---
+
+### Scene 10 (2:54 - 3:12) — [k = 1.000]
+**Narration (52 words)**:
+> In reactor physics, the multiplication factor k dictates life and death. At k less than one, the reaction dies out. At exactly k equals one, the core is sustained critical. But if k exceeds one by even a fraction of a percent, prompt neutrons alone cause the reaction to run away exponentially within microseconds.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D scientific diagram showing an exponential curve soaring upwards into an intense glowing hazard zone, beside a centered minimalist 2D stick figure scientist in white coat looking upward with shock, dark slate background (#11141C) with clean technical grid lines, bright neon hazard red (#FF2233) exponential curve line and electric cyan (#00E5FF) baseline, flat 2D vector style, bold outlines, strictly no text, no letters, no numbers, no 3D CGI.
+```
+
+---
+
+### Scene 11 (3:12 - 3:30) — [WARM TO THE TOUCH]
+**Narration (50 words)**:
+> Those who touched the plutonium core reported an eerie physical sensation: the metal was distinctly warm to the touch. Because trillions of alpha particles constantly bombarded the crystal lattice from within, the core generated heat like a living, mechanical heart, radiating approximately fourteen watts of thermal power day and night.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), simple wide-eyed wonder cartoon eyes, wearing a lab coat, gently hovering a bare stick hand above a glowing metallic sphere that emits subtle shimmering heat wave ripples into the air, dark charcoal background (#13161F), soft pulsing amber-orange thermal glow (#FF7700) radiating from the sphere, flat 2D vector art, bold 8-10px black strokes, strictly no text, no 3D shading, no photorealism.
+```
+
+---
+
+### Scene 12 (3:30 - 3:45) — [MIDNIGHT PROTOCOL]
+**Narration (47 words)**:
+> Safety protocols were casual to the point of absurdity. Scientists frequently worked late into the night alone, accompanied only by armed military guards who had no scientific training whatsoever. The young researchers were trusted completely with materials worth millions of dollars and capable of catastrophic devastation.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist working at a lab bench under a single hanging lightbulb, while in the background a minimalist 2D cartoon stick figure soldier with a military helmet and slung rifle stands watch by the door, dark moody interior laboratory background (#101217), stark cone of light illuminating the workbench, flat 2D vector cartoon, bold clean outlines, strictly no text, no badges, no 3D render.
+```
+
+---
+
+### Scene 13 (3:45 - 4:00) — [POINT OF NO RETURN]
+**Narration (44 words)**:
+> By late August 1945, dozens of successful assembly tests had been performed without a single hitch. Overconfidence began to replace caution. The scientists believed they had mastered the beast. But the dragon was merely waiting for a single slip of human fingers.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered composition featuring the gleaming silver core surrounded partially by heavy rectangular reflector bricks on a wooden table, with an ominous giant claw shadow cast across the wall behind it, dark charcoal atmospheric background (#12131A), striking amber rim light (#FF9900) highlighting the edge of the sphere, flat 2D vector illustration, clean bold black strokes, strictly no text, no words, no 3D CGI.
+```
+
+---
+
+## ACT 3: INCIDENT 1 — HARRY DAGHLIAN (4:00 – 5:45)
+
+### Scene 14 (4:00 - 4:18) — [AUGUST 21, 1945]
+**Narration (47 words)**:
+> On the night of August 21st, 1945, twenty-four-year-old physicist Harry Daghlian walked into the Omega Site laboratory shortly after nine o'clock. Working completely against official regulations, he decided to perform a manual assembly alone, accompanied only by a seated military guard named Robert Hemmerly.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure young scientist with a solid blank white circular head (#ffffff), simple focused cartoon eyes, wearing a collared white shirt and tie, walking into an empty wooden research facility carrying a clipboard toward a central assembly table, dark slate room (#12141A) illuminated by vintage green-shaded lamps, flat 2D vector art, bold 8-10px black outlines, strictly no text, no clocks, no calendar, no 3D CGI.
+```
+
+---
+
+### Scene 15 (4:18 - 4:36) — [THE FATAL SLIP]
+**Narration (46 words)**:
+> Daghlian built a four-sided wall of tungsten carbide bricks around the plutonium sphere. As he carefully hoisted the final four-point-four kilogram brick to place it directly above the core, the radiation counter screamed. Daghlian flinched. The heavy, polished brick slipped from his sweaty fingers.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), sudden terrified cartoon eyes with shock lines, stick hands losing grip as a heavy rectangular dark brick slips mid-air directly downward toward an open pit containing a metallic sphere, dark charcoal background (#141620), dynamic motion trail lines and warning amber glow, flat 2D vector illustration, bold 10px black stroke, strictly no text, no comic bursts, no 3D render.
+```
+
+---
+
+### Scene 16 (4:36 - 4:54) — [THE BLUE FLASH]
+**Narration (49 words)**:
+> The brick crashed directly onto the top of the core. Instantly, the assembly went prompt critical. A brilliant, ethereal blast of blue-violet light erupted into the room, accompanied by an intense wave of radiant heat that washed over Daghlian’s face and chest like an open blast furnace.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist centered in dramatic silhouette, shielding his white circular head with an arm as a blinding radiant explosion of electric cobalt-blue ionization light (#00E5FF and #0055FF) erupts from the central table, radiating sharp vector energy shockwaves into a pitch-dark room, clean flat 2D cartoon, bold black silhouette, strictly no text, no lettering, no 3D CGI, no photorealism.
+```
+
+---
+
+### Scene 17 (4:54 - 5:12) — [BARE-HAND TEARDOWN]
+**Narration (50 words)**:
+> Reacting on pure survival instinct, Daghlian lunged forward. He tried to shove the fallen brick off the core, but it was too slippery. In sheer panic, he used his bare hands to violently knock down the entire incandescent stack of heavy bricks, scattering them across the wooden floor.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), desperate wide cartoon eyes, lunging forward with extended stick arms to push over a tumbling stack of rectangular bricks surrounding a glowing sphere, bricks flying across the wooden floorboards, dark slate background (#13151D), glowing blue residual aura around the core, flat 2D vector cartoon, bold 8-10px strokes, strictly no text, no 3D effects.
+```
+
+---
+
+### Scene 18 (5:12 - 5:30) — [510 REMS OF DOSE]
+**Narration (50 words)**:
+> The entire criticality burst lasted barely a few seconds, but the invisible damage was catastrophic. Daghlian had absorbed an estimated five hundred and ten rems of massive neutron and gamma radiation. His right hand alone, which had dismantled the stack, absorbed over twenty thousand rads of blistering thermal exposure.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D stylized medical diagram showing a stick figure silhouette with right stick hand and chest highlighted in glowing hazard orange and toxic red radiation fracture patterns, beside stylized floating DNA double helix strands snapping and breaking, dark charcoal background (#111319), bright warning crimson (#FF1133) and electric cyan (#00E5FF) accents, flat 2D vector style, bold outlines, strictly no text, no medical charts, no labels, no 3D render.
+```
+
+---
+
+### Scene 19 (5:30 - 5:45) — [THE DEMON CORE IS BORN]
+**Narration (51 words)**:
+> Within hours, severe nausea and swelling set in. Daghlian was rushed to the Los Alamos hospital, where his blistered skin turned necrotic and his organs steadily shut down. He died twenty-five days later, on September 15th. From that dark day forward, the metal sphere was rechristened: The Demon Core.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure hospital patient lying in a stark metal hospital bed, beside a somber doctor stick figure in a lab coat bowing his head, dramatic deep charcoal background (#101217) with a single spotlight, subtle somber purple-crimson rim lighting, flat 2D vector art, bold clean outlines, strictly no text, no monitors, no lettering, no 3D CGI.
+```
+
+---
+
+## ACT 4: INCIDENT 2 — LOUIS SLOTIN & THE SCREWDRIVER (5:45 – 8:00)
+
+### Scene 20 (5:45 - 6:05) — [THE DAREDEVIL PHYSICIST]
+**Narration (49 words)**:
+> Following Daghlian's death, safety guidelines were drafted, but the culture of bravado persisted. Leadership of the critical assembly group passed to thirty-five-year-old Canadian physicist Louis Slotin. Brilliant, charismatic, and fearless, Slotin wore cowboy boots, blue jeans, and lived for the intoxicating thrill of mastering chain reactions.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), confident smiling cartoon eyes, wearing a vintage 1940s western denim shirt, necktie, and cowboy boots, standing proudly with arms crossed beside a scientific workbench, dark slate background (#141720) with warm studio rim lighting (#FFAA00), clean flat 2D vector linework, bold 8-10px black strokes, strictly no text, no western logos, no 3D render.
+```
+
+---
+
+### Scene 21 (6:05 - 6:25) — [MAY 21, 1946]
+**Narration (49 words)**:
+> On May 21st, 1946, Slotin was preparing to hand over his duties before the core was shipped to Bikini Atoll for atomic tests. Seven other scientists and observers gathered inside the Omega Site laboratory to watch Slotin demonstrate what he casually referred to as his trademark criticality procedure.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon scene showing eight distinct cartoon stick figures with solid white circular heads (#ffffff) gathered in a semi-circle around a central assembly table, all wearing 1940s white coats, military uniforms, and office attire, looking attentively inward, dark charcoal laboratory interior (#12141A) with overhead fluorescent lighting, flat 2D vector style, clean bold outlines, strictly no text, no badges, no 3D CGI.
+```
+
+---
+
+### Scene 22 (6:25 - 6:45) — [BERYLLIUM CLAMSHELL]
+**Narration (50 words)**:
+> This time, the reflector was not heavy bricks, but two nested, nine-inch hollow hemispheres made of pure beryllium. The bottom hemisphere sat in a metal cradle holding the plutonium core. Slotin’s task was to slowly lower the upper dome over the core to measure neutron multiplication through the remaining gap.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered 2D vector cutaway illustration showing a shiny metallic sphere resting inside a hollow bowl-shaped lower dome, with a matching hollow dome hovering suspended directly above it, minimalist 2D stickman hands positioned near the apparatus, dark slate background (#131620), metallic silver sheen and electric cyan (#00E5FF) outline accents, flat 2D cartoon, bold 8-10px stroke, strictly no text, no dimension lines, no 3D render.
+```
+
+---
+
+### Scene 23 (6:45 - 7:05) — [THE SCREWDRIVER PROTOCOL]
+**Narration (51 words)**:
+> Official laboratory protocol strictly mandated using solid wooden wedges or metal shims to ensure the upper dome could never completely close. But Slotin found wedges clumsy. Instead, he casually propped the upper hemisphere open using only the blade of a standard two-inch flathead screwdriver held in his right hand.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Close-up centered 2D vector illustration of two smooth metallic dome halves separated by a tiny narrow gap, with the flat steel tip of a yellow-handled flathead screwdriver wedged between the metal rims, held by a black stick cartoon hand, dark charcoal background (#111319), dramatic contrast with electric cyan reflections, clean flat 2D vector style, bold 10px black ink outlines, strictly no text, no brand names, no 3D CGI.
+```
+
+---
+
+### Scene 24 (7:05 - 7:25) — [ONE MILLIMETER SLIP]
+**Narration (51 words)**:
+> Colleagues in the room grew visibly tense. Physicist Raemer Schreiber looked away for a split second. At three twenty in the afternoon, Slotin’s screwdriver blade suddenly slipped one millimeter on the polished beryllium lip. With a heavy metallic click, the upper dome dropped shut, completely sealing the plutonium core.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+High-tension minimalist 2D illustration: stick figure scientist with a solid white circular head (#ffffff), eyes wide with sudden horror, as the flathead screwdriver slips diagonally downward and the two heavy metallic dome halves slam together flush, sound shockwave arcs radiating outward, dark slate background (#161822), warning yellow (#FFE600) impact lines, flat 2D vector cartoon, bold 10px outlines, strictly no text, no comic words, no 3D render.
+```
+
+---
+
+### Scene 25 (7:25 - 7:45) — [500 MICROSECONDS]
+**Narration (51 words)**:
+> In less than five hundred microseconds, the sealed core exploded into prompt supercriticality. A blinding flash of blue Cherenkov light surged through the room, accompanied by an instantaneous wave of searing thermal heat. Slotin instantly tasted a sharp, sour metallic flavor on his tongue—the hallmark of massive cellular ionization.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered dramatic explosion of brilliant electric cobalt-blue (#00E5FF, #0066FF) radiant energy blooming across the entire frame, illuminating the dark laboratory and casting long sharp vector shadows from eight stick figures recoiling in shock, flat 2D vector art, dynamic radial burst rays, bold black linework, strictly no text, no subtitles, no 3D CGI, no photorealism.
+```
+
+---
+
+### Scene 26 (7:45 - 8:00) — [THE HUMAN SHIELD]
+**Narration (52 words)**:
+> With superhuman reflexes, Slotin did not run. He seized the scorching beryllium dome with his bare left hand and threw it violently to the floor, instantly terminating the chain reaction. Shielding the other seven men with his own body, Slotin calmly turned to his colleagues and said: 'Well, that does it.'
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist with a solid blank white circular head (#ffffff), grim courageous expression, bending over the assembly table having just flung the upper dome clattering to the floorboards, holding his burned stick hand while looking back toward the seven recoiling stickmen behind him, dark slate room (#12141A), lingering blue ionizing glow on the table, flat 2D vector cartoon, bold outlines, strictly no text, no speech bubbles, no 3D render.
+```
+
+---
+
+## ACT 5: THE AFTERMATH & LEGACY (8:00 – 10:00)
+
+### Scene 27 (8:00 - 8:20) — [CHALK ON THE FLOOR]
+**Narration (51 words)**:
+> Slotin knew immediately that his life was forfeit. Remaining astonishingly clear-headed, he ordered everyone to stay frozen in place. Using a piece of white blackboard chalk, Slotin marked the exact spot on the wooden floor where every single person had stood, enabling medical physicists to calculate their precise radiation exposure.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon stick figure scientist kneeling on the wooden floor with a stick of chalk, drawing numbered circular chalk rings where various stick figure colleagues stand motionless, overhead isometric perspective of the laboratory floor, dark slate background (#13151E), crisp white floor markings and subtle green-tinted shadows, flat 2D vector style, bold 8px outlines, strictly no text, no words, no letters, no 3D CGI.
+```
+
+---
+
+### Scene 28 (8:20 - 8:40) — [1,000 RADS]
+**Narration (51 words)**:
+> Slotin had absorbed an astronomical dose of one thousand rads of neutron and gamma radiation—far beyond any known medical survival threshold. Over the next nine days at Los Alamos Hospital, his gastrointestinal tract disintegrated and his white blood cells vanished. Louis Slotin passed away on May 30th, 1946, aged thirty-five.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D stylized medical representation of nuclear decay: a somber medical room silhouette with a centered hospital bed, beside a giant stylized hourglass filled with glowing radiant sand grains trickling downward into darkness, dark charcoal background (#101116), somber purple and pale amber rim lighting, flat 2D vector art, bold clean outlines, strictly no text, no numbers, no 3D render.
+```
+
+---
+
+### Scene 29 (8:40 - 9:00) — [THE SURVIVORS]
+**Narration (51 words)**:
+> Because Slotin's body had physically absorbed the brunt of the neutron blast, all seven other men survived. However, the phantom of radiation followed them for decades. Several developed premature cataracts, chronic blood disorders, and psychological scars that never fully healed, serving as living testaments to that fateful afternoon in Pajarito Canyon.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon illustration of three surviving stick figure scientists in 1950s suits walking away from the laboratory into the desert sun, casting long dark shadows behind them, dark slate canyon background (#141722) transitioning to warm desert horizon, subtle electric blue edge glow on their silhouettes, flat 2D vector cartoon, bold 8-10px black strokes, strictly no text, no signs, no 3D CGI.
+```
+
+---
+
+### Scene 30 (9:00 - 9:20) — [REMOTE CONTROL ONLY]
+**Narration (50 words)**:
+> The second disaster was the final straw. Laboratory director Norris Bradbury and General Leslie Groves immediately issued an absolute, permanent ban on all manual criticality experiments. Never again would a human being touch a fissile core. From that moment on, all criticality tests were conducted entirely by remote-controlled robotic manipulators.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Minimalist 2D cartoon robotic steel mechanical claw arm operated by remote cables and pulleys, carefully lowering a metallic hemisphere onto a core from behind a thick lead-shielded bunker wall, with a stick figure technician observing safely through a periscope, dark slate background (#12141B), industrial amber warning lights (#FFAA00) and steel gray tones, clean 2D vector style, bold outlines, strictly no text, no danger signs, no 3D render.
+```
+
+---
+
+### Scene 31 (9:20 - 9:40) — [MELTED AT BIKINI]
+**Narration (50 words)**:
+> What happened to the Demon Core itself? Initially slated for the Able nuclear test at Bikini Atoll, officials delayed its detonation to verify its physical integrity. In July 1946, the core was melted down, recooled, and reconstituted into new weapon pits that were later detonated over the Pacific Ocean.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered 2D vector graphic of a massive tropical atomic mushroom cloud rising gracefully over a circular blue ocean atoll and silhouetted naval warships, dark indigo sky (#0E1118), vibrant fiery orange (#FF5500) fireball column and brilliant yellow cap, clean flat 2D vector art, bold graphic linework, strictly no text, no map labels, no 3D CGI, no photorealism.
+```
+
+---
+
+### Scene 32 (9:40 - 10:00) — [THE PRICE OF CURIOSITY]
+**Narration (51 words)**:
+> The Demon Core claimed two brilliant lives not because the laws of quantum physics failed, but because human confidence momentarily triumphed over caution. In the dawn of the atomic age, it proved that when dealing with cosmic forces trapped inside metal, a single millimeter is the difference between life and death.
+
+**Codex Image Prompt (2D Stickman Architecture — ZERO AI TEXT)**:
+```text
+Centered dramatic composition: a single flathead screwdriver lying quietly on an empty wooden workbench beside the glowing circular silhouette of the metallic core, framed against a dark starry New Mexico night sky through an open window, dark slate background (#0F1117), poetic amber desk lamp glow (#FF9900) and subtle lingering blue Cherenkov sparkles (#00E5FF), flat 2D vector art, bold 10px black strokes, strictly no text, no titles, no 3D render.
+```
