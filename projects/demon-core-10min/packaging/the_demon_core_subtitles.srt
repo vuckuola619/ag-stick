@@ -1,0 +1,659 @@
+1
+00:00:00,000 --> 00:00:04,923
+In August 1945, inside a top-secret wooden laboratory in the remote canyons
+
+2
+00:00:04,923 --> 00:00:08,614
+of New Mexico, scientists unpacked a heavy wooden crate.
+
+3
+00:00:08,614 --> 00:00:11,896
+Nestled inside sat a fourteen-pound sphere of shiny,
+
+4
+00:00:11,896 --> 00:00:15,588
+silver-gray metal. It was smaller than a bowling ball,
+
+5
+00:00:15,588 --> 00:00:19,690
+yet contained enough destructive potential to incinerate an entire metropolis.
+
+6
+00:00:20,090 --> 00:00:24,765
+This was Rufus, the third plutonium pit engineered by the Manhattan Project.
+
+7
+00:00:24,765 --> 00:00:29,440
+It was scheduled to be loaded into a B-29 bomber and dropped
+
+8
+00:00:29,440 --> 00:00:34,116
+onto Kokura or Tokyo. But when Japan surrendered unconditionally on August 15th,
+
+9
+00:00:34,116 --> 00:00:38,791
+Rufus was abruptly canceled, leaving the world's deadliest weapon stranded on a
+
+10
+00:00:38,791 --> 00:00:39,570
+laboratory workbench.
+
+11
+00:00:39,970 --> 00:00:44,532
+Instead of being dismantled, the plutonium core was shipped to Omega Site,
+
+12
+00:00:44,532 --> 00:00:48,715
+an isolated cluster of wooden barracks hidden deep inside Pajarito Canyon.
+
+13
+00:00:48,715 --> 00:00:51,376
+Here, far from town and prying eyes,
+
+14
+00:00:51,376 --> 00:00:55,938
+a handful of young physicists were tasked with testing the outer boundaries
+
+15
+00:00:55,938 --> 00:00:58,980
+of nuclear criticality with virtually zero radiation shielding.
+
+16
+00:00:59,380 --> 00:01:03,123
+Plutonium-239 is an unstable element. At any given second,
+
+17
+00:01:03,123 --> 00:01:06,866
+spontaneous fission releases high-speed neutrons. In a bare sphere,
+
+18
+00:01:06,866 --> 00:01:10,609
+most of these neutrons escape harmlessly into the room.
+
+19
+00:01:10,609 --> 00:01:14,768
+But if escaping neutrons are reflected back into the core,
+
+20
+00:01:14,768 --> 00:01:19,758
+each fission triggers two more, sparking an uncontrollable exponential cascade known as
+
+21
+00:01:19,758 --> 00:01:20,590
+prompt criticality.
+
+22
+00:01:20,980 --> 00:01:25,233
+The war had ended, but scientific curiosity turned recklessly casual.
+
+23
+00:01:25,233 --> 00:01:29,486
+There were no remote mechanical arms, no lead-glass observation bunkers,
+
+24
+00:01:29,486 --> 00:01:34,590
+and no emergency fail-safes. Brilliant young physicists moved deadly nuclear cores with
+
+25
+00:01:34,590 --> 00:01:39,693
+their bare hands, smoking cigarettes and laughing as radiation counters clicked like
+
+26
+00:01:39,693 --> 00:01:41,820
+agitated rattlesnakes on wooden tables.
+
+27
+00:01:42,220 --> 00:01:46,420
+The legendary physicist Richard Feynman was utterly appalled by the sheer recklessness
+
+28
+00:01:46,420 --> 00:01:48,870
+of these experiments. He issued a grim,
+
+29
+00:01:48,870 --> 00:01:53,070
+unforgettable warning to his colleagues, saying that testing how close you could
+
+30
+00:01:53,070 --> 00:01:57,270
+push a nuclear core to explosion was exactly like tickling the tail
+
+31
+00:01:57,270 --> 00:01:58,670
+of a sleeping dragon.
+
+32
+00:01:59,070 --> 00:02:03,447
+The purpose of these experiments was to minimize the mass of plutonium
+
+33
+00:02:03,447 --> 00:02:07,825
+required for future atomic weapons. By surrounding the subcritical pit with dense
+
+34
+00:02:07,825 --> 00:02:11,473
+neutron-reflecting materials, escaping neutrons would bounce back into the core,
+
+35
+00:02:11,473 --> 00:02:15,850
+artificially tricking the plutonium into behaving as if it were a much
+
+36
+00:02:15,850 --> 00:02:16,580
+larger mass.
+
+37
+00:02:16,990 --> 00:02:21,824
+For their first reflector material, the Los Alamos team chose tungsten carbide—an
+
+38
+00:02:21,824 --> 00:02:26,657
+extraordinarily dense, heavy gray ceramic. Each brick weighed nine point seven pounds.
+
+39
+00:02:26,657 --> 00:02:31,491
+By stacking these dense blocks one by one around the plutonium core,
+
+40
+00:02:31,491 --> 00:02:36,324
+scientists could measure neutron multiplication rising closer and closer toward the lethal
+
+41
+00:02:36,324 --> 00:02:37,130
+red line.
+
+42
+00:02:37,530 --> 00:02:40,157
+With every brick added to the stack,
+
+43
+00:02:40,157 --> 00:02:44,661
+the physics inside the sphere intensified. The clicks from the boron trifluoride
+
+44
+00:02:44,661 --> 00:02:48,789
+radiation counters steadily quickened from an occasional crackle into an urgent,
+
+45
+00:02:48,789 --> 00:02:53,293
+buzzing hum. The scientists relied entirely on audio feedback and visual needle
+
+46
+00:02:53,293 --> 00:02:55,920
+deflections to know when to stop stacking.
+
+47
+00:02:56,310 --> 00:03:00,125
+In reactor physics, the multiplication factor k dictates life and death.
+
+48
+00:03:00,125 --> 00:03:03,247
+At k less than one, the reaction dies out.
+
+49
+00:03:03,247 --> 00:03:06,716
+At exactly k equals one, the core is sustained critical.
+
+50
+00:03:06,716 --> 00:03:10,878
+But if k exceeds one by even a fraction of a percent,
+
+51
+00:03:10,878 --> 00:03:15,040
+prompt neutrons alone cause the reaction to run away exponentially within microseconds.
+
+52
+00:03:15,450 --> 00:03:19,926
+Those who touched the plutonium core reported an eerie physical sensation: the
+
+53
+00:03:19,926 --> 00:03:22,537
+metal was distinctly warm to the touch.
+
+54
+00:03:22,537 --> 00:03:27,013
+Because trillions of alpha particles constantly bombarded the crystal lattice from within,
+
+55
+00:03:27,013 --> 00:03:29,624
+the core generated heat like a living,
+
+56
+00:03:29,624 --> 00:03:34,100
+mechanical heart, radiating approximately fourteen watts of thermal power day and night.
+
+57
+00:03:34,490 --> 00:03:38,113
+Safety protocols were casual to the point of absurdity.
+
+58
+00:03:38,113 --> 00:03:41,334
+Scientists frequently worked late into the night alone,
+
+59
+00:03:41,334 --> 00:03:46,166
+accompanied only by armed military guards who had no scientific training whatsoever.
+
+60
+00:03:46,166 --> 00:03:50,997
+The young researchers were trusted completely with materials worth millions of dollars
+
+61
+00:03:50,997 --> 00:03:53,010
+and capable of catastrophic devastation.
+
+62
+00:03:53,410 --> 00:03:57,956
+By late August 1945, dozens of successful assembly tests had been performed
+
+63
+00:03:57,956 --> 00:04:01,365
+without a single hitch. Overconfidence began to replace caution.
+
+64
+00:04:01,365 --> 00:04:04,395
+The scientists believed they had mastered the beast.
+
+65
+00:04:04,395 --> 00:04:08,941
+But the dragon was merely waiting for a single slip of human
+
+66
+00:04:08,941 --> 00:04:09,320
+fingers.
+
+67
+00:04:09,720 --> 00:04:12,792
+On the night of August 21st, 1945,
+
+68
+00:04:12,792 --> 00:04:18,058
+twenty-four-year-old physicist Harry Daghlian walked into the Omega Site laboratory shortly after
+
+69
+00:04:18,058 --> 00:04:21,130
+nine o'clock. Working completely against official regulations,
+
+70
+00:04:21,130 --> 00:04:24,641
+he decided to perform a manual assembly alone,
+
+71
+00:04:24,641 --> 00:04:29,030
+accompanied only by a seated military guard named Robert Hemmerly.
+
+72
+00:04:29,430 --> 00:04:34,004
+Daghlian built a four-sided wall of tungsten carbide bricks around the plutonium
+
+73
+00:04:34,004 --> 00:04:38,577
+sphere. As he carefully hoisted the final four-point-four kilogram brick to place
+
+74
+00:04:38,577 --> 00:04:42,007
+it directly above the core, the radiation counter screamed.
+
+75
+00:04:42,007 --> 00:04:46,200
+Daghlian flinched. The heavy, polished brick slipped from his sweaty fingers.
+
+76
+00:04:46,600 --> 00:04:50,085
+The brick crashed directly onto the top of the core.
+
+77
+00:04:50,085 --> 00:04:52,873
+Instantly, the assembly went prompt critical. A brilliant,
+
+78
+00:04:52,873 --> 00:04:56,010
+ethereal blast of blue-violet light erupted into the room,
+
+79
+00:04:56,010 --> 00:05:00,192
+accompanied by an intense wave of radiant heat that washed over Daghlian’s
+
+80
+00:05:00,192 --> 00:05:02,980
+face and chest like an open blast furnace.
+
+81
+00:05:03,380 --> 00:05:06,003
+Reacting on pure survival instinct, Daghlian lunged forward.
+
+82
+00:05:06,003 --> 00:05:09,282
+He tried to shove the fallen brick off the core,
+
+83
+00:05:09,282 --> 00:05:11,906
+but it was too slippery. In sheer panic,
+
+84
+00:05:11,906 --> 00:05:15,841
+he used his bare hands to violently knock down the entire incandescent
+
+85
+00:05:15,841 --> 00:05:19,120
+stack of heavy bricks, scattering them across the wooden floor.
+
+86
+00:05:19,530 --> 00:05:23,080
+The entire criticality burst lasted barely a few seconds,
+
+87
+00:05:23,080 --> 00:05:27,814
+but the invisible damage was catastrophic. Daghlian had absorbed an estimated five
+
+88
+00:05:27,814 --> 00:05:31,759
+hundred and ten rems of massive neutron and gamma radiation.
+
+89
+00:05:31,759 --> 00:05:35,310
+His right hand alone, which had dismantled the stack,
+
+90
+00:05:35,310 --> 00:05:38,860
+absorbed over twenty thousand rads of blistering thermal exposure.
+
+91
+00:05:39,250 --> 00:05:42,127
+Within hours, severe nausea and swelling set in.
+
+92
+00:05:42,127 --> 00:05:45,003
+Daghlian was rushed to the Los Alamos hospital,
+
+93
+00:05:45,003 --> 00:05:49,319
+where his blistered skin turned necrotic and his organs steadily shut down.
+
+94
+00:05:49,319 --> 00:05:52,195
+He died twenty-five days later, on September 15th.
+
+95
+00:05:52,195 --> 00:05:56,510
+From that dark day forward, the metal sphere was rechristened: The Demon
+
+96
+00:05:56,510 --> 00:05:56,870
+Core.
+
+97
+00:05:57,270 --> 00:06:00,263
+Following Daghlian's death, safety guidelines were drafted,
+
+98
+00:06:00,263 --> 00:06:05,395
+but the culture of bravado persisted. Leadership of the critical assembly group
+
+99
+00:06:05,395 --> 00:06:08,388
+passed to thirty-five-year-old Canadian physicist Louis Slotin.
+
+100
+00:06:08,388 --> 00:06:11,809
+Brilliant, charismatic, and fearless, Slotin wore cowboy boots,
+
+101
+00:06:11,809 --> 00:06:16,940
+blue jeans, and lived for the intoxicating thrill of mastering chain reactions.
+
+102
+00:06:17,340 --> 00:06:21,970
+On May 21st, 1946, Slotin was preparing to hand over his duties
+
+103
+00:06:21,970 --> 00:06:26,214
+before the core was shipped to Bikini Atoll for atomic tests.
+
+104
+00:06:26,214 --> 00:06:30,844
+Seven other scientists and observers gathered inside the Omega Site laboratory to
+
+105
+00:06:30,844 --> 00:06:35,474
+watch Slotin demonstrate what he casually referred to as his trademark criticality
+
+106
+00:06:35,474 --> 00:06:35,860
+procedure.
+
+107
+00:06:36,260 --> 00:06:39,046
+This time, the reflector was not heavy bricks,
+
+108
+00:06:39,046 --> 00:06:42,528
+but two nested, nine-inch hollow hemispheres made of pure beryllium.
+
+109
+00:06:42,528 --> 00:06:46,706
+The bottom hemisphere sat in a metal cradle holding the plutonium core.
+
+110
+00:06:46,706 --> 00:06:50,884
+Slotin’s task was to slowly lower the upper dome over the core
+
+111
+00:06:50,884 --> 00:06:53,670
+to measure neutron multiplication through the remaining gap.
+
+112
+00:06:54,070 --> 00:06:58,672
+Official laboratory protocol strictly mandated using solid wooden wedges or metal shims
+
+113
+00:06:58,672 --> 00:07:02,123
+to ensure the upper dome could never completely close.
+
+114
+00:07:02,123 --> 00:07:06,724
+But Slotin found wedges clumsy. Instead, he casually propped the upper hemisphere
+
+115
+00:07:06,724 --> 00:07:11,326
+open using only the blade of a standard two-inch flathead screwdriver held
+
+116
+00:07:11,326 --> 00:07:12,860
+in his right hand.
+
+117
+00:07:13,260 --> 00:07:15,731
+Colleagues in the room grew visibly tense.
+
+118
+00:07:15,731 --> 00:07:18,909
+Physicist Raemer Schreiber looked away for a split second.
+
+119
+00:07:18,909 --> 00:07:23,146
+At three twenty in the afternoon, Slotin’s screwdriver blade suddenly slipped one
+
+120
+00:07:23,146 --> 00:07:27,029
+millimeter on the polished beryllium lip. With a heavy metallic click,
+
+121
+00:07:27,029 --> 00:07:30,560
+the upper dome dropped shut, completely sealing the plutonium core.
+
+122
+00:07:30,970 --> 00:07:35,755
+In less than five hundred microseconds, the sealed core exploded into prompt
+
+123
+00:07:35,755 --> 00:07:40,541
+supercriticality. A blinding flash of blue Cherenkov light surged through the room,
+
+124
+00:07:40,541 --> 00:07:44,130
+accompanied by an instantaneous wave of searing thermal heat.
+
+125
+00:07:44,130 --> 00:07:48,915
+Slotin instantly tasted a sharp, sour metallic flavor on his tongue—the hallmark
+
+126
+00:07:48,915 --> 00:07:50,510
+of massive cellular ionization.
+
+127
+00:07:50,910 --> 00:07:53,158
+With superhuman reflexes, Slotin did not run.
+
+128
+00:07:53,158 --> 00:07:57,012
+He seized the scorching beryllium dome with his bare left hand and
+
+129
+00:07:57,012 --> 00:08:00,545
+threw it violently to the floor, instantly terminating the chain reaction.
+
+130
+00:08:00,545 --> 00:08:03,436
+Shielding the other seven men with his own body,
+
+131
+00:08:03,436 --> 00:08:06,326
+Slotin calmly turned to his colleagues and said: 'Well,
+
+132
+00:08:06,326 --> 00:08:07,290
+that does it.'
+
+133
+00:08:07,690 --> 00:08:10,677
+Slotin knew immediately that his life was forfeit.
+
+134
+00:08:10,677 --> 00:08:14,785
+Remaining astonishingly clear-headed, he ordered everyone to stay frozen in place.
+
+135
+00:08:14,785 --> 00:08:17,398
+Using a piece of white blackboard chalk,
+
+136
+00:08:17,398 --> 00:08:21,879
+Slotin marked the exact spot on the wooden floor where every single
+
+137
+00:08:21,879 --> 00:08:26,360
+person had stood, enabling medical physicists to calculate their precise radiation exposure.
+
+138
+00:08:26,760 --> 00:08:31,802
+Slotin had absorbed an astronomical dose of one thousand rads of neutron
+
+139
+00:08:31,802 --> 00:08:35,584
+and gamma radiation—far beyond any known medical survival threshold.
+
+140
+00:08:35,584 --> 00:08:39,366
+Over the next nine days at Los Alamos Hospital,
+
+141
+00:08:39,366 --> 00:08:43,568
+his gastrointestinal tract disintegrated and his white blood cells vanished.
+
+142
+00:08:43,568 --> 00:08:46,509
+Louis Slotin passed away on May 30th,
+
+143
+00:08:46,509 --> 00:08:47,770
+1946, aged thirty-five.
+
+144
+00:08:48,170 --> 00:08:52,979
+Because Slotin's body had physically absorbed the brunt of the neutron blast,
+
+145
+00:08:52,979 --> 00:08:57,789
+all seven other men survived. However, the phantom of radiation followed them
+
+146
+00:08:57,789 --> 00:09:01,396
+for decades. Several developed premature cataracts, chronic blood disorders,
+
+147
+00:09:01,396 --> 00:09:04,201
+and psychological scars that never fully healed,
+
+148
+00:09:04,201 --> 00:09:08,610
+serving as living testaments to that fateful afternoon in Pajarito Canyon.
+
+149
+00:09:09,010 --> 00:09:11,890
+The second disaster was the final straw.
+
+150
+00:09:11,890 --> 00:09:16,827
+Laboratory director Norris Bradbury and General Leslie Groves immediately issued an absolute,
+
+151
+00:09:16,827 --> 00:09:19,706
+permanent ban on all manual criticality experiments.
+
+152
+00:09:19,706 --> 00:09:23,820
+Never again would a human being touch a fissile core.
+
+153
+00:09:23,820 --> 00:09:28,757
+From that moment on, all criticality tests were conducted entirely by remote-controlled
+
+154
+00:09:28,757 --> 00:09:29,580
+robotic manipulators.
+
+155
+00:09:29,970 --> 00:09:32,689
+What happened to the Demon Core itself?
+
+156
+00:09:32,689 --> 00:09:36,572
+Initially slated for the Able nuclear test at Bikini Atoll,
+
+157
+00:09:36,572 --> 00:09:40,068
+officials delayed its detonation to verify its physical integrity.
+
+158
+00:09:40,068 --> 00:09:43,174
+In July 1946, the core was melted down,
+
+159
+00:09:43,174 --> 00:09:47,835
+recooled, and reconstituted into new weapon pits that were later detonated over
+
+160
+00:09:47,835 --> 00:09:49,000
+the Pacific Ocean.
+
+161
+00:09:49,400 --> 00:09:53,642
+The Demon Core claimed two brilliant lives not because the laws of
+
+162
+00:09:53,642 --> 00:09:57,531
+quantum physics failed, but because human confidence momentarily triumphed over caution.
+
+163
+00:09:57,531 --> 00:10:00,006
+In the dawn of the atomic age,
+
+164
+00:10:00,006 --> 00:10:03,895
+it proved that when dealing with cosmic forces trapped inside metal,
+
+165
+00:10:03,895 --> 00:10:07,430
+a single millimeter is the difference between life and death.

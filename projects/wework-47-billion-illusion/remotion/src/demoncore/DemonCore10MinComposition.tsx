@@ -128,12 +128,14 @@ export const DemonCore10MinComposition: React.FC = () => {
   const { fps } = useVideoConfig();
 
   // Active scene determination based on frame ranges
-  let activeScene = SCENES[0];
+  let activeSceneIndex = 0;
   for (let i = 0; i < SCENES.length; i++) {
     if (frame >= SCENES[i].start_frame) {
-      activeScene = SCENES[i];
+      activeSceneIndex = i;
     }
   }
+  const activeScene = SCENES[activeSceneIndex];
+  const previousScene = activeSceneIndex > 0 ? SCENES[activeSceneIndex - 1] : null;
 
   const currentEra =
     HISTORICAL_TIMELINE.find((e) => e.act === activeScene.act) ||
@@ -155,39 +157,48 @@ export const DemonCore10MinComposition: React.FC = () => {
     { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }
   );
 
-  // 2. Living Stickman Puppet Breathing & Camera Crawl
+  // 2. Smooth Linear Ken Burns (Zero wobble/shake/breathing, calm documentary drift)
+  const isEvenScene = activeSceneIndex % 2 === 0;
   const kbScale = interpolate(
     sceneRelativeFrame,
     [0, activeScene.duration_frames],
-    [1.0, 1.055],
+    isEvenScene ? [1.0, 1.045] : [1.045, 1.0],
     { extrapolateRight: 'clamp' }
   );
-  
-  const breathingScale = 1.0 + Math.sin(frame / 26) * 0.012;
-  const floatingTilt = Math.sin(frame / 42) * 0.9;
-  const panX = Math.sin((frame + Number(activeScene.scene_id) * 75) / 85) * 12;
-  const panY = Math.cos((frame + Number(activeScene.scene_id) * 75) / 105) * 7;
+  const panX = interpolate(
+    sceneRelativeFrame,
+    [0, activeScene.duration_frames],
+    isEvenScene ? [-6, 6] : [6, -6],
+    { extrapolateRight: 'clamp' }
+  );
+  const panY = interpolate(
+    sceneRelativeFrame,
+    [0, activeScene.duration_frames],
+    isEvenScene ? [-3, 3] : [3, -3],
+    { extrapolateRight: 'clamp' }
+  );
 
-  // 3. CHERENKOV RADIATION FLASH & SCREEN SHAKE (Scenes 16 & 25)
+  // 3. Smooth Scene Transition (Crossfade Dissolve: 15 frames / 0.5s)
+  const CROSSFADE_FRAMES = 15;
+  const sceneEntranceOpacity = interpolate(
+    sceneRelativeFrame,
+    [0, CROSSFADE_FRAMES],
+    [0, 1],
+    { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }
+  );
+
+  // 4. CHERENKOV RADIATION BLINDING BLUE BURST (Scenes 16 & 25 - optical flare without screen shake)
   const isCherenkovScene = activeScene.scene_id === '16' || activeScene.scene_id === '25';
   let cherenkovFlashOpacity = 0;
-  let shakeX = 0;
-  let shakeY = 0;
 
   if (isCherenkovScene) {
-    // Blinding blue flash burst in first 40 frames of scene
+    // Blinding blue flash burst in first 35 frames of scene
     cherenkovFlashOpacity = interpolate(
       sceneRelativeFrame,
-      [0, 3, 12, 45],
-      [0.95, 1.0, 0.65, 0.0],
+      [0, 3, 12, 35],
+      [0.9, 1.0, 0.5, 0.0],
       { extrapolateRight: 'clamp' }
     );
-    // Violent screen shake
-    if (sceneRelativeFrame < 35) {
-      const shakeDecay = (35 - sceneRelativeFrame) / 35;
-      shakeX = (Math.sin(sceneRelativeFrame * 2.8) * 22 + Math.cos(sceneRelativeFrame * 4.1) * 14) * shakeDecay;
-      shakeY = (Math.cos(sceneRelativeFrame * 3.2) * 18 + Math.sin(sceneRelativeFrame * 5.3) * 12) * shakeDecay;
-    }
   }
 
   // 4. Volumetric Ambient Glow Pulses
@@ -290,39 +301,71 @@ export const DemonCore10MinComposition: React.FC = () => {
         }}
       />
 
-      {/* 2. VISUAL STAGE: 2D CARTOON STICKMAN SCENE (with screen shake) */}
+      {/* 2. VISUAL STAGE: 2D CARTOON STICKMAN SCENE (with Smooth Ken Burns & Crossfade Dissolve) */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
           zIndex: 4,
           overflow: 'hidden',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          transform: `translate(${shakeX}px, ${shakeY}px)`,
+          backgroundColor: '#0c0e14',
         }}
       >
+        {/* Previous Scene underlay (visible during the 15-frame crossfade transition) */}
+        {previousScene && sceneRelativeFrame < CROSSFADE_FRAMES && (
+          <div
+            style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <Img
+              src={staticFile(`assets/demon_core/scenes/scene_${previousScene.scene_id}.png`)}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                filter: 'contrast(1.06) brightness(1.02) saturate(1.05)',
+              }}
+            />
+          </div>
+        )}
+
+        {/* Current Active Scene (smooth Ken Burns zoom + linear pan, crossfade in) */}
         <div
           style={{
-            width: '100%',
-            height: '100%',
-            transform: `scale(${kbScale * breathingScale}) translate(${panX}px, ${panY}px) rotate(${floatingTilt}deg)`,
-            transformOrigin: 'center center',
+            position: 'absolute',
+            inset: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            opacity: sceneEntranceOpacity,
           }}
         >
-          <Img
-            src={staticFile(sceneImagePath)}
+          <div
             style={{
               width: '100%',
               height: '100%',
-              objectFit: 'cover',
-              filter: 'contrast(1.06) brightness(1.02) saturate(1.05)',
+              transform: `scale(${kbScale}) translate(${panX}px, ${panY}px)`,
+              transformOrigin: 'center center',
             }}
-          />
+          >
+            <Img
+              src={staticFile(sceneImagePath)}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                filter: 'contrast(1.06) brightness(1.02) saturate(1.05)',
+              }}
+            />
+          </div>
         </div>
 
-        {/* Cinematic Vignette & Bottom Text Contrast Falloff */}
+        {/* Cinematic Vignette & Top/Bottom Contrast Falloff */}
         <div
           style={{
             position: 'absolute',
@@ -670,39 +713,7 @@ export const DemonCore10MinComposition: React.FC = () => {
         </div>
       </div>
 
-      {/* 8. HIGH-CONTRAST SUBTITLES DIRECTLY ON SCENE (Clean Typography - NO FIELDS) */}
-      <div
-        style={{
-          position: 'absolute',
-          bottom: 48,
-          left: 70,
-          right: 70,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          zIndex: 15,
-          pointerEvents: 'none',
-        }}
-      >
-        <p
-          style={{
-            margin: 0,
-            maxWidth: 1420,
-            fontSize: 32,
-            fontWeight: 800,
-            fontFamily: '"Montserrat", "Inter", -apple-system, sans-serif',
-            lineHeight: 1.35,
-            color: '#ffffff',
-            textAlign: 'center',
-            WebkitTextStroke: '2px #000000',
-            textShadow:
-              '2px 2px 0 #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 0 6px 20px rgba(0, 0, 0, 0.95)',
-            letterSpacing: '0.01em',
-          }}
-        >
-          {activeScene.voiceover_text}
-        </p>
-      </div>
+
 
       {/* 9. MINIMALIST RUNNING PROGRESS BAR (Neon Rush Signature - Height 5px) */}
       <div
