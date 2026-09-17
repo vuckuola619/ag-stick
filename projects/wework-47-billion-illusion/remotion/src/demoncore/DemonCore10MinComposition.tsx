@@ -421,11 +421,11 @@ export const DemonCore10MinComposition: React.FC = () => {
       </div>
 
       {/* 5. TOP BROADCAST HEADER & RADIATION DOSIMETER HUD */}
-      {/* 5. TOP HISTORICAL TELEMETRY HUD (Scientific Element & Location Telemetry - NO FIELDS) */}
+      {/* 5. TOP TELEMETRY STRIP (Minimal & Elegant - Distributed Layout) */}
       <div
         style={{
           position: 'absolute',
-          top: 24,
+          top: 20,
           left: 50,
           right: 50,
           display: 'flex',
@@ -435,34 +435,33 @@ export const DemonCore10MinComposition: React.FC = () => {
           pointerEvents: 'none',
         }}
       >
-        {/* Left: Scientific Element Card (Pu 94) & Channel Identifier */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          {/* Element Box Pu 94 */}
+        {/* Top-Left: Scientific Element Identifier (Pu 94) */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <div
             style={{
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              width: 44,
-              height: 44,
+              width: 36,
+              height: 36,
               borderRadius: 4,
               background: `linear-gradient(135deg, ${currentEra.accent} 0%, ${currentEra.subAccent} 100%)`,
               color: '#050811',
               fontWeight: 900,
-              fontSize: 20,
+              fontSize: 16,
               lineHeight: 1,
-              boxShadow: `0 0 14px ${currentEra.accent}66`,
+              boxShadow: `0 0 10px ${currentEra.accent}55`,
             }}
           >
             Pu
-            <span style={{ fontSize: 9, fontWeight: 800, marginTop: 1 }}>94</span>
+            <span style={{ fontSize: 8, fontWeight: 800, marginTop: 1 }}>94</span>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span
               style={{
-                fontSize: 14,
+                fontSize: 13,
                 fontWeight: 900,
                 color: '#ffffff',
                 letterSpacing: '0.08em',
@@ -474,57 +473,20 @@ export const DemonCore10MinComposition: React.FC = () => {
             </span>
             <span
               style={{
-                fontSize: 11,
+                fontSize: 10,
                 color: '#94a3b8',
-                fontFamily: 'monospace',
-                letterSpacing: '0.04em',
+                letterSpacing: '0.05em',
                 textShadow: '1px 1px 2px #000000',
-              }}
-            >
-              MASS: 6.2 KG | DENSITY: 19.84 g/cm³
-            </span>
-          </div>
-
-          {/* Clean Vertical Divider */}
-          <div
-            style={{
-              height: 28,
-              width: 1,
-              backgroundColor: 'rgba(255, 255, 255, 0.2)',
-              margin: '0 8px',
-            }}
-          />
-
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <span
-              style={{
-                fontSize: 11,
-                fontWeight: 800,
-                color: '#94a3b8',
-                letterSpacing: '0.14em',
                 textTransform: 'uppercase',
-                textShadow: '1px 1px 2px #000000',
               }}
             >
-              NEON ATOM // EPISODE 03
-            </span>
-            <span
-              style={{
-                fontSize: 13,
-                fontWeight: 900,
-                color: '#ffffff',
-                letterSpacing: '0.06em',
-                textTransform: 'uppercase',
-                textShadow: '2px 2px 4px #000000',
-              }}
-            >
-              THE DEMON CORE
+              NEON ATOM // EPISODE 03: THE DEMON CORE
             </span>
           </div>
         </div>
 
-        {/* Right: Real-time Era & Criticality Telemetry */}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
+        {/* Top-Right: Location Identifier */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <span
             style={{
               fontSize: 11,
@@ -537,30 +499,106 @@ export const DemonCore10MinComposition: React.FC = () => {
           >
             LOCATION: {currentEra.location}
           </span>
-          <span
-            style={{
-              fontSize: 14,
-              fontWeight: 900,
-              fontFamily: 'ui-monospace, "JetBrains Mono", monospace',
-              color: currentEra.alertLevel === 'LETHAL' ? '#FF2244' : currentEra.accent,
-              letterSpacing: '0.06em',
-              textShadow: '2px 2px 4px #000000, 0 0 12px rgba(0, 0, 0, 0.9)',
-              textTransform: 'uppercase',
-            }}
-          >
-            STATE: {currentEra.condition} [{currentRadDisplay}]
-          </span>
         </div>
       </div>
 
-      {/* 6. HISTORICAL ERA TIMELINE RIBBON (1945-1946 Los Alamos / Crossroads Timeline) */}
+      {/* 6. LARGE PUNCHY EDITORIAL HEADLINE BANNER (Upper-Left with Generous Breathing Room) */}
       <div
         style={{
           position: 'absolute',
-          top: 80,
+          top: 74,
+          left: 50,
+          zIndex: 15,
+          opacity: headlineOpacity,
+          transform: `translateY(${interpolate(headlineEntrance, [0, 1], [-14, 0])}px)`,
+          pointerEvents: 'none',
+        }}
+      >
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+          {/* Act & Scene Tag */}
+          <span
+            style={{
+              fontSize: 12,
+              fontWeight: 800,
+              letterSpacing: '0.14em',
+              color: currentEra.accent,
+              textTransform: 'uppercase',
+              textShadow: '2px 2px 4px #000000',
+            }}
+          >
+            ACT {activeScene.act}: {activeScene.act_title} // SCENE {activeScene.scene_id}
+          </span>
+
+          {/* Master Neon Rush Hook Headline */}
+          <h1
+            style={{
+              margin: 0,
+              fontSize: 44,
+              fontWeight: 900,
+              fontFamily: '"Impact", "Arial Black", "Montserrat", sans-serif',
+              letterSpacing: '0.01em',
+              lineHeight: 1.05,
+              color: '#FFE600',
+              WebkitTextStroke: '2.5px #000000',
+              textShadow:
+                '3px 3px 0 #000000, -3px -3px 0 #000000, 3px -3px 0 #000000, -3px 3px 0 #000000, 0 8px 24px rgba(0, 0, 0, 0.95)',
+              textTransform: 'uppercase',
+              maxWidth: 880,
+            }}
+          >
+            {activeScene.kinetic_hook_headline}
+          </h1>
+        </div>
+      </div>
+
+      {/* 7. BOTTOM-RIGHT SCIENTIFIC DOSIMETER TELEMETRY & TIMECODE */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: 50,
+          right: 50,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+          gap: 2,
+          zIndex: 15,
+          pointerEvents: 'none',
+        }}
+      >
+        <span
+          style={{
+            fontSize: 13,
+            fontWeight: 900,
+            fontFamily: 'ui-monospace, "JetBrains Mono", monospace',
+            color: currentEra.alertLevel === 'LETHAL' ? '#FF2244' : currentEra.accent,
+            letterSpacing: '0.06em',
+            textShadow: '2px 2px 4px #000000, 0 0 10px rgba(0, 0, 0, 0.9)',
+            textTransform: 'uppercase',
+          }}
+        >
+          STATE: {currentEra.condition} [{currentRadDisplay}]
+        </span>
+        <span
+          style={{
+            fontSize: 11,
+            fontFamily: 'ui-monospace, "JetBrains Mono", monospace',
+            color: '#94a3b8',
+            letterSpacing: '0.08em',
+            textShadow: '1px 1px 2px #000000',
+          }}
+        >
+          {timecode} / 00:10:07:25
+        </span>
+      </div>
+
+      {/* 8. HISTORICAL ERA TIMELINE RIBBON DOCK (Anchored at Screen Bottom) */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: 8,
           left: 50,
           right: 50,
-          height: 38,
+          height: 36,
           zIndex: 14,
           pointerEvents: 'none',
         }}
@@ -569,7 +607,7 @@ export const DemonCore10MinComposition: React.FC = () => {
         <div
           style={{
             position: 'absolute',
-            top: 7,
+            bottom: 6,
             left: 0,
             right: 0,
             height: 2,
@@ -581,7 +619,7 @@ export const DemonCore10MinComposition: React.FC = () => {
         <div
           style={{
             position: 'absolute',
-            top: 7,
+            bottom: 6,
             left: 0,
             width: `${progressPercent}%`,
             height: 2,
@@ -600,7 +638,7 @@ export const DemonCore10MinComposition: React.FC = () => {
               style={{
                 position: 'absolute',
                 left: `${m.percent}%`,
-                top: 0,
+                bottom: 0,
                 transform:
                   m.percent === 0
                     ? 'none'
@@ -617,31 +655,11 @@ export const DemonCore10MinComposition: React.FC = () => {
                     : 'center',
               }}
             >
-              {/* Milestone Indicator Pip */}
-              <div
-                style={{
-                  width: isActive ? 12 : isPassed ? 8 : 6,
-                  height: isActive ? 12 : isPassed ? 8 : 6,
-                  borderRadius: '50%',
-                  backgroundColor: isActive
-                    ? '#FFE600'
-                    : isPassed
-                    ? m.accent
-                    : 'rgba(255, 255, 255, 0.25)',
-                  boxShadow: isActive
-                    ? '0 0 10px #FFE600, 0 0 20px rgba(255, 230, 0, 0.8)'
-                    : isPassed
-                    ? `0 0 6px ${m.accent}`
-                    : 'none',
-                  marginTop: isActive ? 2 : isPassed ? 4 : 5,
-                  border: isActive ? '2px solid #FFFFFF' : 'none',
-                }}
-              />
-              {/* Milestone Date & Name */}
+              {/* Milestone Date & Name above track */}
               <span
                 style={{
-                  marginTop: 6,
-                  fontSize: isActive ? 12 : 10,
+                  marginBottom: 5,
+                  fontSize: isActive ? 11 : 9,
                   fontWeight: isActive ? 900 : isPassed ? 700 : 600,
                   fontFamily: '"Montserrat", "Inter", sans-serif',
                   letterSpacing: '0.06em',
@@ -649,80 +667,50 @@ export const DemonCore10MinComposition: React.FC = () => {
                     ? '#FFE600'
                     : isPassed
                     ? '#cbd5e1'
-                    : 'rgba(255, 255, 255, 0.55)',
+                    : 'rgba(255, 255, 255, 0.45)',
                   textTransform: 'uppercase',
                   textShadow: isActive
-                    ? '2px 2px 4px #000000, 0 0 12px rgba(255, 230, 0, 0.9)'
-                    : '1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 0 2px 6px rgba(0, 0, 0, 0.95)',
+                    ? '2px 2px 4px #000000, 0 0 10px rgba(255, 230, 0, 0.8)'
+                    : '1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 0 2px 4px rgba(0, 0, 0, 0.9)',
                   whiteSpace: 'nowrap',
                 }}
               >
                 {m.label}
               </span>
+
+              {/* Milestone Indicator Pip */}
+              <div
+                style={{
+                  width: isActive ? 10 : isPassed ? 7 : 5,
+                  height: isActive ? 10 : isPassed ? 7 : 5,
+                  borderRadius: '50%',
+                  backgroundColor: isActive
+                    ? '#FFE600'
+                    : isPassed
+                    ? m.accent
+                    : 'rgba(255, 255, 255, 0.25)',
+                  boxShadow: isActive
+                    ? '0 0 8px #FFE600, 0 0 16px rgba(255, 230, 0, 0.7)'
+                    : isPassed
+                    ? `0 0 5px ${m.accent}`
+                    : 'none',
+                  border: isActive ? '2px solid #FFFFFF' : 'none',
+                  marginBottom: isActive ? 1 : isPassed ? 3 : 4,
+                }}
+              />
             </div>
           );
         })}
       </div>
 
-      {/* 7. LARGE PUNCHY EDITORIAL HEADLINE (Neon Rush / Quicksilver Impact Style - NO FIELDS) */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 132,
-          left: 50,
-          zIndex: 15,
-          opacity: headlineOpacity,
-          transform: `translateY(${interpolate(headlineEntrance, [0, 1], [-16, 0])}px)`,
-          pointerEvents: 'none',
-        }}
-      >
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-          {/* Category Tag directly on video */}
-          <span
-            style={{
-              fontSize: 13,
-              fontWeight: 800,
-              letterSpacing: '0.14em',
-              color: currentEra.accent,
-              textTransform: 'uppercase',
-              textShadow: '2px 2px 4px #000000',
-            }}
-          >
-            ACT {activeScene.act}: {activeScene.act_title} // SCENE {activeScene.scene_id}
-          </span>
-
-          {/* Master Neon Rush Hook Headline */}
-          <h1
-            style={{
-              margin: 0,
-              fontSize: 54,
-              fontWeight: 900,
-              fontFamily: '"Impact", "Arial Black", "Montserrat", sans-serif',
-              letterSpacing: '0.01em',
-              lineHeight: 1.05,
-              color: '#FFE600',
-              WebkitTextStroke: '3px #000000',
-              textShadow:
-                '3px 3px 0 #000000, -3px -3px 0 #000000, 3px -3px 0 #000000, -3px 3px 0 #000000, 0 8px 24px rgba(0, 0, 0, 0.95)',
-              textTransform: 'uppercase',
-              maxWidth: 1050,
-            }}
-          >
-            {activeScene.kinetic_hook_headline}
-          </h1>
-        </div>
-      </div>
-
-
-
-      {/* 9. MINIMALIST RUNNING PROGRESS BAR (Neon Rush Signature - Height 5px) */}
+      {/* 9. RUNNING PROGRESS BAR (Base of screen - Height 3px) */}
       <div
         style={{
           position: 'absolute',
           bottom: 0,
           left: 0,
           right: 0,
-          height: 5,
+          height: 3,
           backgroundColor: 'rgba(255, 255, 255, 0.08)',
           zIndex: 20,
         }}
@@ -732,26 +720,9 @@ export const DemonCore10MinComposition: React.FC = () => {
             width: `${progressPercent}%`,
             height: '100%',
             background: `linear-gradient(to right, #FFB300, ${currentEra.accent})`,
-            boxShadow: `0 0 10px ${currentEra.accent}`,
+            boxShadow: `0 0 8px ${currentEra.accent}`,
           }}
         />
-      </div>
-
-      {/* TIMECODE HUD (Bottom Right) */}
-      <div
-        style={{
-          position: 'absolute',
-          bottom: 12,
-          right: 50,
-          fontSize: 12,
-          fontFamily: 'ui-monospace, "JetBrains Mono", monospace',
-          color: '#94a3b8',
-          letterSpacing: '0.1em',
-          zIndex: 20,
-          textShadow: '1px 1px 2px #000000',
-        }}
-      >
-        {timecode} / 00:10:07:25
       </div>
     </div>
   );
