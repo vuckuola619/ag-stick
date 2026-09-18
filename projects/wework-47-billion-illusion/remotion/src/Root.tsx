@@ -13,6 +13,11 @@ import { MercuryEnterprise8MinComposition } from './mercury/MercuryEnterprise8Mi
 import { MercuryEnglish8MinComposition } from './mercury/MercuryEnglish8MinComposition';
 import { WhitePhosphorus10MinComposition } from './whitephosphorus/WhitePhosphorus10MinComposition';
 import { DemonCore10MinComposition } from './demoncore/DemonCore10MinComposition';
+import { DemonCoreV2Composition } from './demoncore/DemonCoreV2Composition';
+import {
+  DemonCoreV2Scene24Composition,
+  DemonCoreV2Scene04Composition,
+} from './demoncore/DemonCoreV2ShowcaseComposition';
 import manifestData from '../public/scene_manifest.json';
 
 export const Root: React.FC = () => {
@@ -119,6 +124,30 @@ export const Root: React.FC = () => {
         id="DemonCore10Min"
         component={DemonCore10MinComposition}
         durationInFrames={18252}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="DemonCoreV2"
+        component={DemonCoreV2Composition}
+        durationInFrames={18252}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="DemonCoreV2Scene24"
+        component={DemonCoreV2Scene24Composition}
+        durationInFrames={540}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="DemonCoreV2Scene04"
+        component={DemonCoreV2Scene04Composition}
+        durationInFrames={600}
         fps={30}
         width={1920}
         height={1080}
