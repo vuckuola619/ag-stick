@@ -19,7 +19,9 @@ import {
   DemonCoreV2Scene04Composition,
 } from './demoncore/DemonCoreV2ShowcaseComposition';
 import { ThomasMidgley10MinComposition } from './midgley/ThomasMidgley10MinComposition';
+import { DossierShortsComposition } from './midgley/DossierShortsComposition';
 import manifestData from '../public/scene_manifest.json';
+import shortsManifest from '../public/assets/dossier_shorts/manifest_shorts.json';
 
 export const Root: React.FC = () => {
   return (
@@ -160,6 +162,33 @@ export const Root: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="DossierShorts01"
+        component={DossierShortsComposition}
+        durationInFrames={shortsManifest[0]?.total_frames || 1782}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={shortsManifest[0] as any}
+      />
+      <Composition
+        id="DossierShorts02"
+        component={DossierShortsComposition}
+        durationInFrames={shortsManifest[1]?.total_frames || 2011}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={shortsManifest[1] as any}
+      />
+      <Composition
+        id="DossierShorts03"
+        component={DossierShortsComposition}
+        durationInFrames={shortsManifest[2]?.total_frames || 1911}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={shortsManifest[2] as any}
       />
     </>
   );
