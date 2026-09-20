@@ -1,0 +1,57 @@
+name: neon_atom
+description: "Neon Atom signature aesthetic: High-velocity science documentary, bold 2D vector stickman, dark slate glassmorphism HUD, vibrant cyan/hazard radiation accents."
+
+character:
+  stroke_width: 9
+  head_shape: white_circle
+  head_color: "#ffffff"
+  outline_color: "#0b0d13"
+  detail_level: minimalist
+  proportions:
+    head_radius: 14
+    torso_height: 38
+    limb_stroke: 8
+
+background:
+  complexity: low
+  base_color: "#12141A"
+  surface_color: "#181B24"
+  grid_overlay: false
+
+palette:
+  background: "#12141A"
+  surface: "#181B24"
+  text_primary: "#F8FAFC"
+  text_secondary: "#94A3B8"
+  hazard_orange: "#FF5500"
+  radiation_cyan: "#00E5FF"
+  cherenkov_blue: "#0088FF"
+  warning_amber: "#FFB300"
+  alert_crimson: "#EF4444"
+  lead_slate: "#334155"
+
+tier_budget_targets:
+  T0_procedural: 0.35
+  T1_reusable_asset: 0.30
+  T2_composed_asset: 0.20
+  T3_ai_generated: 0.10
+  T4_hero_cinematic: 0.05
+
+motion:
+  default_cut_duration: 3.2
+  max_static_hold_sec: 6.0
+  camera_strength: 0.35
+  spring_damping: 14
+  spring_stiffness: 120
+
+retention_rules:
+  max_consecutive_exposition_beats: 2
+  pattern_interrupt_interval_sec: 28.0
+  max_hero_frame_ratio: 0.12
+  mandatory_diagram_for_abstract: true
+
+typography:
+  headline_font: "Montserrat, Inter, sans-serif"
+  body_font: "Inter, sans-serif"
+  telemetry_font: "JetBrains Mono, monospace"
+  accent_color: "#FFE600"

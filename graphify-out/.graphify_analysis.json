@@ -1,0 +1,912 @@
+{
+  "communities": {
+    "0": [
+      "basemodel",
+      "engine_compiler_beat_compiler",
+      "engine_compiler_beat_compiler_beatcompiler",
+      "engine_compiler_beat_compiler_beatcompiler_compile_scene",
+      "engine_compiler_beat_compiler_beatcompiler_create_demon_core_scene_04_diagram_beats",
+      "engine_compiler_beat_compiler_beatcompiler_create_demon_core_scene_24_beats",
+      "engine_compiler_beat_compiler_beatcompiler_heuristic_decompile",
+      "engine_compiler_beat_compiler_beatcompiler_init",
+      "engine_compiler_beat_compiler_beatcompiler_normalize_beat_timings",
+      "engine_compiler_beat_compiler_rationale_1",
+      "engine_compiler_beat_compiler_rationale_251",
+      "engine_compiler_beat_compiler_rationale_26",
+      "engine_compiler_beat_compiler_rationale_408",
+      "engine_compiler_beat_compiler_rationale_41",
+      "engine_compiler_beat_compiler_rationale_95",
+      "engine_compiler_retention_auditor",
+      "engine_compiler_retention_auditor_py_any",
+      "engine_compiler_retention_auditor_rationale_1",
+      "engine_compiler_retention_auditor_rationale_49",
+      "engine_compiler_retention_auditor_rationale_93",
+      "engine_compiler_retention_auditor_retentionauditor",
+      "engine_compiler_retention_auditor_retentionauditor_audit_episode",
+      "engine_compiler_retention_auditor_retentionauditor_audit_scene",
+      "engine_compiler_retention_auditor_retentionauditor_format_time",
+      "engine_compiler_retention_auditor_retentionauditor_generate_markdown_report",
+      "engine_compiler_retention_auditor_retentionauditor_init",
+      "engine_compiler_retention_auditor_retentionissue",
+      "engine_compiler_retention_auditor_retentionissue_init",
+      "engine_compiler_retention_auditor_retentionissue_to_dict",
+      "engine_schema",
+      "engine_schema_act",
+      "engine_schema_assettier",
+      "engine_schema_beat",
+      "engine_schema_cameraconfig",
+      "engine_schema_cameramotion",
+      "engine_schema_camerashot",
+      "engine_schema_characterstate",
+      "engine_schema_charactertransform",
+      "engine_schema_episode",
+      "engine_schema_expressiontype",
+      "engine_schema_fxevent",
+      "engine_schema_posetype",
+      "engine_schema_propstate",
+      "engine_schema_rationale_1",
+      "engine_schema_scene",
+      "engine_schema_sfxevent",
+      "engine_schema_subjectmotion",
+      "engine_schema_subjectmotiontype",
+      "engine_schema_visualfunction",
+      "engine_style_engine",
+      "engine_style_engine_py_any",
+      "engine_style_engine_rationale_1",
+      "engine_style_engine_styleengine",
+      "engine_style_engine_styleengine_get_character",
+      "engine_style_engine_styleengine_get_color",
+      "engine_style_engine_styleengine_get_prop",
+      "engine_style_engine_styleengine_get_tier_budget_targets",
+      "engine_style_engine_styleengine_init",
+      "engine_style_engine_styleengine_load_yaml",
+      "engine_style_engine_styleengine_validate_expression",
+      "engine_style_engine_styleengine_validate_pose",
+      "enum",
+      "projects_demon_core_10min_scripts_08_compile_demon_core_v2",
+      "projects_demon_core_10min_scripts_08_compile_demon_core_v2_rationale_1",
+      "projects_demon_core_10min_scripts_08_compile_demon_core_v2_run_compilation",
+      "str"
+    ],
+    "1": [
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_awsbillingmeter",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_awsbillingmeter_awsbillingmeter",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_awsbillingmeter_awsbillingmeterprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_beamprocesscloud",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_beamprocesscloud_beamprocesscloud",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_beamprocesscloud_beamprocesscloudprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_episodeheader",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_episodeheader_episodeheader",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_episodeheader_episodeheaderprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_githubrepobadge",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_githubrepobadge_githubrepobadge",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_githubrepobadge_githubrepobadgeprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_handdrawnannotation",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_handdrawnannotation_handdrawnannotation",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_handdrawnannotation_handdrawnannotationprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_memedevquotes",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_memedevquotes_memedevquote",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_memedevquotes_memedevquoteprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_metrichud",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_metrichud_metrichud",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_metrichud_metrichudprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_packetconnection",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_packetconnection_packetconnection",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_packetconnection_packetconnectionprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnodev2",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnodev2_systemnodetype",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnodev2_systemnodev2",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnodev2_systemnodev2props",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_tcpsocketgauge",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_tcpsocketgauge_tcpsocketgauge",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_tcpsocketgauge_tcpsocketgaugeprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techdevactor",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techdevactor_techdevactor",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techdevactor_techdevactorprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techdevactor_techdevrole",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techstudiobackground",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techstudiobackground_techstudiobackground",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_techstudiobackground_techstudiobackgroundprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_whatsappheader",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_whatsappheader_whatsappheader",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_whatsappheader_whatsappheaderprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_systemdesignmastercomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_systemdesignmastercomposition_systemdesignmastercomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_systemdesigntiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_systemdesigntiktokcomposition_systemdesigntiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_whatsappmastercomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_whatsappmastercomposition_whatsappmastercomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_whatsapptiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_whatsapptiktokcomposition_whatsapptiktokcomposition"
+    ],
+    "2": [
+      "projects_wework_47_billion_illusion_remotion_src_components_alertwash",
+      "projects_wework_47_billion_illusion_remotion_src_components_alertwash_alertwash",
+      "projects_wework_47_billion_illusion_remotion_src_components_alertwash_alertwashprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_editorialdustparticles",
+      "projects_wework_47_billion_illusion_remotion_src_components_editorialdustparticles_editorialdustparticles",
+      "projects_wework_47_billion_illusion_remotion_src_components_editorialdustparticles_editorialdustparticlesprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_filmgrainoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_filmgrainoverlay_filmgrainoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_kenburnsimage",
+      "projects_wework_47_billion_illusion_remotion_src_components_kenburnsimage_kenburnsimage",
+      "projects_wework_47_billion_illusion_remotion_src_components_kenburnsimage_kenburnsimageprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticheadline",
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticheadline_kineticheadline",
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticheadline_kineticheadlineprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_livingpuppet",
+      "projects_wework_47_billion_illusion_remotion_src_components_livingpuppet_livingpuppet",
+      "projects_wework_47_billion_illusion_remotion_src_components_livingpuppet_livingpuppetprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_lowerthird",
+      "projects_wework_47_billion_illusion_remotion_src_components_lowerthird_lowerthird",
+      "projects_wework_47_billion_illusion_remotion_src_components_lowerthird_lowerthirdprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_paperbackground",
+      "projects_wework_47_billion_illusion_remotion_src_components_paperbackground_paperbackground",
+      "projects_wework_47_billion_illusion_remotion_src_components_redmarkeroverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_redmarkeroverlay_redmarkeroverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_redmarkeroverlay_redmarkeroverlayprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_tapefragments",
+      "projects_wework_47_billion_illusion_remotion_src_components_tapefragments_tapefragments",
+      "projects_wework_47_billion_illusion_remotion_src_components_voxmotionoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_voxmotionoverlay_overlayconfig",
+      "projects_wework_47_billion_illusion_remotion_src_components_voxmotionoverlay_voxmotionoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_voxmotionoverlay_voxmotionoverlayprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_watermarkstamp",
+      "projects_wework_47_billion_illusion_remotion_src_components_watermarkstamp_watermarkstamp",
+      "projects_wework_47_billion_illusion_remotion_src_components_watermarkstamp_watermarkstampprops",
+      "projects_wework_47_billion_illusion_remotion_src_weworkdocumentarycomposition",
+      "projects_wework_47_billion_illusion_remotion_src_weworkdocumentarycomposition_manifestprops",
+      "projects_wework_47_billion_illusion_remotion_src_weworkdocumentarycomposition_scenecontent",
+      "projects_wework_47_billion_illusion_remotion_src_weworkdocumentarycomposition_sceneitem",
+      "projects_wework_47_billion_illusion_remotion_src_weworkdocumentarycomposition_weworkdocumentarycomposition"
+    ],
+    "3": [
+      "projects_system_design_explainer_remotion_package",
+      "projects_system_design_explainer_remotion_package_dependencies",
+      "projects_system_design_explainer_remotion_package_dependencies_react",
+      "projects_system_design_explainer_remotion_package_dependencies_react_dom",
+      "projects_system_design_explainer_remotion_package_dependencies_remotion",
+      "projects_system_design_explainer_remotion_package_dependencies_remotion_cli",
+      "projects_system_design_explainer_remotion_package_dependencies_remotion_media_utils",
+      "projects_system_design_explainer_remotion_package_description",
+      "projects_system_design_explainer_remotion_package_json_react",
+      "projects_system_design_explainer_remotion_package_json_react_dom",
+      "projects_system_design_explainer_remotion_package_json_remotion",
+      "projects_system_design_explainer_remotion_package_json_remotion_cli",
+      "projects_system_design_explainer_remotion_package_json_remotion_media_utils",
+      "projects_system_design_explainer_remotion_package_name",
+      "projects_system_design_explainer_remotion_package_scripts",
+      "projects_system_design_explainer_remotion_package_scripts_preview",
+      "projects_system_design_explainer_remotion_package_scripts_render",
+      "projects_system_design_explainer_remotion_package_scripts_still",
+      "projects_system_design_explainer_remotion_package_version",
+      "projects_wework_47_billion_illusion_remotion_package",
+      "projects_wework_47_billion_illusion_remotion_package_dependencies",
+      "projects_wework_47_billion_illusion_remotion_package_dependencies_react",
+      "projects_wework_47_billion_illusion_remotion_package_dependencies_react_dom",
+      "projects_wework_47_billion_illusion_remotion_package_dependencies_remotion",
+      "projects_wework_47_billion_illusion_remotion_package_dependencies_remotion_cli",
+      "projects_wework_47_billion_illusion_remotion_package_dependencies_remotion_media_utils",
+      "projects_wework_47_billion_illusion_remotion_package_description",
+      "projects_wework_47_billion_illusion_remotion_package_json_react",
+      "projects_wework_47_billion_illusion_remotion_package_name",
+      "projects_wework_47_billion_illusion_remotion_package_scripts",
+      "projects_wework_47_billion_illusion_remotion_package_scripts_preview",
+      "projects_wework_47_billion_illusion_remotion_package_scripts_render",
+      "projects_wework_47_billion_illusion_remotion_package_scripts_still",
+      "projects_wework_47_billion_illusion_remotion_package_version"
+    ],
+    "4": [
+      "projects_system_design_explainer_remotion_src_components_episodeheader",
+      "projects_system_design_explainer_remotion_src_components_episodeheader_episodeheader",
+      "projects_system_design_explainer_remotion_src_components_episodeheader_episodeheaderprops",
+      "projects_system_design_explainer_remotion_src_components_gridblueprintbackground",
+      "projects_system_design_explainer_remotion_src_components_gridblueprintbackground_gridblueprintbackground",
+      "projects_system_design_explainer_remotion_src_components_handdrawnannotation",
+      "projects_system_design_explainer_remotion_src_components_handdrawnannotation_handdrawnannotation",
+      "projects_system_design_explainer_remotion_src_components_handdrawnannotation_handdrawnannotationprops",
+      "projects_system_design_explainer_remotion_src_components_metrichud",
+      "projects_system_design_explainer_remotion_src_components_metrichud_metrichud",
+      "projects_system_design_explainer_remotion_src_components_metrichud_metrichudprops",
+      "projects_system_design_explainer_remotion_src_components_packetconnection",
+      "projects_system_design_explainer_remotion_src_components_packetconnection_packetconnection",
+      "projects_system_design_explainer_remotion_src_components_packetconnection_packetconnectionprops",
+      "projects_system_design_explainer_remotion_src_components_stickmanactor",
+      "projects_system_design_explainer_remotion_src_components_stickmanactor_stickmanactor",
+      "projects_system_design_explainer_remotion_src_components_stickmanactor_stickmanprops",
+      "projects_system_design_explainer_remotion_src_components_systemnode",
+      "projects_system_design_explainer_remotion_src_components_systemnode_systemnodeprops",
+      "projects_system_design_explainer_remotion_src_components_systemnode_systemnodetype",
+      "projects_system_design_explainer_remotion_src_index",
+      "projects_system_design_explainer_remotion_src_root",
+      "projects_system_design_explainer_remotion_src_root_root",
+      "projects_system_design_explainer_remotion_src_systemdesignmastercomposition",
+      "projects_system_design_explainer_remotion_src_systemdesignmastercomposition_systemdesignmastercomposition"
+    ],
+    "5": [
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_beattimelinemaster",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_beattimelinemaster_beatmanifestitem",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_beattimelinemaster_beattimelinemasterprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_camerarig",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_camerarig_cameramotiontype",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_camerarig_camerarig",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_camerarig_camerarigprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_camerarig_camerashottype",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_proceduralfx",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_proceduralfx_proceduralfx",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_proceduralfx_proceduralfxprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_stickmanrig",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_stickmanrig_characterid",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_stickmanrig_expressiontype",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_stickmanrig_posetype",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_stickmanrig_stickmanrig",
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_stickmanrig_stickmanrigprops"
+    ],
+    "6": [
+      "projects_wework_47_billion_illusion_remotion_src_mercury_liquidmercurydrop",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_liquidmercurydrop_liquidmercurydrop",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_liquidmercurydrop_liquidmercurydropprops",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurycavebackground",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurycavebackground_mercurycavebackground",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurycavebackground_mercurycavebackgroundprops",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurymastercomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurymastercomposition_mercurymastercomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurymastercomposition_sentences",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurytiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurytiktokcomposition_mercurytiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurytiktokcomposition_sentences",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_prehistorichud",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_prehistorichud_prehistorichud",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_prehistorichud_prehistorichudprops"
+    ],
+    "7": [
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_channel",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_fps",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_height",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_project",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_scenes",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_series",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_total_duration_sec",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_total_frames",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_total_words",
+      "projects_wework_47_billion_illusion_remotion_public_assets_demon_core_manifest_width"
+    ],
+    "8": [
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_fps",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_project",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_sample_rate",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_scenes",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_speed",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_target_wpm",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_total_duration_sec",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_total_frames",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_total_words",
+      "projects_wework_47_billion_illusion_remotion_public_assets_white_phosphorus_manifest_voice"
+    ],
+    "9": [
+      "projects_wework_47_billion_illusion_remotion_src_components_v2_beattimelinemaster_beattimelinemaster",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2showcasecomposition",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2showcasecomposition_demoncorev2scene04composition",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2showcasecomposition_demoncorev2scene24composition",
+      "projects_wework_47_billion_illusion_remotion_src_index",
+      "projects_wework_47_billion_illusion_remotion_src_root",
+      "projects_wework_47_billion_illusion_remotion_src_root_root",
+      "projects_wework_47_billion_illusion_remotion_src_whitephosphorus_whitephosphorus10mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_whitephosphorus_whitephosphorus10mincomposition_act_themes",
+      "projects_wework_47_billion_illusion_remotion_src_whitephosphorus_whitephosphorus10mincomposition_sceneitem",
+      "projects_wework_47_billion_illusion_remotion_src_whitephosphorus_whitephosphorus10mincomposition_whitephosphorus10mincomposition"
+    ],
+    "10": [
+      "engine_assets_asset_generator_9router",
+      "engine_assets_asset_generator_9router_assetgenerator9router",
+      "engine_assets_asset_generator_9router_assetgenerator9router_generate_asset",
+      "engine_assets_asset_generator_9router_assetgenerator9router_init",
+      "engine_assets_asset_generator_9router_generate_scene24_modular_assets",
+      "engine_assets_asset_generator_9router_rationale_1",
+      "engine_assets_asset_generator_9router_rationale_40",
+      "engine_assets_asset_generator_9router_rationale_99"
+    ],
+    "11": [
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurysceneremakecomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurysceneremakecomposition_mercurysceneremakecomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurysceneremakecomposition_scene_configs",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercurysceneremakecomposition_scenepanel",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryscenetiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryscenetiktokcomposition_mercuryscenetiktokcomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryscenetiktokcomposition_scenepanelvertical"
+    ],
+    "12": [
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2composition",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2composition_act_themes",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2composition_demoncorev2composition",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2composition_eramilestone",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2composition_historical_timeline",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncorev2composition_sceneitem"
+    ],
+    "13": [
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenglish8mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenglish8mincomposition_act_themes",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenglish8mincomposition_getscenetheme",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenglish8mincomposition_mercuryenglish8mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenglish8mincomposition_neon_rush_hooks",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenglish8mincomposition_sceneitem"
+    ],
+    "14": [
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenterprise8mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenterprise8mincomposition_chapter_themes",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenterprise8mincomposition_chapteritem",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenterprise8mincomposition_mercuryenterprise8mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenterprise8mincomposition_sentenceitem",
+      "projects_wework_47_billion_illusion_remotion_src_mercury_mercuryenterprise8mincomposition_visual_sequences"
+    ],
+    "15": [
+      "projects_neon_rush_remake_scripts_06_generate_full_soundtrack",
+      "projects_neon_rush_remake_scripts_06_generate_full_soundtrack_generate_multi_movement_soundtrack",
+      "projects_neon_rush_remake_scripts_06_generate_full_soundtrack_get_duration",
+      "projects_neon_rush_remake_scripts_06_generate_full_soundtrack_main",
+      "projects_neon_rush_remake_scripts_06_generate_full_soundtrack_mix_with_ffmpeg"
+    ],
+    "16": [
+      "projects_neon_rush_remake_scripts_11_generate_youtube_thumbnails",
+      "projects_neon_rush_remake_scripts_11_generate_youtube_thumbnails_create_thumb_v1",
+      "projects_neon_rush_remake_scripts_11_generate_youtube_thumbnails_create_thumb_v2",
+      "projects_neon_rush_remake_scripts_11_generate_youtube_thumbnails_create_thumb_v3",
+      "projects_neon_rush_remake_scripts_11_generate_youtube_thumbnails_main"
+    ],
+    "17": [
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncore10mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncore10mincomposition_demoncore10mincomposition",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncore10mincomposition_eramilestone",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncore10mincomposition_historical_timeline",
+      "projects_wework_47_billion_illusion_remotion_src_demoncore_demoncore10mincomposition_sceneitem"
+    ],
+    "18": [
+      "projects_demon_core_10min_scripts_04_render_demon_core_master",
+      "projects_demon_core_10min_scripts_04_render_demon_core_master_main",
+      "projects_demon_core_10min_scripts_04_render_demon_core_master_mux_broadcast_audio",
+      "projects_demon_core_10min_scripts_04_render_demon_core_master_render_demon_core_remotion"
+    ],
+    "19": [
+      "projects_demon_core_10min_scripts_05_generate_youtube_srt",
+      "projects_demon_core_10min_scripts_05_generate_youtube_srt_format_timestamp",
+      "projects_demon_core_10min_scripts_05_generate_youtube_srt_generate_srt",
+      "projects_demon_core_10min_scripts_05_generate_youtube_srt_split_into_phrases"
+    ],
+    "20": [
+      "projects_demon_core_10min_scripts_08_render_demon_core_v2_master",
+      "projects_demon_core_10min_scripts_08_render_demon_core_v2_master_main",
+      "projects_demon_core_10min_scripts_08_render_demon_core_v2_master_mux_broadcast_audio",
+      "projects_demon_core_10min_scripts_08_render_demon_core_v2_master_render_demon_core_v2"
+    ],
+    "21": [
+      "projects_neon_rush_remake_scripts_01_generate_assets_9router",
+      "projects_neon_rush_remake_scripts_01_generate_assets_9router_generate_asset",
+      "projects_neon_rush_remake_scripts_01_generate_assets_9router_main",
+      "projects_neon_rush_remake_scripts_01_generate_assets_9router_make_transparent"
+    ],
+    "22": [
+      "projects_neon_rush_remake_scripts_03_generate_audio_mix",
+      "projects_neon_rush_remake_scripts_03_generate_audio_mix_generate_sfx_and_ambient",
+      "projects_neon_rush_remake_scripts_03_generate_audio_mix_get_duration",
+      "projects_neon_rush_remake_scripts_03_generate_audio_mix_mix_with_voice"
+    ],
+    "23": [
+      "projects_neon_rush_remake_scripts_04_render_master",
+      "projects_neon_rush_remake_scripts_04_render_master_main",
+      "projects_neon_rush_remake_scripts_04_render_master_mux_audio",
+      "projects_neon_rush_remake_scripts_04_render_master_run_remotion_render"
+    ],
+    "24": [
+      "projects_neon_rush_remake_scripts_08_render_enterprise_master",
+      "projects_neon_rush_remake_scripts_08_render_enterprise_master_main",
+      "projects_neon_rush_remake_scripts_08_render_enterprise_master_mux_audio",
+      "projects_neon_rush_remake_scripts_08_render_enterprise_master_render_remotion"
+    ],
+    "25": [
+      "projects_neon_rush_remake_scripts_render_scene_master",
+      "projects_neon_rush_remake_scripts_render_scene_master_main",
+      "projects_neon_rush_remake_scripts_render_scene_master_mux_audio",
+      "projects_neon_rush_remake_scripts_render_scene_master_render_remotion"
+    ],
+    "26": [
+      "projects_wework_47_billion_illusion_generate_all_28_unique_scenes",
+      "projects_wework_47_billion_illusion_generate_all_28_unique_scenes_build_broadcast_graphic",
+      "projects_wework_47_billion_illusion_generate_all_28_unique_scenes_rationale_1",
+      "projects_wework_47_billion_illusion_generate_all_28_unique_scenes_try_generate_9router"
+    ],
+    "27": [
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticcaptions",
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticcaptions_kineticcaptions",
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticcaptions_kineticcaptionsprops",
+      "projects_wework_47_billion_illusion_remotion_src_components_kineticcaptions_wordtiming"
+    ],
+    "28": [
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_stickmanactor",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_stickmanactor_stickmanactor",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_stickmanactor_stickmanpose",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_stickmanactor_stickmanprops"
+    ],
+    "29": [
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnode",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnode_systemnode",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnode_systemnodeprops",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_systemnode_systemnodetype"
+    ],
+    "30": [
+      "projects_white_phosphorus_10min_scripts_05_generate_all_32_neon_rush_style",
+      "projects_white_phosphorus_10min_scripts_05_generate_all_32_neon_rush_style_generate_scene",
+      "projects_white_phosphorus_10min_scripts_05_generate_all_32_neon_rush_style_main",
+      "projects_white_phosphorus_10min_scripts_05_generate_all_32_neon_rush_style_sync_existing_test_scenes"
+    ],
+    "31": [
+      "projects_demon_core_10min_scripts_02_generate_all_32_scenes_9router",
+      "projects_demon_core_10min_scripts_02_generate_all_32_scenes_9router_generate_scene_image",
+      "projects_demon_core_10min_scripts_02_generate_all_32_scenes_9router_main"
+    ],
+    "32": [
+      "projects_demon_core_10min_scripts_07_generate_all_32_scenes_v2_neon_rush",
+      "projects_demon_core_10min_scripts_07_generate_all_32_scenes_v2_neon_rush_generate_scene_image",
+      "projects_demon_core_10min_scripts_07_generate_all_32_scenes_v2_neon_rush_main"
+    ],
+    "33": [
+      "projects_demon_core_10min_scripts_09_render_v2_scene_video",
+      "projects_demon_core_10min_scripts_09_render_v2_scene_video_rationale_1",
+      "projects_demon_core_10min_scripts_09_render_v2_scene_video_render_scene_video"
+    ],
+    "34": [
+      "projects_neon_rush_remake_scripts_05_generate_full_voiceover",
+      "projects_neon_rush_remake_scripts_05_generate_full_voiceover_load_script",
+      "projects_neon_rush_remake_scripts_05_generate_full_voiceover_main"
+    ],
+    "35": [
+      "projects_neon_rush_remake_scripts_07_generate_all_32_scenes",
+      "projects_neon_rush_remake_scripts_07_generate_all_32_scenes_generate_scene",
+      "projects_neon_rush_remake_scripts_07_generate_all_32_scenes_main"
+    ],
+    "36": [
+      "projects_neon_rush_remake_scripts_13_render_english_8min_master",
+      "projects_neon_rush_remake_scripts_13_render_english_8min_master_mux_broadcast_audio",
+      "projects_neon_rush_remake_scripts_13_render_english_8min_master_render_english_remotion"
+    ],
+    "37": [
+      "projects_neon_rush_remake_scripts_14_generate_all_28_scenes_9router",
+      "projects_neon_rush_remake_scripts_14_generate_all_28_scenes_9router_generate_scene",
+      "projects_neon_rush_remake_scripts_14_generate_all_28_scenes_9router_main"
+    ],
+    "38": [
+      "projects_neon_rush_remake_scripts_15_generate_all_28_neon_rush_style",
+      "projects_neon_rush_remake_scripts_15_generate_all_28_neon_rush_style_generate_scene",
+      "projects_neon_rush_remake_scripts_15_generate_all_28_neon_rush_style_main"
+    ],
+    "39": [
+      "projects_neon_rush_remake_scripts_16_render_level_1_review",
+      "projects_neon_rush_remake_scripts_16_render_level_1_review_main",
+      "projects_neon_rush_remake_scripts_16_render_level_1_review_render_clip"
+    ],
+    "40": [
+      "projects_neon_rush_remake_scripts_17_generate_channel_branding_and_thumbs",
+      "projects_neon_rush_remake_scripts_17_generate_channel_branding_and_thumbs_generate_asset",
+      "projects_neon_rush_remake_scripts_17_generate_channel_branding_and_thumbs_main"
+    ],
+    "41": [
+      "projects_neon_rush_remake_scripts_generate_all_scenes",
+      "projects_neon_rush_remake_scripts_generate_all_scenes_generate_scene",
+      "projects_neon_rush_remake_scripts_generate_all_scenes_main"
+    ],
+    "42": [
+      "projects_system_design_explainer_generate_audio_mix",
+      "projects_system_design_explainer_generate_audio_mix_generate_sfx_and_ambient",
+      "projects_system_design_explainer_generate_audio_mix_mix_with_voice"
+    ],
+    "43": [
+      "projects_wework_47_billion_illusion_build_audio",
+      "projects_wework_47_billion_illusion_build_audio_rationale_1",
+      "projects_wework_47_billion_illusion_build_audio_run"
+    ],
+    "44": [
+      "projects_wework_47_billion_illusion_download_real_assets",
+      "projects_wework_47_billion_illusion_download_real_assets_create_cutout_head",
+      "projects_wework_47_billion_illusion_download_real_assets_rationale_1"
+    ],
+    "45": [
+      "projects_wework_47_billion_illusion_generate_all_codex_scenes",
+      "projects_wework_47_billion_illusion_generate_all_codex_scenes_generate_scene",
+      "projects_wework_47_billion_illusion_generate_all_codex_scenes_refresh_token_if_needed"
+    ],
+    "46": [
+      "projects_wework_47_billion_illusion_remotion_src_components_ainuclearoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_ainuclearoverlay_ainuclearoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_ainuclearoverlay_ainuclearoverlayprops"
+    ],
+    "47": [
+      "projects_wework_47_billion_illusion_remotion_src_components_livingsceneoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_livingsceneoverlay_livingsceneoverlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_livingsceneoverlay_livingsceneoverlayprops"
+    ],
+    "48": [
+      "projects_wework_47_billion_illusion_remotion_src_components_onkalolevel2overlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_onkalolevel2overlay_onkalolevel2overlay",
+      "projects_wework_47_billion_illusion_remotion_src_components_onkalolevel2overlay_onkalolevel2overlayprops"
+    ],
+    "49": [
+      "projects_wework_47_billion_illusion_remotion_src_components_papercutoutcard",
+      "projects_wework_47_billion_illusion_remotion_src_components_papercutoutcard_papercutoutcard",
+      "projects_wework_47_billion_illusion_remotion_src_components_papercutoutcard_papercutoutcardprops"
+    ],
+    "50": [
+      "projects_wework_47_billion_illusion_remotion_src_components_rubberstamp",
+      "projects_wework_47_billion_illusion_remotion_src_components_rubberstamp_rubberstamp",
+      "projects_wework_47_billion_illusion_remotion_src_components_rubberstamp_rubberstampprops"
+    ],
+    "51": [
+      "projects_whatsapp_system_design_generate_audio_mix",
+      "projects_whatsapp_system_design_generate_audio_mix_generate_sfx_and_ambient",
+      "projects_whatsapp_system_design_generate_audio_mix_mix_with_voice"
+    ],
+    "52": [
+      "projects_white_phosphorus_10min_scripts_02_generate_all_32_scenes_9router",
+      "projects_white_phosphorus_10min_scripts_02_generate_all_32_scenes_9router_generate_scene_image",
+      "projects_white_phosphorus_10min_scripts_02_generate_all_32_scenes_9router_main"
+    ],
+    "53": [
+      "projects_white_phosphorus_10min_scripts_04_render_white_phosphorus_master",
+      "projects_white_phosphorus_10min_scripts_04_render_white_phosphorus_master_mux_broadcast_audio",
+      "projects_white_phosphorus_10min_scripts_04_render_white_phosphorus_master_render_white_phosphorus_remotion"
+    ],
+    "54": [
+      "engine_assets_init",
+      "engine_assets_init_rationale_1"
+    ],
+    "55": [
+      "engine_compiler_init",
+      "engine_compiler_init_rationale_1"
+    ],
+    "56": [
+      "engine_init",
+      "engine_init_rationale_1"
+    ],
+    "57": [
+      "projects_demon_core_10min_scripts_01_synthesize_master_audio",
+      "projects_demon_core_10min_scripts_01_synthesize_master_audio_main"
+    ],
+    "58": [
+      "projects_demon_core_10min_scripts_03_generate_youtube_thumbnails",
+      "projects_demon_core_10min_scripts_03_generate_youtube_thumbnails_main"
+    ],
+    "59": [
+      "projects_demon_core_10min_scripts_06_render_level_1_review",
+      "projects_demon_core_10min_scripts_06_render_level_1_review_render_level_1_clip"
+    ],
+    "60": [
+      "projects_inspect_videos",
+      "projects_inspect_videos_inspect_video"
+    ],
+    "61": [
+      "projects_neon_rush_remake_scripts_02_generate_voiceover",
+      "projects_neon_rush_remake_scripts_02_generate_voiceover_main"
+    ],
+    "62": [
+      "projects_neon_rush_remake_scripts_09_generate_kokoro_english_voiceover",
+      "projects_neon_rush_remake_scripts_09_generate_kokoro_english_voiceover_main"
+    ],
+    "63": [
+      "projects_neon_rush_remake_scripts_10_generate_8min_kokoro_english",
+      "projects_neon_rush_remake_scripts_10_generate_8min_kokoro_english_main"
+    ],
+    "64": [
+      "projects_neon_rush_remake_scripts_12_mix_english_8min_soundtrack",
+      "projects_neon_rush_remake_scripts_12_mix_english_8min_soundtrack_mix_broadcast_audio"
+    ],
+    "65": [
+      "projects_system_design_explainer_generate_voiceover",
+      "projects_system_design_explainer_generate_voiceover_main"
+    ],
+    "66": [
+      "projects_system_design_explainer_master_both_versions",
+      "projects_system_design_explainer_master_both_versions_remux_and_master"
+    ],
+    "67": [
+      "projects_wework_47_billion_illusion_build_graphics",
+      "projects_wework_47_billion_illusion_build_graphics_rationale_1"
+    ],
+    "68": [
+      "projects_wework_47_billion_illusion_build_newspaper_clippings",
+      "projects_wework_47_billion_illusion_build_newspaper_clippings_rationale_1"
+    ],
+    "69": [
+      "projects_wework_47_billion_illusion_build_remotion_manifest",
+      "projects_wework_47_billion_illusion_build_remotion_manifest_rationale_1"
+    ],
+    "70": [
+      "projects_wework_47_billion_illusion_master_audio",
+      "projects_wework_47_billion_illusion_master_audio_master_audio"
+    ],
+    "71": [
+      "projects_wework_47_billion_illusion_remotion_src_components_redstringconnect",
+      "projects_wework_47_billion_illusion_remotion_src_components_redstringconnect_redstringconnect"
+    ],
+    "72": [
+      "projects_wework_47_billion_illusion_remotion_src_components_voxchartanimation",
+      "projects_wework_47_billion_illusion_remotion_src_components_voxchartanimation_voxchartanimation"
+    ],
+    "73": [
+      "projects_wework_47_billion_illusion_remotion_src_components_voxmapanimation",
+      "projects_wework_47_billion_illusion_remotion_src_components_voxmapanimation_voxmapanimation"
+    ],
+    "74": [
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_gridblueprintbackground",
+      "projects_wework_47_billion_illusion_remotion_src_systemdesign_components_gridblueprintbackground_gridblueprintbackground"
+    ],
+    "75": [
+      "projects_whatsapp_system_design_generate_voiceover",
+      "projects_whatsapp_system_design_generate_voiceover_main"
+    ],
+    "76": [
+      "projects_white_phosphorus_10min_scripts_01_synthesize_master_audio",
+      "projects_white_phosphorus_10min_scripts_01_synthesize_master_audio_main"
+    ],
+    "77": [
+      "projects_white_phosphorus_10min_scripts_03_generate_youtube_thumbnails",
+      "projects_white_phosphorus_10min_scripts_03_generate_youtube_thumbnails_main"
+    ],
+    "78": [
+      "projects_check_9router_keys"
+    ],
+    "79": [
+      "projects_demon_core_10min_scripts_generate_storyboard_json"
+    ],
+    "80": [
+      "projects_download_thumbs"
+    ],
+    "81": [
+      "projects_fetch_neon_rush_3d"
+    ],
+    "82": [
+      "projects_fetch_neon_rush_channel"
+    ],
+    "83": [
+      "projects_neon_rush_remake_scripts_get_chapters"
+    ],
+    "84": [
+      "projects_read_transcript"
+    ],
+    "85": [
+      "projects_search_neon_rush"
+    ],
+    "86": [
+      "projects_system_design_explainer_remux_voice"
+    ],
+    "87": [
+      "projects_test_9router_image"
+    ],
+    "88": [
+      "projects_wework_47_billion_illusion_check_codex"
+    ],
+    "89": [
+      "projects_wework_47_billion_illusion_gen_scene_17"
+    ],
+    "90": [
+      "projects_wework_47_billion_illusion_test_codex_direct"
+    ],
+    "91": [
+      "projects_wework_47_billion_illusion_test_codex_image"
+    ],
+    "92": [
+      "projects_white_phosphorus_10min_build_phase1"
+    ],
+    "93": [
+      "projects_white_phosphorus_10min_calibrate_script"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08811188811188811,
+    "1": 0.09013605442176871,
+    "2": 0.06747638326585695,
+    "3": 0.06417112299465241,
+    "4": 0.10666666666666667,
+    "5": 0.21323529411764705,
+    "6": 0.20952380952380953,
+    "7": 0.18181818181818182,
+    "8": 0.18181818181818182,
+    "9": 0.2545454545454545,
+    "10": 0.2857142857142857,
+    "11": 0.3333333333333333,
+    "12": 0.3333333333333333,
+    "13": 0.4,
+    "14": 0.3333333333333333,
+    "15": 0.6,
+    "16": 0.7,
+    "17": 0.4,
+    "18": 0.8333333333333334,
+    "19": 0.8333333333333334,
+    "20": 0.8333333333333334,
+    "21": 0.8333333333333334,
+    "22": 0.5,
+    "23": 0.8333333333333334,
+    "24": 0.8333333333333334,
+    "25": 0.8333333333333334,
+    "26": 0.5,
+    "27": 0.5,
+    "28": 0.5,
+    "29": 0.5,
+    "30": 0.8333333333333334,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 0.6666666666666666,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 0.6666666666666666,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 0.6666666666666666,
+    "43": 0.6666666666666666,
+    "44": 0.6666666666666666,
+    "45": 1.0,
+    "46": 0.6666666666666666,
+    "47": 0.6666666666666666,
+    "48": 0.6666666666666666,
+    "49": 0.6666666666666666,
+    "50": 0.6666666666666666,
+    "51": 0.6666666666666666,
+    "52": 1.0,
+    "53": 0.6666666666666666,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0
+  },
+  "gods": [
+    {
+      "id": "engine_compiler_beat_compiler_beatcompiler",
+      "label": "BeatCompiler",
+      "degree": 24
+    },
+    {
+      "id": "engine_schema_scene",
+      "label": "Scene",
+      "degree": 14
+    },
+    {
+      "id": "engine_style_engine_styleengine",
+      "label": "StyleEngine",
+      "degree": 14
+    },
+    {
+      "id": "engine_compiler_retention_auditor_retentionauditor",
+      "label": "RetentionAuditor",
+      "degree": 13
+    },
+    {
+      "id": "engine_schema_beat",
+      "label": "Beat",
+      "degree": 12
+    },
+    {
+      "id": "engine_schema_assettier",
+      "label": "AssetTier",
+      "degree": 9
+    },
+    {
+      "id": "engine_schema_visualfunction",
+      "label": "VisualFunction",
+      "degree": 7
+    },
+    {
+      "id": "engine_schema_sfxevent",
+      "label": "SFXEvent",
+      "degree": 7
+    },
+    {
+      "id": "engine_schema_cameraconfig",
+      "label": "CameraConfig",
+      "degree": 7
+    },
+    {
+      "id": "engine_schema_propstate",
+      "label": "PropState",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "run_compilation()",
+      "target": "BeatCompiler",
+      "source_files": [
+        "projects/demon-core-10min/scripts/08_compile_demon_core_v2.py",
+        "engine/compiler/beat_compiler.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "run_compilation()",
+      "target": "RetentionAuditor",
+      "source_files": [
+        "projects/demon-core-10min/scripts/08_compile_demon_core_v2.py",
+        "engine/compiler/retention_auditor.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "run_compilation()",
+      "target": "Scene",
+      "source_files": [
+        "projects/demon-core-10min/scripts/08_compile_demon_core_v2.py",
+        "engine/schema.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "run_compilation()",
+      "target": "Episode",
+      "source_files": [
+        "projects/demon-core-10min/scripts/08_compile_demon_core_v2.py",
+        "engine/schema.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "run_compilation()",
+      "target": "StyleEngine",
+      "source_files": [
+        "projects/demon-core-10min/scripts/08_compile_demon_core_v2.py",
+        "engine/style_engine.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

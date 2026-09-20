@@ -4,15 +4,20 @@
 
 ---
 
-## 🎬 Featured Project: The 9,000-Year Curse of Quicksilver (Mercury)
+## 🎬 Featured Projects
 
-A complete 8-minute 14-second Full HD (1080p @ 30fps) animated science & history documentary covering **Element 80 (Hydrargyrum / Mercury)** across 28 fully customized 2D stickman scenes:
-
+### 1. The 9,000-Year Curse of Quicksilver (Mercury)
 * **Format**: 16:9 Widescreen (1920x1080)
 * **Duration**: 8 minutes 14 seconds (14,833 frames)
 * **Visual Style**: 2D Cartoon Stickman with bold black ink outlines, expressive cartoon eyes, saturated colors, and high-CTR neon yellow typography (`#FFE600`).
-* **Audio Track**: Kokoro 82M English voiceover (`am_adam`) synchronized to timeline, broadcast mixed at `-16 LUFS` with cinematic sound design.
-* **Telemetry**: Titanium glassmorphic HUD showing active era, element metrics, and running timecode.
+* **Audio Track**: Kokoro 82M English voiceover (`am_adam`) synchronized to timeline, broadcast mixed at `-16 LUFS`.
+
+### 2. The Man Who Accidentally Poisoned the Entire Planet (Thomas Midgley Jr.)
+* **Format**: 16:9 Widescreen (1920x1080 Full HD @ 30fps)
+* **Duration**: 9 minutes 43 seconds (17,507 frames)
+* **Visual Style**: Strict Anti-Slop 2D Cartoon Stickman (Zero AI typography on artwork, 100% programmatic kinetic typography in Remotion, 32 custom scenes, smooth 15-frame crossfades, Toxic Emerald & UV Ozone bursts).
+* **Audio Track**: Kokoro 82M English voiceover (`am_adam`) synchronized with 0.4s breathing pauses, EBU R128 (-16.0 LUFS) master mix.
+* **Telemetry**: Live blood lead concentration ($\mu g/dL$), ozone integrity ($DU$), and molecular structure cards ($Pb(C_2H_5)_4$, $CCl_2F_2$, $Cl + O_3 \to ClO + O_2$).
 
 ---
 
@@ -21,15 +26,20 @@ A complete 8-minute 14-second Full HD (1080p @ 30fps) animated science & history
 ```
 AG-Stick/
 ├── projects/
-│   ├── neon-rush-remake/
-│   │   ├── branding/                  # PFP Avatar, 2560x1440 Banner, 3 High-CTR Thumbnails
-│   │   ├── scenes_neon_rush/          # 28 Custom 2D cartoon stickman scene illustrations
-│   │   ├── scripts/                   # Production automation scripts (01 to 17)
-│   │   ├── CHANNEL_BRANDING_GUIDE.md  # Channel naming, handles, bio & CTR strategy
-│   │   ├── YOUTUBE_METADATA.md        # Titles, 28-chapter timestamps, tags & pinned comment
-│   │   └── export/                    # Render output directory (ignored by git)
+│   ├── thomas-midgley-planet-poison/  # Complete 10-min documentary pipeline
+│   │   ├── PRODUCTION_RULES.md        # Strict Zero-AI-Text & character consistency rules
+│   │   ├── script/                    # 32-scene script & synchronized manifest
+│   │   ├── scripts/                   # Automation scripts (01 audio, 02 9router art, 03 thumbs, 04 master render)
+│   │   ├── assets/scenes/             # 32 custom 2D stickman scenes
+│   │   ├── thumbnails/                # 3 High-CTR viral thumbnails
+│   │   └── packaging/                 # YouTube titles, 32-chapter timestamps, tags & pinned comment
+│   ├── demon-core-10min/              # The Demon Core documentary
+│   ├── white-phosphorus-10min/        # The Devil's Element documentary
+│   ├── neon-rush-remake/              # Quicksilver Mercury documentary
 │   ├── wework-47-billion-illusion/
-│   │   └── remotion/                  # Remotion React video composition engine
+│   │   └── remotion/                  # Master Remotion React composition engine
+│   │       ├── src/midgley/           # ThomasMidgley10MinComposition.tsx
+│   │       ├── src/demoncore/         # DemonCoreV2Composition.tsx
 │   │       ├── src/mercury/           # MercuryEnglish8MinComposition.tsx
 │   │       └── public/assets/         # Static assets and Kokoro manifests
 │   └── neon_rush_analysis/            # Channel benchmarking & style reverse-engineering

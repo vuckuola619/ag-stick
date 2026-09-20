@@ -1,0 +1,884 @@
+{
+  "engine/__init__.py": {
+    "mtime": 1789631470.249991,
+    "seen": 1789682617.0769296,
+    "ast_hash": "cb974efffa65a24c2f523aa1c783aa93",
+    "semantic_hash": "cb974efffa65a24c2f523aa1c783aa93"
+  },
+  "engine/assets/__init__.py": {
+    "mtime": 1789634566.7108674,
+    "seen": 1789682617.076935,
+    "ast_hash": "c43eb2aeb5d2c87c7eaa6e47d34e0239",
+    "semantic_hash": "c43eb2aeb5d2c87c7eaa6e47d34e0239"
+  },
+  "engine/assets/asset_generator_9router.py": {
+    "mtime": 1789634580.3553965,
+    "seen": 1789682617.0769374,
+    "ast_hash": "17ed1aa6ffb2874128151bbe6953263b",
+    "semantic_hash": "17ed1aa6ffb2874128151bbe6953263b"
+  },
+  "engine/compiler/__init__.py": {
+    "mtime": 1789631507.2240758,
+    "seen": 1789682617.076939,
+    "ast_hash": "65df938e4f0d889a3ac5c92de4075c54",
+    "semantic_hash": "65df938e4f0d889a3ac5c92de4075c54"
+  },
+  "engine/compiler/beat_compiler.py": {
+    "mtime": 1789631669.2655504,
+    "seen": 1789682617.0769403,
+    "ast_hash": "0e881a473b825564542139989143b4cb",
+    "semantic_hash": "0e881a473b825564542139989143b4cb"
+  },
+  "engine/compiler/retention_auditor.py": {
+    "mtime": 1789631535.1397843,
+    "seen": 1789682617.0769417,
+    "ast_hash": "97396b3cc74b12dfd91f44a3230fa5bf",
+    "semantic_hash": "97396b3cc74b12dfd91f44a3230fa5bf"
+  },
+  "engine/schema.py": {
+    "mtime": 1789631479.0516331,
+    "seen": 1789682617.0769436,
+    "ast_hash": "ef1c8cc4f313bc2bf5bb9881521dd039",
+    "semantic_hash": "ef1c8cc4f313bc2bf5bb9881521dd039"
+  },
+  "engine/style_engine.py": {
+    "mtime": 1789631503.1237972,
+    "seen": 1789682617.0769446,
+    "ast_hash": "7664d5eda5b25cb8a32f5a95bd7c5849",
+    "semantic_hash": "7664d5eda5b25cb8a32f5a95bd7c5849"
+  },
+  "projects/check_9router_keys.py": {
+    "mtime": 1789282986.2292707,
+    "seen": 1789682617.076946,
+    "ast_hash": "5e8740f44f6f4af04e197955c108b609",
+    "semantic_hash": "5e8740f44f6f4af04e197955c108b609"
+  },
+  "projects/demon-core-10min/scripts/01_synthesize_master_audio.py": {
+    "mtime": 1789525394.4902098,
+    "seen": 1789682617.0769467,
+    "ast_hash": "ccc8b5a6476ccb374c102ab0e15f44b9",
+    "semantic_hash": "ccc8b5a6476ccb374c102ab0e15f44b9"
+  },
+  "projects/demon-core-10min/scripts/02_generate_all_32_scenes_9router.py": {
+    "mtime": 1789525461.2162743,
+    "seen": 1789682617.0769477,
+    "ast_hash": "0e7b5b1cd9f57d7eedb29ffab0c66e24",
+    "semantic_hash": "0e7b5b1cd9f57d7eedb29ffab0c66e24"
+  },
+  "projects/demon-core-10min/scripts/03_generate_youtube_thumbnails.py": {
+    "mtime": 1789525588.6459363,
+    "seen": 1789682617.076949,
+    "ast_hash": "81e79ea0a1e24f48a58ef1a48711dfa8",
+    "semantic_hash": "81e79ea0a1e24f48a58ef1a48711dfa8"
+  },
+  "projects/demon-core-10min/scripts/04_render_demon_core_master.py": {
+    "mtime": 1789525612.2490604,
+    "seen": 1789682617.07695,
+    "ast_hash": "18da19acecfdf5eb0058e374d6c1ec72",
+    "semantic_hash": "18da19acecfdf5eb0058e374d6c1ec72"
+  },
+  "projects/demon-core-10min/scripts/05_generate_youtube_srt.py": {
+    "mtime": 1789601521.8121536,
+    "seen": 1789682617.0769513,
+    "ast_hash": "9432b5f9cc654d106d6aaf5f27e3e968",
+    "semantic_hash": "9432b5f9cc654d106d6aaf5f27e3e968"
+  },
+  "projects/demon-core-10min/scripts/06_render_level_1_review.py": {
+    "mtime": 1789602810.3060486,
+    "seen": 1789682617.0769522,
+    "ast_hash": "d7828b1a1ee7a63ddf10559da5c61b92",
+    "semantic_hash": "d7828b1a1ee7a63ddf10559da5c61b92"
+  },
+  "projects/demon-core-10min/scripts/07_generate_all_32_scenes_v2_neon_rush.py": {
+    "mtime": 1789677186.1786804,
+    "seen": 1789682617.0769532,
+    "ast_hash": "53b81dcd195edc23c0d532e714c97a50",
+    "semantic_hash": "53b81dcd195edc23c0d532e714c97a50"
+  },
+  "projects/demon-core-10min/scripts/08_compile_demon_core_v2.py": {
+    "mtime": 1789631630.58669,
+    "seen": 1789682617.0769541,
+    "ast_hash": "2c7c05f9dc564de3d55726e679d87840",
+    "semantic_hash": "2c7c05f9dc564de3d55726e679d87840"
+  },
+  "projects/demon-core-10min/scripts/08_render_demon_core_v2_master.py": {
+    "mtime": 1789678096.274339,
+    "seen": 1789682617.076955,
+    "ast_hash": "8b1a619ab467d93387e3ddb852255775",
+    "semantic_hash": "8b1a619ab467d93387e3ddb852255775"
+  },
+  "projects/demon-core-10min/scripts/09_render_v2_scene_video.py": {
+    "mtime": 1789632127.7965095,
+    "seen": 1789682617.0769565,
+    "ast_hash": "d899f6c28698e9034cb41e9a2124b900",
+    "semantic_hash": "d899f6c28698e9034cb41e9a2124b900"
+  },
+  "projects/demon-core-10min/scripts/generate_storyboard_json.py": {
+    "mtime": 1789516050.367895,
+    "seen": 1789682617.0769577,
+    "ast_hash": "40410774573973563e599c91079a2a06",
+    "semantic_hash": "40410774573973563e599c91079a2a06"
+  },
+  "projects/download_thumbs.py": {
+    "mtime": 1789282822.1575682,
+    "seen": 1789682617.0769587,
+    "ast_hash": "109bda9a86bbdb7c32e72f3aec448d36",
+    "semantic_hash": "109bda9a86bbdb7c32e72f3aec448d36"
+  },
+  "projects/fetch_neon_rush_3d.py": {
+    "mtime": 1789282775.2198045,
+    "seen": 1789682617.0769598,
+    "ast_hash": "ca1e9f7c88e326413ac98119447b3838",
+    "semantic_hash": "ca1e9f7c88e326413ac98119447b3838"
+  },
+  "projects/fetch_neon_rush_channel.py": {
+    "mtime": 1789282722.685364,
+    "seen": 1789682617.0769613,
+    "ast_hash": "e4d06205f74f661729573fcfb885e07e",
+    "semantic_hash": "e4d06205f74f661729573fcfb885e07e"
+  },
+  "projects/inspect_videos.py": {
+    "mtime": 1789282805.6757028,
+    "seen": 1789682617.0769622,
+    "ast_hash": "8ab3b5e97c9d3b3f0e1f38491cc003ce",
+    "semantic_hash": "8ab3b5e97c9d3b3f0e1f38491cc003ce"
+  },
+  "projects/neon-rush-remake/scripts/01_generate_assets_9router.py": {
+    "mtime": 1789361379.1838906,
+    "seen": 1789682617.0769634,
+    "ast_hash": "9f76286fb6a1e3362546fe569da47b3d",
+    "semantic_hash": "9f76286fb6a1e3362546fe569da47b3d"
+  },
+  "projects/neon-rush-remake/scripts/02_generate_voiceover.py": {
+    "mtime": 1789283177.6602695,
+    "seen": 1789682617.0769644,
+    "ast_hash": "eeb48586d3a04cca81d2bcdb43631c30",
+    "semantic_hash": "eeb48586d3a04cca81d2bcdb43631c30"
+  },
+  "projects/neon-rush-remake/scripts/03_generate_audio_mix.py": {
+    "mtime": 1789283251.1606557,
+    "seen": 1789682617.0769653,
+    "ast_hash": "4b6e66074e9bddf9034be3f739ffa99f",
+    "semantic_hash": "4b6e66074e9bddf9034be3f739ffa99f"
+  },
+  "projects/neon-rush-remake/scripts/04_render_master.py": {
+    "mtime": 1789283500.8647919,
+    "seen": 1789682617.0769663,
+    "ast_hash": "b653f8b6f0b991b4d9577355911960bc",
+    "semantic_hash": "b653f8b6f0b991b4d9577355911960bc"
+  },
+  "projects/neon-rush-remake/scripts/05_generate_full_voiceover.py": {
+    "mtime": 1789356189.544286,
+    "seen": 1789682617.0769677,
+    "ast_hash": "3a0a074c1e25c00a41a966d8fa117074",
+    "semantic_hash": "3a0a074c1e25c00a41a966d8fa117074"
+  },
+  "projects/neon-rush-remake/scripts/06_generate_full_soundtrack.py": {
+    "mtime": 1789356648.7170131,
+    "seen": 1789682617.0769687,
+    "ast_hash": "26531d299b303f3930685431628291b0",
+    "semantic_hash": "26531d299b303f3930685431628291b0"
+  },
+  "projects/neon-rush-remake/scripts/07_generate_all_32_scenes.py": {
+    "mtime": 1789356233.6319456,
+    "seen": 1789682617.0769696,
+    "ast_hash": "74b070462391e6d2c4135fb08ac8c979",
+    "semantic_hash": "74b070462391e6d2c4135fb08ac8c979"
+  },
+  "projects/neon-rush-remake/scripts/08_render_enterprise_master.py": {
+    "mtime": 1789356995.482245,
+    "seen": 1789682617.0769708,
+    "ast_hash": "b0535bc9a67296b36f754df3bf9c136a",
+    "semantic_hash": "b0535bc9a67296b36f754df3bf9c136a"
+  },
+  "projects/neon-rush-remake/scripts/09_generate_kokoro_english_voiceover.py": {
+    "mtime": 1789360387.2385795,
+    "seen": 1789682617.0769722,
+    "ast_hash": "b8bf3a72201e88e004d06410a965bfc9",
+    "semantic_hash": "b8bf3a72201e88e004d06410a965bfc9"
+  },
+  "projects/neon-rush-remake/scripts/10_generate_8min_kokoro_english.py": {
+    "mtime": 1789360626.4593544,
+    "seen": 1789682617.0769732,
+    "ast_hash": "da923459ce2a7460fb84697aebaaecd6",
+    "semantic_hash": "da923459ce2a7460fb84697aebaaecd6"
+  },
+  "projects/neon-rush-remake/scripts/11_generate_youtube_thumbnails.py": {
+    "mtime": 1789360656.4916632,
+    "seen": 1789682617.0769742,
+    "ast_hash": "d7f2397e4dc0de6d926af667c155f0de",
+    "semantic_hash": "d7f2397e4dc0de6d926af667c155f0de"
+  },
+  "projects/neon-rush-remake/scripts/12_mix_english_8min_soundtrack.py": {
+    "mtime": 1789360868.0691745,
+    "seen": 1789682617.0769753,
+    "ast_hash": "24a3179ffac022581367d5a721df0025",
+    "semantic_hash": "24a3179ffac022581367d5a721df0025"
+  },
+  "projects/neon-rush-remake/scripts/13_render_english_8min_master.py": {
+    "mtime": 1789421863.6509392,
+    "seen": 1789682617.0769763,
+    "ast_hash": "2faed14bca22b541226574bc99414845",
+    "semantic_hash": "2faed14bca22b541226574bc99414845"
+  },
+  "projects/neon-rush-remake/scripts/14_generate_all_28_scenes_9router.py": {
+    "mtime": 1789365716.9614842,
+    "seen": 1789682617.0769775,
+    "ast_hash": "0f45ae6c2b4c00149889419a20a2460b",
+    "semantic_hash": "0f45ae6c2b4c00149889419a20a2460b"
+  },
+  "projects/neon-rush-remake/scripts/15_generate_all_28_neon_rush_style.py": {
+    "mtime": 1789373500.0758457,
+    "seen": 1789682617.0769787,
+    "ast_hash": "0582efad673c4942f9403836f456ad69",
+    "semantic_hash": "0582efad673c4942f9403836f456ad69"
+  },
+  "projects/neon-rush-remake/scripts/16_render_level_1_review.py": {
+    "mtime": 1789419935.4358835,
+    "seen": 1789682617.07698,
+    "ast_hash": "4a2d910c20251ab73333da757ca69fed",
+    "semantic_hash": "4a2d910c20251ab73333da757ca69fed"
+  },
+  "projects/neon-rush-remake/scripts/17_generate_channel_branding_and_thumbs.py": {
+    "mtime": 1789424685.7958164,
+    "seen": 1789682617.0769813,
+    "ast_hash": "269e09dddcccb9fecf067e9d4b197110",
+    "semantic_hash": "269e09dddcccb9fecf067e9d4b197110"
+  },
+  "projects/neon-rush-remake/scripts/generate_all_scenes.py": {
+    "mtime": 1789354756.6327367,
+    "seen": 1789682617.0769823,
+    "ast_hash": "4b803688432fe5ce6713540d5aa8b9ab",
+    "semantic_hash": "4b803688432fe5ce6713540d5aa8b9ab"
+  },
+  "projects/neon-rush-remake/scripts/get_chapters.py": {
+    "mtime": 1789356615.86621,
+    "seen": 1789682617.0769832,
+    "ast_hash": "68577f4814ec841442e68c393c786ab1",
+    "semantic_hash": "68577f4814ec841442e68c393c786ab1"
+  },
+  "projects/neon-rush-remake/scripts/render_scene_master.py": {
+    "mtime": 1789355193.9636745,
+    "seen": 1789682617.0769851,
+    "ast_hash": "742a9c2700458abc776d6599c4eac677",
+    "semantic_hash": "742a9c2700458abc776d6599c4eac677"
+  },
+  "projects/read_transcript.py": {
+    "mtime": 1789282975.9391084,
+    "seen": 1789682617.076986,
+    "ast_hash": "f0e8b198ae4f0d4ad33d3e83ebe6a051",
+    "semantic_hash": "f0e8b198ae4f0d4ad33d3e83ebe6a051"
+  },
+  "projects/search_neon_rush.py": {
+    "mtime": 1789282705.138652,
+    "seen": 1789682617.0769868,
+    "ast_hash": "072bc6ba7db93fd047d2678418472c38",
+    "semantic_hash": "072bc6ba7db93fd047d2678418472c38"
+  },
+  "projects/system-design-explainer/generate_audio_mix.py": {
+    "mtime": 1789203407.5313642,
+    "seen": 1789682617.0769885,
+    "ast_hash": "dc9c273878a6c2770c486c6c2722c4a8",
+    "semantic_hash": "dc9c273878a6c2770c486c6c2722c4a8"
+  },
+  "projects/system-design-explainer/generate_voiceover.py": {
+    "mtime": 1789168434.7481391,
+    "seen": 1789682617.0769894,
+    "ast_hash": "efbd0ce65889ba2da5436250a3097082",
+    "semantic_hash": "efbd0ce65889ba2da5436250a3097082"
+  },
+  "projects/system-design-explainer/master_both_versions.py": {
+    "mtime": 1789168844.7071512,
+    "seen": 1789682617.0769906,
+    "ast_hash": "1a68484da6508e735f364252574d200d",
+    "semantic_hash": "1a68484da6508e735f364252574d200d"
+  },
+  "projects/system-design-explainer/remotion/package.json": {
+    "mtime": 1789167531.181192,
+    "seen": 1789682617.0769916,
+    "ast_hash": "41d68c9af28bb1d5697ead3a85c518a2",
+    "semantic_hash": "41d68c9af28bb1d5697ead3a85c518a2"
+  },
+  "projects/system-design-explainer/remotion/src/Root.tsx": {
+    "mtime": 1789167652.2618282,
+    "seen": 1789682617.0769925,
+    "ast_hash": "0caaf39a8b37d84fa3714a0aad7f60f4",
+    "semantic_hash": "0caaf39a8b37d84fa3714a0aad7f60f4"
+  },
+  "projects/system-design-explainer/remotion/src/SystemDesignMasterComposition.tsx": {
+    "mtime": 1789167643.723809,
+    "seen": 1789682617.0769937,
+    "ast_hash": "b46a13b5c99c62026c9575d869c43395",
+    "semantic_hash": "b46a13b5c99c62026c9575d869c43395"
+  },
+  "projects/system-design-explainer/remotion/src/components/EpisodeHeader.tsx": {
+    "mtime": 1789167622.3362389,
+    "seen": 1789682617.0769947,
+    "ast_hash": "0e74700751f8d9d48fcb1102b87227d4",
+    "semantic_hash": "0e74700751f8d9d48fcb1102b87227d4"
+  },
+  "projects/system-design-explainer/remotion/src/components/GridBlueprintBackground.tsx": {
+    "mtime": 1789167551.493601,
+    "seen": 1789682617.0769956,
+    "ast_hash": "ce962c2a3db3da61e01a1bbdd5f9544f",
+    "semantic_hash": "ce962c2a3db3da61e01a1bbdd5f9544f"
+  },
+  "projects/system-design-explainer/remotion/src/components/HandDrawnAnnotation.tsx": {
+    "mtime": 1789167614.5977547,
+    "seen": 1789682617.0769963,
+    "ast_hash": "7010a8fb8fbce4473ff4b082e4d8e894",
+    "semantic_hash": "7010a8fb8fbce4473ff4b082e4d8e894"
+  },
+  "projects/system-design-explainer/remotion/src/components/MetricHUD.tsx": {
+    "mtime": 1789167603.9638827,
+    "seen": 1789682617.0769973,
+    "ast_hash": "b01006ee8f74aac6ef21bc49e47884f9",
+    "semantic_hash": "b01006ee8f74aac6ef21bc49e47884f9"
+  },
+  "projects/system-design-explainer/remotion/src/components/PacketConnection.tsx": {
+    "mtime": 1789167594.3793738,
+    "seen": 1789682617.0769985,
+    "ast_hash": "efe0eecf324613078edcc17290805c78",
+    "semantic_hash": "efe0eecf324613078edcc17290805c78"
+  },
+  "projects/system-design-explainer/remotion/src/components/StickmanActor.tsx": {
+    "mtime": 1789167563.6162672,
+    "seen": 1789682617.0769994,
+    "ast_hash": "562b37fd2786daec1506b7cfe1e14a26",
+    "semantic_hash": "562b37fd2786daec1506b7cfe1e14a26"
+  },
+  "projects/system-design-explainer/remotion/src/components/SystemNode.tsx": {
+    "mtime": 1789167576.0391955,
+    "seen": 1789682617.0770001,
+    "ast_hash": "04c18ed0d9c90d11814eda60c0ee58b4",
+    "semantic_hash": "04c18ed0d9c90d11814eda60c0ee58b4"
+  },
+  "projects/system-design-explainer/remotion/src/index.ts": {
+    "mtime": 1789167658.1620376,
+    "seen": 1789682617.0770009,
+    "ast_hash": "272a5b03b2f0af6260bd11e8fda96502",
+    "semantic_hash": "272a5b03b2f0af6260bd11e8fda96502"
+  },
+  "projects/system-design-explainer/remux_voice.py": {
+    "mtime": 1789168491.6466513,
+    "seen": 1789682617.077002,
+    "ast_hash": "cd799c396b165989fefb7f3b58769ce3",
+    "semantic_hash": "cd799c396b165989fefb7f3b58769ce3"
+  },
+  "projects/test_9router_image.py": {
+    "mtime": 1789282998.1330106,
+    "seen": 1789682617.077003,
+    "ast_hash": "2ac7c6391c0bd56efe462e08daa5a716",
+    "semantic_hash": "2ac7c6391c0bd56efe462e08daa5a716"
+  },
+  "projects/wework-47-billion-illusion/build_audio.py": {
+    "mtime": 1789016483.0986948,
+    "seen": 1789682617.0770037,
+    "ast_hash": "c7f267a6557641f03542e87eaf1f596d",
+    "semantic_hash": "c7f267a6557641f03542e87eaf1f596d"
+  },
+  "projects/wework-47-billion-illusion/build_graphics.py": {
+    "mtime": 1789016814.631474,
+    "seen": 1789682617.077005,
+    "ast_hash": "a6ee5f43d6fb90fa38611859c719fd37",
+    "semantic_hash": "a6ee5f43d6fb90fa38611859c719fd37"
+  },
+  "projects/wework-47-billion-illusion/build_newspaper_clippings.py": {
+    "mtime": 1789017927.1352277,
+    "seen": 1789682617.0770059,
+    "ast_hash": "3343fde85c62c7f42fd49d5cab060afb",
+    "semantic_hash": "3343fde85c62c7f42fd49d5cab060afb"
+  },
+  "projects/wework-47-billion-illusion/build_remotion_manifest.py": {
+    "mtime": 1789079322.7962315,
+    "seen": 1789682617.0770066,
+    "ast_hash": "e4235ca9c8699e7e205ae94c6ae627ce",
+    "semantic_hash": "e4235ca9c8699e7e205ae94c6ae627ce"
+  },
+  "projects/wework-47-billion-illusion/check_codex.py": {
+    "mtime": 1789092450.4527848,
+    "seen": 1789682617.0770078,
+    "ast_hash": "248786c7a151bde0236509865beacfab",
+    "semantic_hash": "248786c7a151bde0236509865beacfab"
+  },
+  "projects/wework-47-billion-illusion/download_real_assets.py": {
+    "mtime": 1789017907.74219,
+    "seen": 1789682617.0770087,
+    "ast_hash": "487ceed19c03ff63a17cc05708ee23a1",
+    "semantic_hash": "487ceed19c03ff63a17cc05708ee23a1"
+  },
+  "projects/wework-47-billion-illusion/gen_scene_17.py": {
+    "mtime": 1789092587.9686296,
+    "seen": 1789682617.0770097,
+    "ast_hash": "c2e123178fe61b1ea67d577056e80a05",
+    "semantic_hash": "c2e123178fe61b1ea67d577056e80a05"
+  },
+  "projects/wework-47-billion-illusion/generate_all_28_unique_scenes.py": {
+    "mtime": 1789079296.3544974,
+    "seen": 1789682617.0770106,
+    "ast_hash": "54f0b1aa9a47a49ed6589d0f03fb7910",
+    "semantic_hash": "54f0b1aa9a47a49ed6589d0f03fb7910"
+  },
+  "projects/wework-47-billion-illusion/generate_all_codex_scenes.py": {
+    "mtime": 1789092994.3251922,
+    "seen": 1789682617.0770118,
+    "ast_hash": "578c82a20ff940ac761722d442f7fde6",
+    "semantic_hash": "578c82a20ff940ac761722d442f7fde6"
+  },
+  "projects/wework-47-billion-illusion/master_audio.py": {
+    "mtime": 1789096044.2546408,
+    "seen": 1789682617.0770128,
+    "ast_hash": "a5f44601443630058c8118a1fd82010f",
+    "semantic_hash": "a5f44601443630058c8118a1fd82010f"
+  },
+  "projects/wework-47-billion-illusion/remotion/package.json": {
+    "mtime": 1789018003.4227004,
+    "seen": 1789682617.0770137,
+    "ast_hash": "d907b6f4dacf00baa25b26cd2d5ba647",
+    "semantic_hash": "d907b6f4dacf00baa25b26cd2d5ba647"
+  },
+  "projects/wework-47-billion-illusion/remotion/public/assets/demon_core/manifest.json": {
+    "mtime": 1789525732.8385663,
+    "seen": 1789682617.0770147,
+    "ast_hash": "49d2c159f2920cd18a6025ede08d470d",
+    "semantic_hash": "49d2c159f2920cd18a6025ede08d470d"
+  },
+  "projects/wework-47-billion-illusion/remotion/public/assets/white_phosphorus/manifest.json": {
+    "mtime": 1789466582.3292236,
+    "seen": 1789682617.0770159,
+    "ast_hash": "3980e34e8d4e120ab75f365a8b11ad31",
+    "semantic_hash": "3980e34e8d4e120ab75f365a8b11ad31"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/Root.tsx": {
+    "mtime": 1789678019.2612674,
+    "seen": 1789682617.0770166,
+    "ast_hash": "906fd0d8ddcf48624abc3c9f124b0dad",
+    "semantic_hash": "906fd0d8ddcf48624abc3c9f124b0dad"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/WeWorkDocumentaryComposition.tsx": {
+    "mtime": 1789079255.408873,
+    "seen": 1789682617.0770175,
+    "ast_hash": "93c9ebf782b15e64423737a0ab08ba5f",
+    "semantic_hash": "93c9ebf782b15e64423737a0ab08ba5f"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/AiNuclearOverlay.tsx": {
+    "mtime": 1787196313.624182,
+    "seen": 1789682617.077019,
+    "ast_hash": "e0e663ef6cf1dee1ca2c24e3f08fa617",
+    "semantic_hash": "e0e663ef6cf1dee1ca2c24e3f08fa617"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/AlertWash.tsx": {
+    "mtime": 1786786703.6092114,
+    "seen": 1789682617.07702,
+    "ast_hash": "89ea3206ade4ee9d661658c867ac583a",
+    "semantic_hash": "89ea3206ade4ee9d661658c867ac583a"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/EditorialDustParticles.tsx": {
+    "mtime": 1787725158.233723,
+    "seen": 1789682617.077021,
+    "ast_hash": "b1fbf86a50c6ef309bed87da35654513",
+    "semantic_hash": "b1fbf86a50c6ef309bed87da35654513"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/FilmGrainOverlay.tsx": {
+    "mtime": 1786346742.9136167,
+    "seen": 1789682617.0770218,
+    "ast_hash": "b54e79eee2bac5b6c51aab8e21cb5b67",
+    "semantic_hash": "b54e79eee2bac5b6c51aab8e21cb5b67"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/KenBurnsImage.tsx": {
+    "mtime": 1787970988.9317093,
+    "seen": 1789682617.0770233,
+    "ast_hash": "813d03849e6c6a4f824f23d664696813",
+    "semantic_hash": "813d03849e6c6a4f824f23d664696813"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/KineticCaptions.tsx": {
+    "mtime": 1786825755.9495838,
+    "seen": 1789682617.077024,
+    "ast_hash": "0ec5b3fa40827b3b53a7e10a69cf0d5b",
+    "semantic_hash": "0ec5b3fa40827b3b53a7e10a69cf0d5b"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/KineticHeadline.tsx": {
+    "mtime": 1786825748.2685373,
+    "seen": 1789682617.0770252,
+    "ast_hash": "40db0d7e36f33f0e86d0171e6e34c644",
+    "semantic_hash": "40db0d7e36f33f0e86d0171e6e34c644"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/LivingPuppet.tsx": {
+    "mtime": 1786786687.3110385,
+    "seen": 1789682617.0770261,
+    "ast_hash": "4ba5fbb4d3949e077b2fc71cf4aa25ee",
+    "semantic_hash": "4ba5fbb4d3949e077b2fc71cf4aa25ee"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/LivingSceneOverlay.tsx": {
+    "mtime": 1786996495.0072844,
+    "seen": 1789682617.077027,
+    "ast_hash": "37fd20059195b2d21a42dd906428e299",
+    "semantic_hash": "37fd20059195b2d21a42dd906428e299"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/LowerThird.tsx": {
+    "mtime": 1786825751.9138546,
+    "seen": 1789682617.0770292,
+    "ast_hash": "ce3bf578962fc459177542d40b5d1b6e",
+    "semantic_hash": "ce3bf578962fc459177542d40b5d1b6e"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/OnkaloLevel2Overlay.tsx": {
+    "mtime": 1787522973.2472143,
+    "seen": 1789682617.0770304,
+    "ast_hash": "1ccb00117a190623cd3a29a95b89553e",
+    "semantic_hash": "1ccb00117a190623cd3a29a95b89553e"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/PaperBackground.tsx": {
+    "mtime": 1786348804.4956467,
+    "seen": 1789682617.0770316,
+    "ast_hash": "29c00c51767735cc08b6a6c215dc1645",
+    "semantic_hash": "29c00c51767735cc08b6a6c215dc1645"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/PaperCutoutCard.tsx": {
+    "mtime": 1786786687.3133717,
+    "seen": 1789682617.0770326,
+    "ast_hash": "ae7ce7b6ca4c7e846127cc3efeed9ff2",
+    "semantic_hash": "ae7ce7b6ca4c7e846127cc3efeed9ff2"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/RedMarkerOverlay.tsx": {
+    "mtime": 1786786687.3148806,
+    "seen": 1789682617.0770335,
+    "ast_hash": "71c4fc80c7ae5cec2b737aac0e19131b",
+    "semantic_hash": "71c4fc80c7ae5cec2b737aac0e19131b"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/RedStringConnect.tsx": {
+    "mtime": 1786348807.8256903,
+    "seen": 1789682617.0770345,
+    "ast_hash": "a81695a783b8f3cca5b73f73f9c09847",
+    "semantic_hash": "a81695a783b8f3cca5b73f73f9c09847"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/RubberStamp.tsx": {
+    "mtime": 1786348810.757775,
+    "seen": 1789682617.0770354,
+    "ast_hash": "d636b92a04935d2055a643455430476c",
+    "semantic_hash": "d636b92a04935d2055a643455430476c"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/TapeFragments.tsx": {
+    "mtime": 1786786687.3168325,
+    "seen": 1789682617.0770366,
+    "ast_hash": "df65c9a59207beb2399384b6b7c8f7b7",
+    "semantic_hash": "df65c9a59207beb2399384b6b7c8f7b7"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/VoxChartAnimation.tsx": {
+    "mtime": 1786348244.1664383,
+    "seen": 1789682617.0770378,
+    "ast_hash": "02d1098dd07106a51c3326e081e619c5",
+    "semantic_hash": "02d1098dd07106a51c3326e081e619c5"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/VoxMapAnimation.tsx": {
+    "mtime": 1786348240.800075,
+    "seen": 1789682617.0770388,
+    "ast_hash": "f30d2ab30e60d55d74f26649d504f7f1",
+    "semantic_hash": "f30d2ab30e60d55d74f26649d504f7f1"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/VoxMotionOverlay.tsx": {
+    "mtime": 1786786687.3188374,
+    "seen": 1789682617.0770402,
+    "ast_hash": "b9c1e32d6b282c8fd0870b6f45ec59fb",
+    "semantic_hash": "b9c1e32d6b282c8fd0870b6f45ec59fb"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/WatermarkStamp.tsx": {
+    "mtime": 1787727300.806264,
+    "seen": 1789682617.077041,
+    "ast_hash": "3f4b683feeee628f809f10add346588f",
+    "semantic_hash": "3f4b683feeee628f809f10add346588f"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/v2/BeatTimelineMaster.tsx": {
+    "mtime": 1789634867.0593483,
+    "seen": 1789682617.077042,
+    "ast_hash": "a496d66d444a1f848532f49cf63940f5",
+    "semantic_hash": "a496d66d444a1f848532f49cf63940f5"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/v2/CameraRig.tsx": {
+    "mtime": 1789631830.4413848,
+    "seen": 1789682617.0770433,
+    "ast_hash": "b12ede012e30ef66056f82e690e73a30",
+    "semantic_hash": "b12ede012e30ef66056f82e690e73a30"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/v2/ProceduralFX.tsx": {
+    "mtime": 1789631821.4297926,
+    "seen": 1789682617.0770442,
+    "ast_hash": "3bf84a0421166c6b87a18379d7c11e74",
+    "semantic_hash": "3bf84a0421166c6b87a18379d7c11e74"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/components/v2/StickmanRig.tsx": {
+    "mtime": 1789631567.0332575,
+    "seen": 1789682617.0770452,
+    "ast_hash": "426c5a7d7ca77d6d0a59bb6d15ab0588",
+    "semantic_hash": "426c5a7d7ca77d6d0a59bb6d15ab0588"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/demoncore/DemonCore10MinComposition.tsx": {
+    "mtime": 1789628979.2264242,
+    "seen": 1789682617.0770462,
+    "ast_hash": "e0e434649c386e8a5814593ba7200389",
+    "semantic_hash": "e0e434649c386e8a5814593ba7200389"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/demoncore/DemonCoreV2Composition.tsx": {
+    "mtime": 1789677807.432095,
+    "seen": 1789682617.0770473,
+    "ast_hash": "304480160c40726664251fa2d65b96c6",
+    "semantic_hash": "304480160c40726664251fa2d65b96c6"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/demoncore/DemonCoreV2ShowcaseComposition.tsx": {
+    "mtime": 1789632116.8910298,
+    "seen": 1789682617.0770483,
+    "ast_hash": "ec537ba7ac6e8f9cce4a6251cc89df90",
+    "semantic_hash": "ec537ba7ac6e8f9cce4a6251cc89df90"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/index.ts": {
+    "mtime": 1789017991.313691,
+    "seen": 1789682617.077049,
+    "ast_hash": "21d27e8dd2b1993bff8a02ed9ea5c471",
+    "semantic_hash": "21d27e8dd2b1993bff8a02ed9ea5c471"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/LiquidMercuryDrop.tsx": {
+    "mtime": 1789283321.5503647,
+    "seen": 1789682617.0770502,
+    "ast_hash": "37fa0aeb07e58b7c09620a19ab6f9de9",
+    "semantic_hash": "37fa0aeb07e58b7c09620a19ab6f9de9"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercuryCaveBackground.tsx": {
+    "mtime": 1789283312.1505723,
+    "seen": 1789682617.0770512,
+    "ast_hash": "b057723263a799126e11bb7c1b4c70ea",
+    "semantic_hash": "b057723263a799126e11bb7c1b4c70ea"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercuryEnglish8MinComposition.tsx": {
+    "mtime": 1789373673.1474817,
+    "seen": 1789682617.077052,
+    "ast_hash": "50aaa990a7db7ca28b7474c2291d5e2e",
+    "semantic_hash": "50aaa990a7db7ca28b7474c2291d5e2e"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercuryEnterprise8MinComposition.tsx": {
+    "mtime": 1789356877.3900304,
+    "seen": 1789682617.077053,
+    "ast_hash": "f99cae05cfe56e4fc1df6a60cca31b98",
+    "semantic_hash": "f99cae05cfe56e4fc1df6a60cca31b98"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercuryMasterComposition.tsx": {
+    "mtime": 1789283543.1455033,
+    "seen": 1789682617.077054,
+    "ast_hash": "0e007a342be8e0229ac71917a0e2b207",
+    "semantic_hash": "0e007a342be8e0229ac71917a0e2b207"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercurySceneRemakeComposition.tsx": {
+    "mtime": 1789354833.4805212,
+    "seen": 1789682617.077055,
+    "ast_hash": "6268d4750fd944e72f88a8e97f6f84d4",
+    "semantic_hash": "6268d4750fd944e72f88a8e97f6f84d4"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercurySceneTikTokComposition.tsx": {
+    "mtime": 1789354852.7750335,
+    "seen": 1789682617.0770562,
+    "ast_hash": "70f9e2368fce05854743f5cfe3d8418c",
+    "semantic_hash": "70f9e2368fce05854743f5cfe3d8418c"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/MercuryTikTokComposition.tsx": {
+    "mtime": 1789283419.1678932,
+    "seen": 1789682617.0770574,
+    "ast_hash": "d98a4f8db4a7535209cfa9116e37e772",
+    "semantic_hash": "d98a4f8db4a7535209cfa9116e37e772"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/mercury/PrehistoricHUD.tsx": {
+    "mtime": 1789283332.4222794,
+    "seen": 1789682617.0770583,
+    "ast_hash": "4c07d609e71ca401b190cb55329345f6",
+    "semantic_hash": "4c07d609e71ca401b190cb55329345f6"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/SystemDesignMasterComposition.tsx": {
+    "mtime": 1789203312.91524,
+    "seen": 1789682617.077059,
+    "ast_hash": "468184454622a84657a09455dfe240df",
+    "semantic_hash": "468184454622a84657a09455dfe240df"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/SystemDesignTikTokComposition.tsx": {
+    "mtime": 1789203383.4472013,
+    "seen": 1789682617.07706,
+    "ast_hash": "8331cf80dd0ac6d8055684ad18aa0301",
+    "semantic_hash": "8331cf80dd0ac6d8055684ad18aa0301"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/WhatsAppMasterComposition.tsx": {
+    "mtime": 1789281702.7146409,
+    "seen": 1789682617.0770612,
+    "ast_hash": "966d28d74a187232c23be5a0341f25d8",
+    "semantic_hash": "966d28d74a187232c23be5a0341f25d8"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/WhatsAppTikTokComposition.tsx": {
+    "mtime": 1789281769.5040953,
+    "seen": 1789682617.077062,
+    "ast_hash": "7d76f0826bcb136ddfe8197b82e03762",
+    "semantic_hash": "7d76f0826bcb136ddfe8197b82e03762"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/AWSBillingMeter.tsx": {
+    "mtime": 1789202184.4817388,
+    "seen": 1789682617.0770628,
+    "ast_hash": "aa3aa57d5b4e941abd4a20f826557ba0",
+    "semantic_hash": "aa3aa57d5b4e941abd4a20f826557ba0"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/BEAMProcessCloud.tsx": {
+    "mtime": 1789253708.0182936,
+    "seen": 1789682617.077064,
+    "ast_hash": "96089e20d5da028f176a90c50ff30041",
+    "semantic_hash": "96089e20d5da028f176a90c50ff30041"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/EpisodeHeader.tsx": {
+    "mtime": 1789202165.784034,
+    "seen": 1789682617.077065,
+    "ast_hash": "40f5bb859c2c8fe7f8dc900aa32b4f69",
+    "semantic_hash": "40f5bb859c2c8fe7f8dc900aa32b4f69"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/GitHubRepoBadge.tsx": {
+    "mtime": 1789202214.8825853,
+    "seen": 1789682617.077066,
+    "ast_hash": "b1c591032100f32ffdb37dc308339cd1",
+    "semantic_hash": "b1c591032100f32ffdb37dc308339cd1"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/GridBlueprintBackground.tsx": {
+    "mtime": 1789167551.493601,
+    "seen": 1789682617.0770667,
+    "ast_hash": "ce962c2a3db3da61e01a1bbdd5f9544f",
+    "semantic_hash": "ce962c2a3db3da61e01a1bbdd5f9544f"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/HandDrawnAnnotation.tsx": {
+    "mtime": 1789202203.7408867,
+    "seen": 1789682617.0770679,
+    "ast_hash": "44dad8ad72fbbc4f78c7dcf0b1a4102a",
+    "semantic_hash": "44dad8ad72fbbc4f78c7dcf0b1a4102a"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/MemeDevQuotes.tsx": {
+    "mtime": 1789202194.1591935,
+    "seen": 1789682617.0770688,
+    "ast_hash": "6139235b77c48413d4e96dfaada8bfc9",
+    "semantic_hash": "6139235b77c48413d4e96dfaada8bfc9"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/MetricHUD.tsx": {
+    "mtime": 1789202176.7614267,
+    "seen": 1789682617.0770698,
+    "ast_hash": "861ab01b635938140b5bd9ddb8fd1d8d",
+    "semantic_hash": "861ab01b635938140b5bd9ddb8fd1d8d"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/PacketConnection.tsx": {
+    "mtime": 1789167594.3793738,
+    "seen": 1789682617.0770705,
+    "ast_hash": "efe0eecf324613078edcc17290805c78",
+    "semantic_hash": "efe0eecf324613078edcc17290805c78"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/StickmanActor.tsx": {
+    "mtime": 1789168591.4416134,
+    "seen": 1789682617.0770717,
+    "ast_hash": "0fbc5dee97390d406be8b0cec7760fc3",
+    "semantic_hash": "0fbc5dee97390d406be8b0cec7760fc3"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/SystemNode.tsx": {
+    "mtime": 1789168071.493673,
+    "seen": 1789682617.0770724,
+    "ast_hash": "08c4689898aa88a80d9c97bcd4e16ae1",
+    "semantic_hash": "08c4689898aa88a80d9c97bcd4e16ae1"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/SystemNodeV2.tsx": {
+    "mtime": 1789202230.8711915,
+    "seen": 1789682617.0770736,
+    "ast_hash": "1cc60f8a108be856d66fee6744ccc365",
+    "semantic_hash": "1cc60f8a108be856d66fee6744ccc365"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/TCPSocketGauge.tsx": {
+    "mtime": 1789253687.960541,
+    "seen": 1789682617.0770745,
+    "ast_hash": "34a4c33af7e99fd6589366437ef85e1d",
+    "semantic_hash": "34a4c33af7e99fd6589366437ef85e1d"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/TechDevActor.tsx": {
+    "mtime": 1789171814.2290628,
+    "seen": 1789682617.0770755,
+    "ast_hash": "33744c66609e0f441e7d325ddfd600cf",
+    "semantic_hash": "33744c66609e0f441e7d325ddfd600cf"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/TechStudioBackground.tsx": {
+    "mtime": 1789281476.9186528,
+    "seen": 1789682617.0770762,
+    "ast_hash": "1a33f898994f42ed4dc5fbf4947f1886",
+    "semantic_hash": "1a33f898994f42ed4dc5fbf4947f1886"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/systemdesign/components/WhatsAppHeader.tsx": {
+    "mtime": 1789253725.5539,
+    "seen": 1789682617.0770772,
+    "ast_hash": "8ebcd6e758b17b46efe93368ca9ecc95",
+    "semantic_hash": "8ebcd6e758b17b46efe93368ca9ecc95"
+  },
+  "projects/wework-47-billion-illusion/remotion/src/whitephosphorus/WhitePhosphorus10MinComposition.tsx": {
+    "mtime": 1789468777.626418,
+    "seen": 1789682617.0770783,
+    "ast_hash": "f6d4bc49be07bd63156cef0f61905deb",
+    "semantic_hash": "f6d4bc49be07bd63156cef0f61905deb"
+  },
+  "projects/wework-47-billion-illusion/test_codex_direct.py": {
+    "mtime": 1789092471.1407063,
+    "seen": 1789682617.077079,
+    "ast_hash": "f7fe4252847778266f58e032804fcc50",
+    "semantic_hash": "f7fe4252847778266f58e032804fcc50"
+  },
+  "projects/wework-47-billion-illusion/test_codex_image.py": {
+    "mtime": 1789092483.4182425,
+    "seen": 1789682617.07708,
+    "ast_hash": "c4e801d2b23a12ad0c5cd462bc7465e8",
+    "semantic_hash": "c4e801d2b23a12ad0c5cd462bc7465e8"
+  },
+  "projects/whatsapp-system-design/generate_audio_mix.py": {
+    "mtime": 1789253640.6029031,
+    "seen": 1789682617.0770812,
+    "ast_hash": "ddb677b42835768cb1724e8bef9dd0ff",
+    "semantic_hash": "ddb677b42835768cb1724e8bef9dd0ff"
+  },
+  "projects/whatsapp-system-design/generate_voiceover.py": {
+    "mtime": 1789253595.357384,
+    "seen": 1789682617.0770822,
+    "ast_hash": "f6a06c6122d5cbe0bdd8062c4a022c62",
+    "semantic_hash": "f6a06c6122d5cbe0bdd8062c4a022c62"
+  },
+  "projects/white-phosphorus-10min/build_phase1.py": {
+    "mtime": 1789447519.0931988,
+    "seen": 1789682617.0770833,
+    "ast_hash": "9c3fba689c27d760d2c041b76fd42d88",
+    "semantic_hash": "9c3fba689c27d760d2c041b76fd42d88"
+  },
+  "projects/white-phosphorus-10min/calibrate_script.py": {
+    "mtime": 1789447547.0522194,
+    "seen": 1789682617.0770843,
+    "ast_hash": "7edcabf5cdaa8613ed46e141df2b8e84",
+    "semantic_hash": "7edcabf5cdaa8613ed46e141df2b8e84"
+  },
+  "projects/white-phosphorus-10min/scripts/01_synthesize_master_audio.py": {
+    "mtime": 1789466192.113356,
+    "seen": 1789682617.0770853,
+    "ast_hash": "093aa38b238faea374fc07f0ab3d08f0",
+    "semantic_hash": "093aa38b238faea374fc07f0ab3d08f0"
+  },
+  "projects/white-phosphorus-10min/scripts/02_generate_all_32_scenes_9router.py": {
+    "mtime": 1789466346.4408019,
+    "seen": 1789682617.0770862,
+    "ast_hash": "d1abd142c36aa507e075e422f3ed9687",
+    "semantic_hash": "d1abd142c36aa507e075e422f3ed9687"
+  },
+  "projects/white-phosphorus-10min/scripts/03_generate_youtube_thumbnails.py": {
+    "mtime": 1789468828.5619667,
+    "seen": 1789682617.0770872,
+    "ast_hash": "d7cc216180664da7bae084dcf781a9ad",
+    "semantic_hash": "d7cc216180664da7bae084dcf781a9ad"
+  },
+  "projects/white-phosphorus-10min/scripts/04_render_white_phosphorus_master.py": {
+    "mtime": 1789471824.3895779,
+    "seen": 1789682617.077088,
+    "ast_hash": "ff7ab48f5e2c806f7c088a2001a37d8b",
+    "semantic_hash": "ff7ab48f5e2c806f7c088a2001a37d8b"
+  },
+  "projects/white-phosphorus-10min/scripts/05_generate_all_32_neon_rush_style.py": {
+    "mtime": 1789504767.8310516,
+    "seen": 1789682617.077089,
+    "ast_hash": "78039026d87a5f9c915c5af45afb84f8",
+    "semantic_hash": "78039026d87a5f9c915c5af45afb84f8"
+  }
+}

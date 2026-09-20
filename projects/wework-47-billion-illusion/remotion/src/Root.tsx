@@ -18,6 +18,7 @@ import {
   DemonCoreV2Scene24Composition,
   DemonCoreV2Scene04Composition,
 } from './demoncore/DemonCoreV2ShowcaseComposition';
+import { ThomasMidgley10MinComposition } from './midgley/ThomasMidgley10MinComposition';
 import manifestData from '../public/scene_manifest.json';
 
 export const Root: React.FC = () => {
@@ -148,6 +149,14 @@ export const Root: React.FC = () => {
         id="DemonCoreV2Scene04"
         component={DemonCoreV2Scene04Composition}
         durationInFrames={600}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ThomasMidgley10Min"
+        component={ThomasMidgley10MinComposition}
+        durationInFrames={17507}
         fps={30}
         width={1920}
         height={1080}

@@ -1,0 +1,169 @@
+characters:
+  CHAR_SLOTIN:
+    name: "Louis Slotin"
+    role: "Chief Criticality Experimenter"
+    silhouette: "broad"
+    head:
+      shape: "circle"
+      fill: "#ffffff"
+      stroke: "#0b0d13"
+      stroke_width: 8
+    eyes: "narrow_confident"
+    eyebrows: "thick"
+    hair: "none"
+    costume:
+      shirt: "rolled_sleeves"
+      shirt_color: "#2563EB"
+      tie: "loose_narrow"
+      tie_color: "#DC2626"
+      pants: "dark_slate"
+      pants_color: "#1E293B"
+      shoes: "cowboy_boots"
+      shoes_color: "#78350F"
+    default_prop: "PROP_FLATHEAD_SCREWDRIVER"
+    poses:
+      - "idle"
+      - "confident"
+      - "holding_screwdriver"
+      - "leaning_over_table"
+      - "lifting_dome"
+      - "shocked_recoil"
+      - "throwing_dome"
+      - "shielding_body"
+      - "kneeling"
+    expressions:
+      - "neutral"
+      - "confident"
+      - "amused"
+      - "focused"
+      - "worried"
+      - "shocked"
+      - "terrified"
+      - "exhausted"
+
+  CHAR_DAGHLIAN:
+    name: "Harry Daghlian"
+    role: "Junior Criticality Physicist"
+    silhouette: "slender"
+    head:
+      shape: "circle"
+      fill: "#ffffff"
+      stroke: "#0b0d13"
+      stroke_width: 8
+    eyes: "round"
+    eyebrows: "arched"
+    glasses:
+      type: "round_wireframe"
+      color: "#0f172a"
+    costume:
+      shirt: "formal_buttoned"
+      shirt_color: "#F8FAFC"
+      tie: "neat_narrow"
+      tie_color: "#1E293B"
+      pants: "charcoal"
+      pants_color: "#334155"
+      shoes: "oxford"
+      shoes_color: "#0f172a"
+    default_prop: "PROP_TUNGSTEN_BRICK"
+    poses:
+      - "idle"
+      - "focused"
+      - "stacking_brick"
+      - "brick_slipped"
+      - "flinch"
+      - "irradiated_shock"
+      - "sitting_hospital"
+    expressions:
+      - "neutral"
+      - "focused"
+      - "nervous"
+      - "shocked"
+      - "terrified"
+      - "exhausted"
+
+  CHAR_RAEMER_SCHREIBER:
+    name: "Raemer Schreiber"
+    role: "Senior Observer Physicist"
+    silhouette: "medium"
+    head:
+      shape: "circle"
+      fill: "#ffffff"
+      stroke: "#0b0d13"
+      stroke_width: 8
+    eyes: "narrow"
+    eyebrows: "straight"
+    glasses:
+      type: "horn_rimmed"
+      color: "#1e293b"
+    costume:
+      shirt: "lab_coat"
+      coat_color: "#F1F5F9"
+      tie: "dark_blue"
+      tie_color: "#1D4ED8"
+      pants: "brown_trousers"
+      pants_color: "#451A03"
+    default_prop: "clipboard"
+    poses:
+      - "observing"
+      - "writing"
+      - "turning_away"
+      - "recoiling"
+    expressions:
+      - "neutral"
+      - "focused"
+      - "worried"
+      - "alarmed"
+
+  CHAR_GUARD_BARRERA:
+    name: "Private Patrick J. Cleary"
+    role: "Armed Lab Security Guard"
+    silhouette: "upright_military"
+    head:
+      shape: "circle"
+      fill: "#ffffff"
+      stroke: "#0b0d13"
+      stroke_width: 8
+    eyes: "dot"
+    eyebrows: "firm"
+    headwear:
+      type: "military_service_cap"
+      color: "#3F6212"
+    costume:
+      shirt: "army_olive_drab"
+      shirt_color: "#4D7C0F"
+      belt: "leather_holster"
+      pants: "army_khaki"
+      pants_color: "#3F6212"
+    poses:
+      - "standing_guard"
+      - "startled"
+      - "fleeing"
+    expressions:
+      - "neutral"
+      - "bored"
+      - "shocked"
+
+  CHAR_GENERIC_SCIENTIST:
+    name: "Manhattan Project Physicist"
+    silhouette: "standard"
+    head:
+      shape: "circle"
+      fill: "#ffffff"
+      stroke: "#0b0d13"
+      stroke_width: 8
+    eyes: "dot"
+    eyebrows: "neutral"
+    costume:
+      shirt: "lab_coat"
+      coat_color: "#FFFFFF"
+      pants: "dark"
+      pants_color: "#1E293B"
+    poses:
+      - "idle"
+      - "talking"
+      - "writing_clipboard"
+      - "observing"
+    expressions:
+      - "neutral"
+      - "curious"
+      - "concerned"

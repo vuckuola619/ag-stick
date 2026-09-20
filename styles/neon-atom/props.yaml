@@ -1,0 +1,62 @@
+props:
+  PROP_PLUTONIUM_CORE:
+    name: "Rufus (14-lb Plutonium-239 Core)"
+    category: "nuclear_material"
+    visual_type: "sphere"
+    radius: 45
+    color: "#94A3B8"
+    highlight_color: "#E2E8F0"
+    shadow_color: "#475569"
+    render_style: "vector_metallic"
+
+  PROP_BERYLLIUM_UPPER:
+    name: "Beryllium Hemispherical Dome (Top)"
+    category: "reflector"
+    visual_type: "half_dome"
+    diameter: 100
+    color: "#CBD5E1"
+    stroke_color: "#0F172A"
+    stroke_width: 6
+
+  PROP_BERYLLIUM_LOWER:
+    name: "Beryllium Hemispherical Base (Bottom)"
+    category: "reflector"
+    visual_type: "half_dome_base"
+    diameter: 100
+    color: "#94A3B8"
+    stroke_color: "#0F172A"
+    stroke_width: 6
+
+  PROP_FLATHEAD_SCREWDRIVER:
+    name: "Standard 2-Inch Flathead Screwdriver"
+    category: "tool"
+    visual_type: "screwdriver"
+    handle_color: "#FACC15"
+    handle_type: "yellow_acetate"
+    blade_color: "#64748B"
+    blade_length: 40
+    stroke_width: 4
+
+  PROP_TUNGSTEN_BRICK:
+    name: "Tungsten Carbide Neutron Reflector Brick"
+    category: "reflector"
+    visual_type: "cuboid"
+    width: 60
+    height: 30
+    color: "#475569"
+    weight_label: "4.4 kg"
+
+  PROP_GEIGER_COUNTER:
+    name: "Analog Geiger-Muller Radiation Meter"
+    category: "instrument"
+    visual_type: "box_with_meter"
+    needle_alert: true
+    case_color: "#78716C"
+    meter_face_color: "#FEF08A"
+
+  PROP_WOODEN_WORKBENCH:
+    name: "Omega Site Heavy Timber Assembly Bench"
+    category: "furniture"
+    visual_type: "table"
+    color: "#78350F"
+    surface_highlight: "#9A3412"
