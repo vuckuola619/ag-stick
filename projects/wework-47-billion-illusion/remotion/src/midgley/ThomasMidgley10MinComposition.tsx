@@ -438,7 +438,7 @@ export const ThomasMidgley10MinComposition: React.FC = () => {
               boxShadow: `0 0 16px ${theme.primary}33`,
             }}
           >
-            ● NEON ATOM // EPISODE 04
+            ● THE DOSSIER ZERO // FILE #04
           </div>
 
           <div
