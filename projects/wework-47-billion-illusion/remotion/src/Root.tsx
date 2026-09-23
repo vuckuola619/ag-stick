@@ -20,8 +20,11 @@ import {
 } from './demoncore/DemonCoreV2ShowcaseComposition';
 import { ThomasMidgley10MinComposition } from './midgley/ThomasMidgley10MinComposition';
 import { DossierShortsComposition } from './midgley/DossierShortsComposition';
+import { GoianiaCaesium137MasterComposition } from './goiania/GoianiaCaesium137MasterComposition';
 import manifestData from '../public/scene_manifest.json';
 import shortsManifest from '../public/assets/dossier_shorts/manifest_shorts.json';
+import goianiaManifest from '../public/assets/goiania_caesium_137/manifest.json';
+import goianiaShortsManifest from '../public/assets/goiania_shorts/manifest_shorts.json';
 
 export const Root: React.FC = () => {
   return (
@@ -189,6 +192,41 @@ export const Root: React.FC = () => {
         width={1080}
         height={1920}
         defaultProps={shortsManifest[2] as any}
+      />
+      <Composition
+        id="GoianiaCaesium137Master"
+        component={GoianiaCaesium137MasterComposition}
+        durationInFrames={goianiaManifest.total_frames || 24650}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="GoianiaShorts01"
+        component={DossierShortsComposition}
+        durationInFrames={goianiaShortsManifest[0]?.total_frames || 1360}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={goianiaShortsManifest[0] as any}
+      />
+      <Composition
+        id="GoianiaShorts02"
+        component={DossierShortsComposition}
+        durationInFrames={goianiaShortsManifest[1]?.total_frames || 1450}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={goianiaShortsManifest[1] as any}
+      />
+      <Composition
+        id="GoianiaShorts03"
+        component={DossierShortsComposition}
+        durationInFrames={goianiaShortsManifest[2]?.total_frames || 1550}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={goianiaShortsManifest[2] as any}
       />
     </>
   );

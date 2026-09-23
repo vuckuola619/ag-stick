@@ -129,7 +129,13 @@ export const DossierShortsComposition: React.FC<ShortsProps> = ({
       }}
     >
       {/* 1. MASTER AUDIO TRACK */}
-      <Audio src={staticFile(`assets/dossier_shorts/audio/${audio_file}`)} />
+      <Audio
+        src={
+          audio_file.startsWith('assets/') || audio_file.startsWith('/')
+            ? staticFile(audio_file.replace(/^\//, ''))
+            : staticFile(`assets/dossier_shorts/audio/${audio_file}`)
+        }
+      />
 
       {/* 2. BACKGROUND ARTWORK WITH KEN BURNS */}
       <div
@@ -145,9 +151,11 @@ export const DossierShortsComposition: React.FC<ShortsProps> = ({
         }}
       >
         <Img
-          src={staticFile(
-            `assets/dossier_shorts/scenes/${activeScene.image_file}`
-          )}
+          src={
+            activeScene.image_file.startsWith('assets/') || activeScene.image_file.startsWith('/')
+              ? staticFile(activeScene.image_file.replace(/^\//, ''))
+              : staticFile(`assets/dossier_shorts/scenes/${activeScene.image_file}`)
+          }
           style={{
             width: '100%',
             height: '100%',
